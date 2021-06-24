@@ -1,0 +1,39 @@
+{
+    "services.title" : "Technical Capabilities",
+    
+    "services.0.0": "Building and consuming REST web services",
+    "services.0.1": "Modern front-end JavaScript(ES5, ES6) development",
+    "services.0.2": "Modern JS frameworks like ReactJS, Angular, Vue",
+    "services.0.3": "Backend frameworks like NodeJs,Python, Java for developing web services",
+    "services.0.4": "SQL and/or NoSQL databases",
+    "services.0.5": "Using Git, Bitbucket and other source control systems",
+
+    "services.1.0": "Strong knowledge of Linux systems and internals like Kernel, Memory, Process, Threads, Static / Shared Libraries, IPC, Signals.",
+    "services.1.1": "Strong knowledge of cloud platforms like AWS and microservices architecture",
+    "services.1.2": "Use of Docker, Ansible, Artifactory, Maven, Git and Jenkins technology",
+    "services.1.3": "Expertise in scripting languages like: Python, Ruby, Perl",
+    "services.1.4": "Strong knowledge of storage and networking",
+
+    "services.2.0": "Expertise in native Android and iOS",
+    "services.2.1": "Strong knowledge of Java for Android and Swift for iOS",
+    "services.2.2": "Expertise in Hybrid App development using React Native, Redux",
+    "services.2.3": "Expertise in integrating with RESTful APIs",
+    "services.2.4": "Very strong UX expertise across the team",
+    "services.2.5": "Deep understanding of life cycle of mobile development",
+
+    "services.3.0": "Expertise in designing and building dimensional data models to improve accessibility, efficiency, and quality of data",
+    "services.3.1": "Expertise in designing and developing ETL data pipelines.",
+    "services.3.2": "Database development expertise with Relational or MPP/distributed systems such as Oracle/Teradata/Vertica/Hadoop",
+    "services.3.3": "Expertise in performance tuning of SQLs and writing Advanced SQLs",
+    "services.3.4": "Expertise in developing Big Data/Hadoop applications using java, Spark, Hive, Oozie, Kafka, and Map Reduce",
+
+    "services.4.0": "Use of big data technologies such as SQL, Hadoop or Spark",
+    "services.4.1": "Capabilities for providing end to end machine learning solution",
+    "services.4.2": "Experience with Information Retrieval, Recommendation Systems or Natural Language Processing",
+    "services.4.3": "Experience with machine learning frameworks such as Scikit-Learn, Keras, Tensorflow",
+    "services.4.4": "Use of data visualization tools such as D3, Tableau.",
+
+    "services.5.0": "Strong experience in QA tools like Selenium, TestingWhiz, TestNG and others",
+    "services.5.1": "Strong knowledge of JAVA for creating automation scripts",
+    "services.5.2": "Expertise in developing test plans, test cases, assessing risk, and defects managements"
+}

@@ -1,0 +1,39 @@
+{
+    "services.title": "Możliwości techniczne",
+    
+    "services.0.0": "Tworzenie i używanie usług internetowych REST",
+    "services.0.1": "Rozwój nowoczesnych front-endowych JavaScript (ES5, ES6)",
+    "services.0.2": "Nowoczesne frameworki JS, takie jak ReactJS, Angular, Vue",
+    "services.0.3": "Struktury zaplecza, takie jak NodeJs, Python, Java do tworzenia usług internetowych",
+    "services.0.4": "Bazy danych SQL i / lub NoSQL",
+    "services.0.5": "Korzystanie z Git, Bitbucket i innych systemów kontroli źródła",
+    
+    "services.1.0": "Dobra znajomość systemów Linux i elementów wewnętrznych, takich jak jądro, pamięć, proces, wątki, biblioteki statyczne / współdzielone, IPC, sygnały.",
+    "services.1.1": "Dobra znajomość platform chmurowych, takich jak AWS i architektura mikrousług",
+    "services.1.2": "Wykorzystanie technologii Docker, Ansible, Artifactory, Maven, Git i Jenkins",
+    "services.1.3": "Znajomość języków skryptowych takich jak: Python, Ruby, Perl",
+    "services.1.4": "Dobra znajomość pamięci masowej i sieci",
+    
+    "services.2.0": "Doświadczenie w natywnym systemie Android i iOS",
+    "services.2.1": "Dobra znajomość języka Java na Androida i Swift na iOS",
+    "services.2.2": "Doświadczenie w tworzeniu aplikacji hybrydowych przy użyciu React Native, Redux",
+    "services.2.3": "Doświadczenie w integracji z RESTful API",
+    "services.2.4": "Bardzo duże doświadczenie w zakresie UX w całym zespole",
+    "services.2.5": "Dogłębne zrozumienie cyklu życia aplikacji mobilnych",
+    
+    "services.3.0": "Doświadczenie w projektowaniu i budowaniu wymiarowych modeli danych w celu poprawy dostępności, wydajności i jakości danych",
+    "services.3.1": "Doświadczenie w projektowaniu i rozwijaniu potoków danych ETL.",
+    "services.3.2": "Doświadczenie w tworzeniu baz danych z systemami relacyjnymi lub MPP / rozproszonymi, takimi jak Oracle / Teradata / Vertica / Hadoop",
+    "services.3.3": "Doświadczenie w dostrajaniu wydajności SQL i pisaniu zaawansowanych SQL",
+    "services.3.4": "Doświadczenie w tworzeniu aplikacji Big Data / Hadoop przy użyciu Java, Spark, Hive, Oozie, Kafka i Map Reduce",
+    
+    "services.4.0": "Wykorzystanie technologii big data, takich jak SQL, Hadoop czy Spark",
+    "services.4.1": "Możliwości dostarczania kompleksowego rozwiązania do uczenia maszynowego",
+    "services.4.2": "Doświadczenie w zakresie wyszukiwania informacji, systemów rekomendacji lub przetwarzania języka naturalnego",
+    "services.4.3": "Doświadczenie z platformami uczenia maszynowego, takimi jak Scikit-Learn, Keras, Tensorflow",
+    "services.4.4": "Korzystanie z narzędzi do wizualizacji danych, takich jak D3, Tableau.",
+    
+    "services.5.0": "Duże doświadczenie w narzędziach QA, takich jak Selenium, TestingWhiz, TestNG i inne",
+    "services.5.1": "Dobra znajomość języka JAVA do tworzenia skryptów automatyzacji",
+    "services.5.2": "Doświadczenie w tworzeniu planów testów, przypadków testowych, ocenie ryzyka i zarządzaniu defektami"
+}

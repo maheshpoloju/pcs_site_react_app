@@ -1,0 +1,73 @@
+{
+    "bot.title": "Skalieren mit BOT-Modell",
+    "bot.subtitle": "Bauen, betreiben, übertragen - BOT-Modell: Wir helfen Ihnen, Ihre indische Gefangeneneinheit mit Leichtigkeit zu bekommen",
+    
+    "bot.feature.title.0": "Bekommen Sie das richtige Talent?",
+    "bot.feature.desc.0": "Ich bin sehr beschäftigt mit Finanzierung, Produktmarktanpassung, Engineering, Vertrieb und Expansion. Das richtige Talent, der richtige Fokus und die richtige Größe zu finden, hat für mich aus Zeitgründen oft zweite Priorität.",
+    "bot.feature.title.1": "Haben Sie derzeit Kapazitätsengpässe?",
+    "bot.feature.desc.1": "Es gibt oft viele ausstehende Feature-Backlogs, die, wenn sie abgeschlossen worden wären, dem Unternehmen geholfen hätten, weiter zu wachsen.",
+    "bot.feature.title.2": "Sind Ihre Ausgaben optimiert und ich bin bereit, zu skalieren?",
+    "bot.feature.desc.2": "Ich habe der Optimierung und Kostensenkung nicht genügend Aufmerksamkeit geschenkt.",
+    "bot.feature.title.3": "Ich habe Angst, die Kontrolle zu verlieren und die Sicherheit zu gefährden, wenn ich mich von außen beschäftige?",
+    "bot.feature.desc.3": "Es gibt immer eine Frage zu IP-Leaks, Sicherheit, Compliance und ich kann die Kontrolle verlieren.",
+    
+    "bot.contact.desc": "Wenn Sie ein Gründer/eine Führungskraft sind und die Antwort auf eine der oben genannten Fragen ja ist, dann zögern Sie nicht und kontaktieren Sie uns unter ",
+    
+    "bot.services.title": "Partner mit Skin In The Game mit einzigartigem Betriebsmodell",
+    "bot.services.desc": "Helfen Sie bei der Gründung Ihres Gefangenen in Indien, ohne die wachsenden Schmerzen und die Mühe zu haben, ein Geschäft in Indien aufzubauen",
+
+    "bot.services.title.0": "Phase 1 - Bauen",
+    "bot.services.title.0.title.0": "Biz-Formation",
+    "bot.services.title.0.desc.0": "Wir kümmern uns um den gesamten Papierkram, die gesetzlichen Checks and Balances und teilen transparent alle Details mit Ihnen",
+    "bot.services.title.0.title.1": "Eigenkapital",
+    "bot.services.title.0.desc.1": "Wir 25% - Sie 75%",
+    
+    "bot.services.title.1": "Phase 2 - Betrieb",
+    "bot.services.title.1.title.0": "Talent-Pool",
+    "bot.services.title.1.desc.0": "Personalbeschaffungsmanagement",
+    "bot.services.title.1.title.1": "Arbeiten",
+    "bot.services.title.1.desc.1": "Betrieb im Steady- und Stealth-Modus",
+
+    "bot.services.title.2": "Phase 3 - Übertragung",
+    "bot.services.title.2.title.0": "Vergrößern",
+    "bot.services.title.2.desc.0": "Erweitere Infrastruktur, Talente und Projekte",
+    "bot.services.title.2.title.1": "Scale-Out",
+    "bot.services.title.2.desc.1": "Dienste und Standorte erweitern",
+
+    "bot.how.title": "WIE MACHEN WIR ES? WAS SIE ERHALTEN? WIE KÖNNEN WIR IHNEN HELFEN?",
+    "bot.how.desc": "Skalieren Sie in Indien, skalieren Sie mit uns. Wir bauen Ihre firmeneigene Organisation auf und betreiben sie, bis Sie sie verwalten möchten",
+
+    "bot.how.content.title.0": "Bauen",
+    "bot.how.content.title.0.title.0": "Gründung einer Biz-Einheit in Indien",
+    "bot.how.content.title.0.title.1": "Ersteinrichtung des Büros / Infra",
+    "bot.how.content.title.0.title.2": "Rechts- / Personal- / Finanzrichtlinien",
+    "bot.how.content.title.0.title.3": "In Indien ansässige regulatorische / gesetzliche Compliance",
+
+    "bot.how.content.title.1": "Lauf",
+    "bot.how.content.title.1.title.0": "Riesiger Talentpool",
+    "bot.how.content.title.1.title.1": "Vertrauenswürdige Projekt-Governance",
+    "bot.how.content.title.1.title.2": "Engineering- und Produkt-Mindset",
+    "bot.how.content.title.1.title.3": "Recht / Personal / Finanzen",
+
+    "bot.how.list.0": "Indien hat einen erstaunlich großen Talentpool und wir können Ihnen helfen, diesen zu sichern und zu betreiben operate",
+    "bot.how.list.1": "Richten Sie die Operationen ein und führen Sie sie in allen Aspekten aus, bis Sie die Kontrolle zu 100% übernehmen möchten",
+    "bot.how.list.2": "Gesetze und Gesetze in Indien sind nicht arbeitgeberfreundlich und erfordern hohe Berührungspunkte. Wir managen all diese Komplexität für Sie.",
+    "bot.how.list.3": "Helfen Sie bei der schnellen Skalierung mit Zahlen und Durchsatz mit einem erfahrenen Ausführungsteam.",
+    "bot.how.list.4": "Wir sind nicht nur ein Outsourcing-Partner, wir kommen als Engineering-Backoffice für Unternehmen",
+    "bot.how.list.5": "Wir werden unsere Haut im Spiel für Ihren Erfolg haben, und wir profitieren davon, positive Ergebnisse für das Unternehmen zu zeigen",
+
+    "bot.need.title": "Was wir brauchen?",
+    "bot.need.desc": "Sie erhalten einen schlüsselfertigen Betrieb in nur 2 Jahren…",
+    "bot.need.items.title.0": "Ressourcen-Ramp-Up-Plan",
+    "bot.need.items.desc.0": "Wir müssen wissen, woran Ingenieure wie viele und wann arbeiten werden",
+    "bot.need.items.title.1": "Unterstützung bei der Talentakquise",
+    "bot.need.items.desc.1": "In Jahr 1 werden die letzten 1 oder 2 Runden von Mitarbeitern des Unternehmens durchgeführt und nur nach Vereinbarung eingestellt (Jahr 2 vollständig aus Indien)",
+    "bot.need.items.title.2": "Plan zum Aufbau von Wissen",
+    "bot.need.items.desc.2": "Einige Leute werden benötigt, um Indien zu bereisen (Umkehrosmose), Einige Leute aus Indien reisen zum HQ (Osmose)",
+    "bot.need.items.title.3": "Rückblick-Sitzung",
+    "bot.need.items.desc.3": "Vorausschauend 2 Qtr. Planen Sie eine monatliche Sitzung und überprüfen Sie dann, was richtig/falsch gelaufen ist, und optimieren Sie den Plan im Voraus",
+    "bot.need.items.title.4": "Vereinbartes technisches Betriebsmodell, das vom Unternehmen getragen wird",
+    "bot.need.items.desc.4": "Sie entscheiden Berichtsstruktur, Hierarchie, Problemeskalation und Lösungen und wir bieten Optionen",
+    "bot.need.items.title.5": "Solide Finanzoperationen und Transparenz",
+    "bot.need.items.desc.5": "4 Monate Vorauszahlungen für getätigte Projektionen. Eventuelle Anpassungen werden in monatlichen Betriebsbesprechungen besprochen."
+}

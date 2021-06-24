@@ -1,0 +1,44 @@
+{
+    "home.main.title": "Perfekte und komplette Lösungen Inc",
+    "home.main.subtitle": "Streben. Erstellen. Verstehen.",
+    
+    "home.whatwedo.title.0": "Idee",
+    "home.whatwedo.text.0": "Wir bei PCS glauben daran, Ihre Ideen in ein Minimum Viable Product umzuwandeln.",
+    "home.whatwedo.title.1": "Ansatz",
+    "home.whatwedo.text.1": "Wir von PCS helfen bei der Plattform- und Technologieauswahl. Stellen Sie ein engagiertes Produktentwicklungsteam bereit, das bei Bedarf leicht in Vollzeit umgewandelt werden kann",
+    "home.whatwedo.title.2": "Produkt auf den Markt",
+    "home.whatwedo.text.2": "Die vielseitigen Teams von PCS bauen schnell ein tragfähiges Produkt auf dem Markt auf und helfen Ihnen, Ihren ersten Kunden zu gewinnen",
+    "home.whatwedo.title.3": "Finanzierung & erfolgreicher Exit",
+    "home.whatwedo.text.3": "Wir helfen Ihnen bei der Finanzierung Ihres Produktentwicklungslebenszyklus. Helfen Sie auch dabei, den Prozess eines erfolgreichen und profitablen Exits zu rationalisieren.",
+
+    "home.services.title": "Design-Entwicklung",
+    "home.services.title.0": "Sich anpassendes Design",
+    "home.services.title.1": "Webentwicklung reagieren",
+    "home.services.title.2": "Entwicklung von Android-Apps",
+    "home.services.title.3": "Laravel-Webentwicklung",
+    "home.services.title.4": "Entwicklung von iOS-Apps",
+    "home.services.title.5": "UX/UI-Design",
+
+    "home.features.title": "Unsere Funktionen",
+    "home.features.desc": "Ein Kunde ist bei drei Parametern immer auf seinen Technologiepartner angewiesen. 1. Qualität der Leistungen, 2. Zeit, die für die Lieferung dieser Leistungen benötigt wird, 3. Schließlich die Kosten für die Entwicklung dieser Leistungen. Wir von Perfect and Complete Solutions entwickeln unsere Strategien ständig weiter und entwickeln neue Methoden, um unsere Kunden besser zu bedienen und sicherzustellen, dass sie immer vor ihren Mitbewerbern auf dem Markt bleiben.",
+    "home.features.title.0": "Kompetente Mitarbeiter",
+    "home.features.title.1": "Herzliche Kundenansprache",
+    "home.features.title.2": "Offen für Chancen",
+    "home.features.title.3": "Streckenrekord",
+    "home.features.title.4": "Unser eigenes Empfehlungssystem",
+    "home.features.title.5": "Globale Verbindung",
+
+    "home.facts.title": "Wir versuchen immer, die Erwartungen der Benutzer zu verstehen",
+    "home.facts.title.0": "Start-ups",
+    "home.facts.count.0": "5",
+    "home.facts.title.1": "Angestellte",
+    "home.facts.count.1": "20",
+    "home.facts.title.2": "Kunden",
+    "home.facts.count.2": "fünfzehn",
+    "home.facts.footer.title": "Haben Sie Fragen zu uns?",
+    "home.facts.footer.desc": "Zögern Sie nicht, uns zu kontaktieren",
+    "home.facts.footer.contactus": "Kontaktiere uns",
+
+    "home.clients.title": "Kunden",
+    "home.clients.viewall": "Alle ansehen"
+}

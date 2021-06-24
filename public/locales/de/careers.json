@@ -1,0 +1,29 @@
+{
+    "careers.title": "Karriere",
+    "careers.subtitle": "Sehen Sie, wo Sie hineinpassen",
+
+    "careers.items.0.title": "Verantwortlichkeiten & Ziele",
+    "careers.items.0.list.0": "Arbeiten Sie mit Produktmanagern, Architekten und Engineering Leadership zusammen, um neue Produkte rund um KI/ML-Initiativen zu konzipieren, zu entwickeln und zu entwickeln.",
+    "careers.items.0.list.1": "Entwickeln, vorantreiben und implementieren Sie die langfristige Vision und Strategie für das Data Science-Team, indem Sie mit mehreren Teams und Interessengruppen im ganzen Land zusammenarbeiten.",
+    "careers.items.0.list.2": "Entwerfen, entwerfen und entwickeln Sie groß angelegte Systeme für maschinelles Lernen.",
+    "careers.items.0.list.3": "Entwickeln neuronaler Netzmodelle für die Informationsextraktion aus Hypothekendokumenten unter Verwendung von Computer Vision und NLP-Techniken.",
+    "careers.items.0.list.4": "Führen Sie Ad-hoc-Analysen durch und präsentieren Sie die Ergebnisse auf klare Weise einem breiten Publikum und wichtigen Interessengruppen.",
+    "careers.items.0.list.5": "Entwerfen Sie Experimente, testen Sie Hypothesen und bauen Sie Modelle.",
+    "careers.items.0.list.6": "Führen Sie fortschrittliche Datenanalysen und hochkomplexe Designalgorithmen durch.",
+    "careers.items.0.list.7": "Wenden Sie fortschrittliche statistische, prädiktive und maschinelle Lernmodellierungstechniken an, um mehrere Echtzeit-Entscheidungssysteme zu erstellen, zu warten und zu verbessern.",
+    "careers.items.0.list.8": "Arbeiten Sie mit Entwicklungsteams bei der Bereitstellung von Modellen in der Produktionsumgebung zusammen, um ML-gesteuerte Produktfunktionen zu unterstützen.",
+    "careers.items.0.list.9": "Definieren Sie geschäftsspezifische Leistungskennzahlen, um die Modelleffektivität zu messen. Überwachen und verbessern Sie im Laufe der Zeit Metriken für Modelle, die in der Produktionsumgebung verwendet werden.",
+
+    "careers.items.1.title": "Qualifikationen und Fähigkeiten",
+    "careers.items.1.list.0": "FRAU. in Mathematik, Statistik oder Informatik oder einem verwandten Bereich; Ph.D. Grad bevorzugt.",
+    "careers.items.1.list.1": "5+ Jahre relevante Erfahrung in quantitativer und qualitativer Forschung und Analytik.",
+    "careers.items.1.list.2": "Ausgezeichnete Kommunikationsfähigkeiten und die Fähigkeit, komplexe Themen einem funktionsübergreifenden Publikum zu vermitteln.",
+    "careers.items.1.list.3": "2+ Jahre Erfahrung in der Erstellung von produktionstauglichen neuronalen Netzwerkmodellen unter Verwendung von CV- oder NLP-Techniken.",
+    "careers.items.1.list.4": "Exzellentes Verständnis von Techniken und Algorithmen des maschinellen Lernens wie k-NN, Naive Bayes, SVM, Decision Forests, Neuronale Netze usw.",
+    "careers.items.1.list.5": "Erfahrung mit Deep-Learning-Frameworks wie TensorFlow, PyTorch, MxNet.",
+    "careers.items.1.list.6": "Erfahrung mit gängigen Data-Science-Toolkits wie R, Sklearn, NumPy, MatLab und MLib. Exzellenz in mindestens einem dieser Bereiche ist sehr wünschenswert.",
+    "careers.items.1.list.7": "Gute Kenntnisse in angewandter Statistik, wie Verteilungen, statistische Tests und Regression.",
+    "careers.items.1.list.8": "Kenntnisse im Umgang mit Abfragesprachen wie SQL-, Hive-, Pig- und NoSQL-Datenbanken.",
+
+    "careers.apply": "Jetzt bewerben"
+}

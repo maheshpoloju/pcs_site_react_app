@@ -1,0 +1,73 @@
+{
+    "bot.title": "Échelle avec le modèle BOT",
+    "bot.subtitle": "Construire, exploiter, transférer - Modèle BOT: Nous vous aidons à obtenir facilement votre unité captive en Inde",
+    
+    "bot.feature.title.0": "Avez-vous le bon talent?",
+    "bot.feature.desc.0": "Je suis très occupé par le financement, l'ajustement du marché des produits, l'ingénierie, les ventes et l'expansion. Obtenir les bons talents, la bonne concentration et l'échelle est souvent la deuxième priorité pour moi en raison des contraintes de temps.",
+    "bot.feature.title.1": "Avez-vous actuellement des contraintes de capacité?",
+    "bot.feature.desc.1": "Il y a souvent de nombreux backlogs de fonctionnalités en attente qui, s'ils avaient été complétés, auraient aidé l'entreprise à se développer davantage.",
+    "bot.feature.title.2": "Vos dépenses sont-elles optimisées et je suis prêt à passer à l'échelle?",
+    "bot.feature.desc.2": "Je n'ai pas accordé suffisamment d'attention à l'optimisation et à la réduction des coûts.",
+    "bot.feature.title.3": "Je crains de perdre le contrôle et de compromettre la sécurité si je m'engage à l'extérieur?",
+    "bot.feature.desc.3": "Il y a toujours une question sur les fuites IP, la sécurité, la conformité et je risque de perdre le contrôle.",
+    
+    "bot.contact.desc": "Si vous êtes un fondateur / dirigeant et que la réponse à l'une des questions ci-dessus est oui, alors n'hésitez pas à nous contacter à ",
+    
+    "bot.services.title": "S'associe Avec Skin Dans Le Jeu Avec Un Modèle De Fonctionnement Unique",
+    "bot.services.desc": "Vous aider à installer votre captif en Inde sans subir les douleurs croissantes et la peine de créer des affaires en Inde",
+    
+    "bot.services.title.0": "Phase 1 - Build",
+    "bot.services.title.0.title.0": "Formation Biz",
+    "bot.services.title.0.desc.0": "Nous nous occupons de tous les documents, des vérifications et contrepoids statutaires et partageons tous les détails de manière transparente avec vous",
+    "bot.services.title.0.title.1": "Équité",
+    "bot.services.title.0.desc.1": "Nous 25% - Vous 75%",
+    
+    "bot.services.title.1": "Phase 2 - Operate",
+    "bot.services.title.1.title.0": "Pool de talents",
+    "bot.services.title.1.desc.0": "Gestion des effectifs de recrutement",
+    "bot.services.title.1.title.1": "Fonctionner",
+    "bot.services.title.1.desc.1": "Fonctionner en mode stable et furtif",
+    
+    "bot.services.title.2": "Phase 3 - Transfer",
+    "bot.services.title.2.title.0": "Augmenter",
+    "bot.services.title.2.desc.0": "Élargissez votre infrastructure, vos talents et vos projets",
+    "bot.services.title.2.title.1": "Évoluer",
+    "bot.services.title.2.desc.1": "Élargir les services et les emplacements",
+    
+    "bot.how.title": "COMMENT LE FAISONS-NOUS? CE QUE VOUS OBTENEZ? COMMENT POUVONS-NOUS VOUS AIDER?",
+    "bot.how.desc": "Échelle en Inde, évolue avec nous. Nous construirons votre organisation captive et l'exploiterons jusqu'à ce que vous souhaitiez la gérer",
+
+    "bot.how.content.title.0": "Construire",
+    "bot.how.content.title.0.title.0": "Formation d'une entité Biz en Inde",
+    "bot.how.content.title.0.title.1": "Configuration initiale du bureau / Infra",
+    "bot.how.content.title.0.title.2": "Politiques juridiques / RH / financières",
+    "bot.how.content.title.0.title.3": "Conformité réglementaire / statutaire basée en Inde",
+
+    "bot.how.content.title.1": "Cours",
+    "bot.how.content.title.1.title.0": "Vaste bassin de talents",
+    "bot.how.content.title.1.title.1": "Gouvernance de projet fiable",
+    "bot.how.content.title.1.title.2": "Ingénierie et état d'esprit produit",
+    "bot.how.content.title.1.title.3": "Juridique / RH / Finance",
+
+    "bot.how.list.0": "L'Inde dispose d'un formidable bassin de talents et nous pouvons vous aider à sécuriser",
+    "bot.how.list.1": "Configurez les opérations et exécutez tous les aspects jusqu'à ce que vous souhaitiez prendre le contrôle à 100%",
+    "bot.how.list.2": "La législation et les lois indiennes ne sont pas favorables aux employeurs et nécessitent des points de contact élevés. Nous gérons toute cette complexité pour vous.",
+    "bot.how.list.3": "Aidez à évoluer rapidement avec les chiffres et le débit avec une équipe d'exécution expérimentée",
+    "bot.how.list.4": "Pas seulement un partenaire d'externalisation, nous venons en tant que back office d'ingénierie pour l'entreprise",
+    "bot.how.list.5": "Nous aurons notre peau dans le jeu pour votre succès, et nous en profiterons pour montrer des résultats positifs pour l'entreprise",
+
+    "bot.need.title": "Ce Dont Nous Avons Besoin?",
+    "bot.need.desc": "Vous obtenez une opération clé en main en aussi peu que 2 ans…",
+    "bot.need.items.title.0": "Plan d'augmentation des ressources",
+    "bot.need.items.desc.0": "Nous devons savoir sur quoi les ingénieurs travailleront, combien et quand",
+    "bot.need.items.title.1": "Aide à l'acquisition de talents",
+    "bot.need.items.desc.1": "Au cours de l'année 1, les 1 ou 2 derniers tours doivent être effectués par le personnel de l'entreprise et embaucher uniquement lorsque convenu (année 2 entièrement en Inde)",
+    "bot.need.items.title.2": "Plan de montée en puissance des connaissances",
+    "bot.need.items.desc.2": "Certaines personnes seront nécessaires pour voyager en Inde (osmose inverse), certaines personnes en provenance d'Inde se rendent au siège (osmose)",
+    "bot.need.items.title.3": "Session de rétrospective",
+    "bot.need.items.desc.3": "Tourné vers l'avenir 2 Qtr. Planifiez et rétrospectez la session mensuelle sur ce qui a bien / mal tourné et peaufiner le plan à l'avance",
+    "bot.need.items.title.4": "Modèle opérationnel d'ingénierie convenu tel que piloté par l'entreprise",
+    "bot.need.items.desc.4": "Vous décidez de la structure de rapport, de la hiérarchie, de l'escalade et des résolutions des problèmes et nous fournissons des options",
+    "bot.need.items.title.5": "Opérations financières saines et transparence",
+    "bot.need.items.desc.5": "Paiements anticipés de 4 mois effectués pour les projections effectuées. Tous les ajustements sont discutés lors de réunions d'exploitation mensuelles."
+}

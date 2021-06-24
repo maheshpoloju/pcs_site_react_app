@@ -1,0 +1,29 @@
+{
+    "careers.title": "Carrières",
+    "careers.subtitle": "Voyez Où Vous Vous Situez",
+
+    "careers.items.0.title": "Responsabilités et objectifs",
+    "careers.items.0.list.0": "Collaborez avec les chefs de produit, les architectes et les responsables de l'ingénierie pour conceptualiser, élaborer des stratégies et développer de nouveaux produits centrés sur les initiatives d'IA / ML.",
+    "careers.items.0.list.1": "Développer, piloter et exécuter la vision et la stratégie à long terme de l'équipe de science des données en travaillant avec plusieurs équipes et parties prenantes à travers le pays.",
+    "careers.items.0.list.2": "Architecte, conçoit et développe des systèmes d'apprentissage automatique à grande échelle.",
+    "careers.items.0.list.3": "Développer des modèles de réseau neuronal pour l'extraction d'informations à partir de documents hypothécaires à l'aide des techniques de vision par ordinateur et de PNL.",
+    "careers.items.0.list.4": "Effectuer une analyse ad hoc et présenter les résultats de manière claire à un large public et aux principales parties prenantes.",
+    "careers.items.0.list.5": "Concevez des expériences, testez des hypothèses et construisez des modèles.",
+    "careers.items.0.list.6": "Effectuer une analyse avancée des données et un algorithme de conception très complexe.",
+    "careers.items.0.list.7": "Appliquez des techniques avancées de modélisation statistique, prédictive et d'apprentissage automatique pour créer, maintenir et améliorer plusieurs systèmes de décision en temps réel.",
+    "careers.items.0.list.8": "Collaborez avec les équipes de développement sur le déploiement de modèles dans l'environnement de production afin de prendre en charge les fonctionnalités du produit basées sur le ML.",
+    "careers.items.0.list.9": "Définissez des mesures de performance spécifiques à l'entreprise pour mesurer l'efficacité du modèle. Surveillez et améliorez les métriques au fil du temps pour les modèles utilisés dans l'environnement de production.",
+
+    "careers.items.1.title": "Qualifications et compétences",
+    "careers.items.1.list.0": "MS en mathématiques, statistiques ou informatique ou dans un domaine connexe; doctorat degré préféré.",
+    "careers.items.1.list.1": "Plus de 5 ans d'expérience pertinente en recherche et analyse quantitatives et qualitatives.",
+    "careers.items.1.list.2": "Excellentes compétences en communication et capacité à transmettre des sujets complexes à un public interfonctionnel.",
+    "careers.items.1.list.3": "Plus de 2 ans d'expérience dans la création de modèles de réseaux neuronaux de niveau production à l'aide de techniques CV ou PNL.",
+    "careers.items.1.list.4": "Excellente compréhension des techniques et algorithmes d'apprentissage automatique, tels que k-NN, Naive Bayes, SVM, Decision Forests, Neural Networks, etc.",
+    "careers.items.1.list.5": "Expérience avec les frameworks Deep Learning, tels que TensorFlow, PyTorch, MxNet.",
+    "careers.items.1.list.6": "Expérience avec les boîtes à outils de science des données courantes, telles que R, Sklearn, NumPy, MatLab et MLib. L'excellence dans au moins l'un d'entre eux est hautement souhaitable.",
+    "careers.items.1.list.7": "Bonnes compétences en statistiques appliquées, telles que les distributions, les tests statistiques et la régression.",
+    "careers.items.1.list.8": "Maîtrise de l'utilisation de langages de requête tels que les bases de données SQL, Hive, Pig et NoSQL.",
+
+    "careers.apply": "Appliquer Maintenant"
+}

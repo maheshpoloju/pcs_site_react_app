@@ -1,0 +1,44 @@
+{
+    "home.main.title": "Perfect & Complete Solutions Inc",
+    "home.main.subtitle": "Aspirer. Créer. Comprendre.",
+    
+    "home.whatwedo.title.0": "Idée",
+    "home.whatwedo.text.0": "Chez PCS, nous croyons en la transformation de vos idées en un produit minimum viable.",
+    "home.whatwedo.title.1": "Approcher",
+    "home.whatwedo.text.1": "Chez PCS, nous vous aidons à sélectionner la plateforme et la technologie. Fournir une équipe d'ingénierie de produit dédiée qui peut être facilement convertie en temps plein à la demande",
+    "home.whatwedo.title.2": "Produit sur le marché",
+    "home.whatwedo.text.2": "Les équipes polyvalentes de PCS créent rapidement un produit viable sur le marché et vous aident à gagner votre premier client",
+    "home.whatwedo.title.3": "Financement et sortie réussie",
+    "home.whatwedo.text.3": "Nous vous aidons avec les finances pour le cycle de vie de votre développement produit. Aide également à rationaliser le processus de sortie réussie et rentable.",
+
+    "home.services.title": "Conception Et Développement",
+    "home.services.title.0": "Conception réactive",
+    "home.services.title.1": "Développement web React",
+    "home.services.title.2": "Développement d'applications Android",
+    "home.services.title.3": "Développement d'applications Android",
+    "home.services.title.4": "Développement d'applications iOS",
+    "home.services.title.5": "Conception UX / UI",
+
+    "home.features.title": "Nos Caractéristiques",
+    "home.features.desc": "Un client dépend toujours de son partenaire technologique pour trois paramètres. 1. Qualité des livrables, 2. Temps nécessaire pour livrer ces livrables, 3. Enfin le coût impliqué dans l'élaboration de ces livrables. Chez Perfect and Complete Solutions, nous faisons constamment évoluer nos stratégies et développons de nouvelles méthodes pour mieux servir nos clients et nous assurer qu'ils restent toujours au sommet du marché devant leurs concurrents.",
+    "home.features.title.0": "Main-d'œuvre compétente",
+    "home.features.title.1": "Approche client cordiale",
+    "home.features.title.2": "Ouvert aux opportunités",
+    "home.features.title.3": "Record de piste",
+    "home.features.title.4": "Notre propre système de recommandation",
+    "home.features.title.5": "Connexion globale",
+
+    "home.facts.title": "Nous Essayons Toujours De Comprendre Les Attentes Des Utilisateurs",
+    "home.facts.title.0": "Les start-ups",
+    "home.facts.count.0": "5",
+    "home.facts.title.1": "Des employés",
+    "home.facts.count.1": "20",
+    "home.facts.title.2": "Clients",
+    "home.facts.count.2": "15",
+    "home.facts.footer.title": "Vous avez des questions sur nous?",
+    "home.facts.footer.desc": "N'hésitez pas à nous contacter",
+    "home.facts.footer.contactus": "Nous contacter",
+
+    "home.clients.title": "Nos Clients",
+    "home.clients.viewall": "Voir Tout"
+}

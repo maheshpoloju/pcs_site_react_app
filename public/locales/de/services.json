@@ -1,0 +1,39 @@
+{
+    "services.title": "Technische Fähigkeiten",
+    
+    "services.0.0": "REST-Webservices erstellen und nutzen",
+    "services.0.1": "Moderne Front-End-JavaScript-Entwicklung (ES5, ES6)",
+    "services.0.2": "Moderne JS-Frameworks wie ReactJS, Angular, Vue",
+    "services.0.3": "Backend-Frameworks wie NodeJs, Python, Java für die Entwicklung von Webservices",
+    "services.0.4": "SQL- und/oder NoSQL-Datenbanken",
+    "services.0.5": "Verwenden von Git, Bitbucket und anderen Quellcodeverwaltungssystemen",
+
+    "services.1.0": "Ausgeprägte Kenntnisse von Linux-Systemen und -Interna wie Kernel, Speicher, Prozess, Threads, statische / gemeinsam genutzte Bibliotheken, IPC, Signale.",
+    "services.1.1": "Fundierte Kenntnisse von Cloud-Plattformen wie AWS und Microservices-Architektur",
+    "services.1.2": "Verwendung von Docker-, Ansible-, Artifactory-, Maven-, Git- und Jenkins-Technologie",
+    "services.1.3": "Kenntnisse in Skriptsprachen wie: Python, Ruby, Perl",
+    "services.1.4": "Ausgeprägte Kenntnisse in Speicher und Netzwerk",
+
+    "services.2.0": "Kenntnisse in nativem Android und iOS",
+    "services.2.1": "Gute Kenntnisse in Java für Android und Swift für iOS",
+    "services.2.2": "Expertise in der Entwicklung hybrider Apps mit React Native, Redux",
+    "services.2.3": "Expertise in der Integration mit RESTful APIs",
+    "services.2.4": "Sehr starke UX-Expertise im gesamten Team",
+    "services.2.5": "Tiefes Verständnis des Lebenszyklus der mobilen Entwicklung",
+
+    "services.3.0": "Expertise in der Gestaltung und Erstellung dimensionaler Datenmodelle zur Verbesserung der Zugänglichkeit, Effizienz und Qualität von Daten",
+    "services.3.1": "Expertise in Design und Entwicklung von ETL-Datenpipelines.",
+    "services.3.2": "Datenbankentwicklungsexpertise mit relationalen oder MPP/verteilten Systemen wie Oracle/Teradata/Vertica/Hadoop",
+    "services.3.3": "Expertise in Performance-Tuning von SQLs und Schreiben von Advanced SQLs",
+    "services.3.4": "Erfahrung in der Entwicklung von Big Data/Hadoop-Anwendungen mit Java, Spark, Hive, Oozie, Kafka und Map Reduce",
+
+    "services.4.0": "Einsatz von Big-Data-Technologien wie SQL, Hadoop oder Spark",
+    "services.4.1": "Fähigkeiten zur Bereitstellung einer End-to-End-Lösung für maschinelles Lernen",
+    "services.4.2": "Erfahrung mit Information Retrieval, Empfehlungssystemen oder Natural Language Processing",
+    "services.4.3": "Erfahrung mit Machine-Learning-Frameworks wie Scikit-Learn, Keras, Tensorflow",
+    "services.4.4": "Verwendung von Datenvisualisierungstools wie D3, Tableau.",
+
+    "services.5.0": "Langjährige Erfahrung mit QA-Tools wie Selenium, TestingWhiz, TestNG und anderen",
+    "services.5.1": "Gute Kenntnisse in JAVA zum Erstellen von Automatisierungsskripten",
+    "services.5.2": "Expertise in der Entwicklung von Testplänen, Testfällen, Risikobewertung und Fehlermanagement"
+}

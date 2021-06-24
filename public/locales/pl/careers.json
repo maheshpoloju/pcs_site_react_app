@@ -1,0 +1,53 @@
+{
+    "careers.title": "Kariera",
+    "careers.subtitle": "Zobacz, gdzie pasujesz",
+
+    "careers.items.0.title": "Obowiązki i cele",
+    "careers.items.0.list.0": "Współpracuj z menedżerami produktów, architektami i kierownictwem inżynierów, aby konceptualizować, opracowywać strategie i opracowywać nowe produkty skupione wokół inicjatyw AI / ML.",
+    "careers.items.0.list.1": "Opracuj, kieruj i realizuj długoterminową wizję i strategię zespołu Data Science, pracując z wieloma zespołami i interesariuszami w całym kraju.",
+    "careers.items.0.list.2": "Architekt, projektuj i rozwijaj wielkoskalowe systemy uczenia maszynowego.",
+    "careers.items.0.list.3": "Opracuj modele sieci neuronowych do ekstrakcji informacji z dokumentów hipotecznych przy użyciu technik przetwarzania komputerowego i NLP.",
+    "careers.items.0.list.4": "Przeprowadzaj analizy ad hoc i przedstawiaj wyniki w jasny sposób szerokiemu gronu odbiorców i kluczowym zainteresowanym stronom.",
+    "careers.items.0.list.5": "Projektuj eksperymenty, testuj hipotezy i buduj modele.",
+    "careers.items.0.list.6": "Przeprowadź zaawansowaną analizę danych i wysoce złożone algorytmy projektowania.",
+    "careers.items.0.list.7": "Zastosuj zaawansowane techniki modelowania statystycznego, predykcyjnego i uczenia maszynowego, aby tworzyć, utrzymywać i ulepszać wiele systemów decyzyjnych w czasie rzeczywistym.",
+    "careers.items.0.list.8": "Współpracuj z zespołami programistów przy wdrażaniu modeli w środowisku produkcyjnym w celu obsługi funkcji produktów opartych na ML.",
+    "careers.items.0.list.9": "Zdefiniuj wskaźniki wydajności specyficzne dla firmy, aby zmierzyć efektywność modelu. Monitoruj i ulepszaj metryki w czasie dla modeli używanych w środowisku produkcyjnym.",
+    
+    "careers.items.1.title": "Kwalifikacje i umiejętności",
+    "careers.items.1.list.0": "SM. w matematyce, statystyce lub informatyce lub w dziedzinach pokrewnych; Ph.D. preferowany stopień.",
+    "careers.items.1.list.1": "Ponad 5 lat odpowiedniego doświadczenia w zakresie badań ilościowych i jakościowych oraz analiz.",
+    "careers.items.1.list.2": "Doskonałe umiejętności komunikacyjne i zdolność do przekazywania złożonych tematów wielofunkcyjnej publiczności.",
+    "careers.items.1.list.3": "Ponad 2 lata doświadczenia w budowaniu modeli sieci neuronowych klasy produkcyjnej przy użyciu technik CV lub NLP.",
+    "careers.items.1.list.4": "Doskonałe zrozumienie technik i algorytmów uczenia maszynowego, takich jak k-NN, Naive Bayes, SVM, lasy decyzyjne, sieci neuronowe itp.",
+    "careers.items.1.list.5": "Doświadczenie z platformami Deep Learning, takimi jak TensorFlow, PyTorch, MxNet.",
+    "careers.items.1.list.6": "Doświadczenie z typowymi zestawami narzędzi do analizy danych, takimi jak R, Sklearn, NumPy, MatLab i MLib. Pożądana jest doskonałość przynajmniej w jednym z nich.",
+    "careers.items.1.list.7": "Dobre umiejętności w zakresie statystyk stosowanych, takie jak rozkłady, testy statystyczne i regresja.",
+    "careers.items.1.list.8": "Biegłość w korzystaniu z języków zapytań, takich jak SQL, Hive, Pig i NoSQL.",
+    
+    "careers.apply": "Aplikuj teraz"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

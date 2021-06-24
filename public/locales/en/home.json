@@ -1,0 +1,44 @@
+{
+    "home.main.title": "Perfect & Complete Solutions Inc",
+    "home.main.subtitle": "Aspire. Create. Understand.",
+    
+    "home.whatwedo.title.0": "Idea",
+    "home.whatwedo.text.0": "We at PCS believe in transforming your ideas into a minimum viable product.",
+    "home.whatwedo.title.1": "Approach",
+    "home.whatwedo.text.1": "We at PCS help with platform and technology selection. Provide dedicated product engineering team that can be easily converted as full time on demand",
+    "home.whatwedo.title.2": "Product To Market",
+    "home.whatwedo.text.2": "The versatile teams at PCS quickly builds a viable product to the market and helps you in gaining your first customer",
+    "home.whatwedo.title.3": "Funding & Successful Exit",
+    "home.whatwedo.text.3": "We help you with finances for your product development life cycle. Also help in streamlining the process of successful and profitable exit.",
+
+    "home.services.title": "Design & Development",
+    "home.services.title.0": "Responsive design",
+    "home.services.title.1": "React web development",
+    "home.services.title.2": "Android apps development",
+    "home.services.title.3": "Laravel web development",
+    "home.services.title.4": "iOS apps development",
+    "home.services.title.5": "UX/UI design",
+
+    "home.features.title": "Our Features",
+    "home.features.desc": "A customer always depends upon its technological partner for three parameters. 1. Quality of the deliverables, 2. Time it takes to deliver these deliverables, 3. Finally the Cost involved in developing these deliverables. We at Perfect and Complete Solutions constantly evolve our strategies and develop new methods to serve our customers better and ensure that they always stay atop in the market ahead of their competitors.",
+    "home.features.title.0": "Competent Workforce",
+    "home.features.title.1": "Cordial customer approach",
+    "home.features.title.2": "Open to opportunities",
+    "home.features.title.3": "Track record",
+    "home.features.title.4": "Our own recommendation system",
+    "home.features.title.5": "Global Connect",
+
+    "home.facts.title": "We Always Try To Understand Users Expectation",
+    "home.facts.title.0": "Start-ups",
+    "home.facts.count.0": "5",
+    "home.facts.title.1": "Employees",
+    "home.facts.count.1": "20",
+    "home.facts.title.2": "Clients",
+    "home.facts.count.2": "15",
+    "home.facts.footer.title": "Have any question about us?",
+    "home.facts.footer.desc": "Don't hesitate to contact us",
+    "home.facts.footer.contactus": "Contact Us",
+
+    "home.clients.title": "Clients",
+    "home.clients.viewall": "View All"
+}
