@@ -1,17 +1,7 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import Body from './body';
-import PageTitle from '../../components/PageTitle';
-import { about } from './content';
+import React from 'react'
 
-const About = () => {
-  const { t } = useTranslation('about');
-  return (
-    <div>
-      <PageTitle title={t(about.title)} />
-      <Body />
-    </div>
-  );
-};
+function About() {
+	return <div id='about'>About</div>
+}
 
-export default About;
+export default About

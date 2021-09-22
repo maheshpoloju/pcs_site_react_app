@@ -1,17 +1,7 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import Body from './body';
-import PageTitle from '../../components/PageTitle';
-import { clients } from './content';
+import React from 'react'
 
-const Clients = () => {
-  const { t } = useTranslation('clients');
-  return (
-    <div>
-      <PageTitle title={t(clients.title)} subtitle={t(clients.desc)} />
-      <Body />
-    </div>
-  );
-};
+function Clients() {
+	return <div id='clients'>Clients</div>
+}
 
-export default Clients;
+export default Clients
