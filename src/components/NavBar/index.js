@@ -18,9 +18,22 @@ const items = [
 function Navbar() {
 	const [click, setClick] = useState(false)
 	const [isActive, setIsActive] = useState(true)
+	const [colorChange, setColorchange] = useState(false)
+
+	const changeNavbarColor = () => {
+		if (window.scrollY >= 100) {
+			setColorchange(true)
+		} else {
+			setColorchange(false)
+		}
+	}
+
+	window.addEventListener('scroll', changeNavbarColor)
 
 	return (
-		<header id='header' className='header fixed-top'>
+		<header
+			id='header'
+			className={`header fixed-top col-12 ${colorChange ? 'colorChange' : ''}`}>
 			<div
 				className='
 					container-fluid container-xl
@@ -28,30 +41,33 @@ function Navbar() {
 					align-items-center
 					justify-content-between
 				'>
-				<a href='index.html' className='logo d-flex align-items-center'>
-					<img src={pcsLogo} alt='' />
-				</a>
+				<Link
+					to='hero'
+					spy={true}
+					smooth={true}
+					duration={100}
+					hashSpy={true}
+					isDynamic={true}
+					className='logo d-flex align-items-center'>
+					<img src={pcsLogo} alt='pcs logo' />
+				</Link>
 
 				<nav
 					id='navbar'
-					className={`${click ? 'navbar navbar-mobile' : 'navbar'}`}>
+					className={`${click ? `navbar navbar-mobile` : `navbar `}`}>
 					<ul>
 						{items.map((each, index) => (
 							<Link
-								className={`nav-link scrollto d-flex justify-content-center align-items-center ${
-									isActive ? 'active' : ''
-								}`}
+								className={`nav-link scrollto d-flex justify-content-center align-items-center`}
 								exact
 								to={each.to}
-								activeclassname={`nav-link scrollto ${
-									isActive ? 'active' : ''
-								}`}
+								activeclassname={` ${isActive ? `active` : ''}`}
 								key={index}
 								spy={true}
 								smooth={true}
 								duration={100}
 								hashSpy={true}
-								isDynamic={true}
+								isDynamic={false}
 								onClick={() => {
 									setIsActive(isActive)
 									if (click) {
@@ -59,6 +75,7 @@ function Navbar() {
 									}
 								}}>
 								{each.title}
+								<span></span>
 							</Link>
 						))}
 					</ul>
