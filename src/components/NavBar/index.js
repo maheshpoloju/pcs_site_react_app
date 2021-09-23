@@ -1,78 +1,78 @@
-import React, { useState } from 'react';
-import {
-  Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, Container,
-} from 'reactstrap';
-import { NavLink } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import UncontrolledDropdown from 'reactstrap/lib/UncontrolledDropdown';
-import DropdownToggle from 'reactstrap/lib/DropdownToggle';
-import DropdownMenu from 'reactstrap/lib/DropdownMenu';
-import DropdownItem from 'reactstrap/lib/DropdownItem';
-import Logo from '../../assets/img/pcs-logo.png';
+import React, { useState } from 'react'
+import { Link } from 'react-scroll'
+import pcsLogo from '../../assets/images/pcs-logo.png'
+import './index.css'
 
 const items = [
-  { to: '/', title: 'home' },
-  { to: '/about', title: 'about' },
-  { to: '/clients', title: 'clients' },
-  { to: '/services', title: 'services' },
-  { to: '/bot', title: 'bot' },
-  { to: '/careers', title: 'careers' },
-  { to: '/contact', title: 'contact' },
-];
+	{ to: 'home', title: 'home' },
+	{ to: 'about', title: 'about' },
+	{ to: 'clients', title: 'clients' },
+	{ to: 'services', title: 'services' },
+	{ to: 'bot', title: 'bot' },
+	{ to: 'team', title: 'team' },
+	{ to: 'careers', title: 'careers' },
+	{ to: 'contact', title: 'contact' },
+	{ to: 'technologies', title: 'technologies' },
+]
 
-const languages = ['EN', 'FR', 'PL', 'DE'];
+function Navbar() {
+	const [click, setClick] = useState(false)
+	const [isActive, setIsActive] = useState(true)
 
-const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const { t, i18n } = useTranslation(['navbar']);
+	return (
+		<header id='header' className='header fixed-top'>
+			<div
+				className='
+					container-fluid container-xl
+					d-flex
+					align-items-center
+					justify-content-between
+				'>
+				<a href='index.html' className='logo d-flex align-items-center'>
+					<img src={pcsLogo} alt='' />
+				</a>
 
-  const toggle = () => setIsOpen(!isOpen);
-  const language = i18n.language.split('-')[0].toUpperCase();
+				<nav
+					id='navbar'
+					className={`${click ? 'navbar navbar-mobile' : 'navbar'}`}>
+					<ul>
+						{items.map((each, index) => (
+							<Link
+								className={`nav-link scrollto d-flex justify-content-center align-items-center ${
+									isActive ? 'active' : ''
+								}`}
+								exact
+								to={each.to}
+								activeclassname={`nav-link scrollto ${
+									isActive ? 'active' : ''
+								}`}
+								key={index}
+								spy={true}
+								smooth={true}
+								duration={100}
+								hashSpy={true}
+								isDynamic={true}
+								onClick={() => {
+									setIsActive(isActive)
+									if (click) {
+										setClick(false)
+									}
+								}}>
+								{each.title}
+							</Link>
+						))}
+					</ul>
+					<i
+						className={
+							click
+								? 'bi bi-x mobile-nav-toggle'
+								: 'bi bi-list mobile-nav-toggle'
+						}
+						onClick={() => setClick(!click)}></i>
+				</nav>
+			</div>
+		</header>
+	)
+}
 
-  return (
-    <header id="header">
-      <div className="startp-nav">
-        <Navbar color={isOpen ? 'light' : undefined} light expand="md">
-          <Container>
-            <NavbarBrand href="/" className="logo">
-              <img src={Logo} alt="dsi-logo" />
-            </NavbarBrand>
-            <NavbarToggler onClick={toggle}>
-              <span className="icon-bar" />
-              <span className="icon-bar" />
-              <span className="icon-bar" />
-            </NavbarToggler>
-            <Collapse isOpen={isOpen} navbar className="offset justify-content-end">
-              <Nav className="menu_nav nav " navbar>
-                {items.map((item, index) => (
-                  <NavItem key={`nav-item-${index}`}>
-                    <NavLink to={item.to} exact className="nav-link">{t(item.title)}</NavLink>
-                  </NavItem>
-                ))}
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret>
-                    {language}
-                  </DropdownToggle>
-                  <DropdownMenu right>
-                    {languages.filter((e) => e !== language).map((e) => (
-                      <DropdownItem
-                        key={e}
-                        onClick={() => {
-                          i18n.changeLanguage(e.toLowerCase());
-                        }}
-                      >
-                        {e}
-                      </DropdownItem>
-                    ))}
-                  </DropdownMenu>
-                </UncontrolledDropdown>
-              </Nav>
-            </Collapse>
-          </Container>
-        </Navbar>
-      </div>
-    </header>
-  );
-};
-
-export default NavBar;
+export default Navbar

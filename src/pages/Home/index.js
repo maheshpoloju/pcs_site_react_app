@@ -1,20 +1,28 @@
-import React from 'react';
-import MainBanner from './main-banner';
-import WhatWeDo from './what-we-do';
-import Features from './features';
-import Services from './services';
-import Facts from './facts';
-import Clients from './clients';
+import React from 'react'
+import About from '../About'
+import BOT from '../BOT'
+import Careers from '../Careers'
+import Clients from '../Clients'
+import Contact from '../Contact'
+import Services from '../Services'
+import Team from '../Team'
+import Technologies from '../Technologies'
+import './index.css'
 
-const Home = () => (
-  <div>
-    <MainBanner />
-    <WhatWeDo />
-    <Services />
-    <Features />
-    <Facts />
-    <Clients />
-  </div>
-);
+function Home() {
+	return (
+		<>
+			<div id='home'>Home</div>
+			<About />
+			<Clients />
+			<Team />
+			<Services />
+			<BOT />
+			<Careers />
+			<Contact />
+			<Technologies />
+		</>
+	)
+}
 
-export default Home;
+export default Home
