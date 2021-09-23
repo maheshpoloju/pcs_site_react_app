@@ -7,12 +7,12 @@ const items = [
 	{ to: 'home', title: 'home' },
 	{ to: 'about', title: 'about' },
 	{ to: 'clients', title: 'clients' },
+	{ to: 'team', title: 'team' },
 	{ to: 'services', title: 'services' },
 	{ to: 'bot', title: 'bot' },
-	{ to: 'team', title: 'team' },
+	{ to: 'technologies', title: 'technologies' },
 	{ to: 'careers', title: 'careers' },
 	{ to: 'contact', title: 'contact' },
-	{ to: 'technologies', title: 'technologies' },
 ]
 
 function Navbar() {
