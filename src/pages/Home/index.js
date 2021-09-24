@@ -18,9 +18,9 @@ function Home() {
 			<Team />
 			<Services />
 			<BOT />
+			<Technologies />
 			<Careers />
 			<Contact />
-			<Technologies />
 		</>
 	)
 }
