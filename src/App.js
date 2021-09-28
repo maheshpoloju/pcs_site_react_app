@@ -1,4 +1,4 @@
-import React ,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Home from './pages/Home'
@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 // import Contact from './pages/Contact'
 // import ScrollToTop from './components/ScrollToTop'
 import './App.css'
-
+import Banner from './components/Banner'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -25,10 +25,12 @@ function App() {
 	}, [])
 	return (
 		<>
-			<div className='container-fluid '>
+			<div className='container-fluid'>
 				<div className='row'>
 					<div className='col-12  web-container d-flex justify-content-center align-items-center'>
 						<NavBar />
+						<Banner />
+
 						{/* <ScrollToTop> */}
 						<Switch>
 							<Route path='/' exact>
