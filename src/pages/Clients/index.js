@@ -1,5 +1,5 @@
 import React from 'react'
-import { clients } from './content'
+
 import './index.css'
 
 function Clients() {
