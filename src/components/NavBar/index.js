@@ -3,17 +3,7 @@ import { Link } from 'react-scroll'
 import pcsLogo from '../../assets/images/pcs-logo.png'
 import './index.css'
 
-const items = [
-	{ to: 'home', title: 'home' },
-	{ to: 'about', title: 'about' },
-	{ to: 'clients', title: 'clients' },
-	{ to: 'services', title: 'services' },
-	{ to: 'bot', title: 'bot' },
-	{ to: 'team', title: 'team' },
-	{ to: 'careers', title: 'careers' },
-	{ to: 'contact', title: 'contact' },
-	{ to: 'technologies', title: 'technologies' },
-]
+import { items } from './content'
 
 function Navbar() {
 	const [click, setClick] = useState(false)

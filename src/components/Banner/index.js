@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import styled from 'styled-components'
+import { main } from './content'
 
 import './index.css'
 
@@ -27,10 +28,8 @@ function Banner() {
 			<div className='container'>
 				<div className='row'>
 					<div className='col-lg-6 d-flex flex-column justify-content-center'>
-						<h1>We offer modern solutions for growing your business</h1>
-						<h2>
-							We are team of talented designers making websites with Bootstrap
-						</h2>
+						<h1>{main.title}</h1>
+						<h2>{main.subtitle}</h2>
 						<div className='before'></div>
 						<div>
 							<div className='text-center text-lg-start'>
@@ -44,7 +43,7 @@ function Banner() {
 										justify-content-center
 										align-self-center
 									'>
-									<span>Get Started</span>
+									<span>{main.button}</span>
 									<i className='bi bi-arrow-right'></i>
 								</a>
 							</div>
