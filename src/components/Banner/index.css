@@ -55,3 +55,19 @@
 body {
 	overflow-x: auto;
 }
+
+.banner-animation {
+	animation: updown 3s linear 0s infinite;
+}
+
+@keyframes updown {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-25px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}

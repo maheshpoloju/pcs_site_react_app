@@ -8,13 +8,13 @@ import { items } from './content'
 function Navbar() {
 	const [click, setClick] = useState(false)
 	const [isActive, setIsActive] = useState(true)
-	const [colorChange, setColorchange] = useState(false)
+	const [changeNavbar, setChangeNavbar] = useState(false)
 
 	const changeNavbarColor = () => {
 		if (window.scrollY >= 100) {
-			setColorchange(true)
+			setChangeNavbar(true)
 		} else {
-			setColorchange(false)
+			setChangeNavbar(false)
 		}
 	}
 
@@ -23,7 +23,9 @@ function Navbar() {
 	return (
 		<header
 			id='header'
-			className={`header fixed-top col-12 ${colorChange ? 'colorChange' : ''}`}>
+			className={`header fixed-top col-12 ${
+				changeNavbar ? 'changeNavbar' : ''
+			}`}>
 			<div
 				className='
 					container-fluid container-xl

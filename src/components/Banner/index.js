@@ -27,7 +27,9 @@ function Banner() {
 		<section id='hero' className='hero d-flex align-items-center'>
 			<div className='container'>
 				<div className='row'>
-					<div className='col-lg-6 d-flex flex-column justify-content-center'>
+					<div
+						className='col-lg-6 d-flex flex-column justify-content-center'
+						data-aos='fade-right'>
 						<h1>{main.title}</h1>
 						<h2>{main.subtitle}</h2>
 						<div className='before'></div>
@@ -49,10 +51,10 @@ function Banner() {
 							</div>
 						</div>
 					</div>
-					<div className='col-lg-6 hero-img'>
+					<div className='col-lg-6 hero-img' data-aos='fade-left'>
 						<img
 							src='assets/img/hero-img.png'
-							className='img-fluid'
+							className='img-fluid banner-animation'
 							alt='hero'
 						/>
 					</div>
