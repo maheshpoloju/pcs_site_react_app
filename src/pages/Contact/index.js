@@ -2,7 +2,7 @@
 import React,{useState} from 'react';
 import emailjs from 'emailjs-com'
 import { contact } from './content';
-import PhoneInput from 'react-phone-number-input';
+import PhoneInput,{isValidPhoneNumber} from 'react-phone-number-input';
 import 'react-phone-number-input/style.css'
 import './check.css'
 import {AiOutlineClockCircle} from 'react-icons/ai'
@@ -55,7 +55,8 @@ const Contact = () => {
 
     }
     
-    if(mobile.length < (10 || 11 || 9 || 15 || 7)){
+ 
+    if(isValidPhoneNumber (mobile) !== true){
       mobileErr.mobileShort = "Please enter valid number";
       isValid = false;
 
@@ -189,16 +190,18 @@ const Contact = () => {
                 </div>
 
                 <div class="col-md-6">    
-                        <input type='text' name='number' placeholder='Your Number' value={mobile} onChange={(e)=>{
-                          setMobile(e.target.value)
-                        }} className='w-100'/> {Object.keys(mobileErr).map((key)=>{
-                          return <div style={{color:'red'}} className='fonts'>{mobileErr[key]}</div>
-                        })}
+                      
                        <PhoneInput
                           placeholder="Your Number"
                               value={mobile}
                               defaultCountry="IN"
-                              onChange={setMobile} className='firstinput secondinput thirdinput flag d-none'/>
+                              onChange={setMobile} className='mt-4'/>
+                          <input type='text' name='number' placeholder='Your Number' value={mobile} onChange={(e)=>{
+                          setMobile(e.target.value)
+                        }} className='w-100 d-none'/> 
+                        {Object.keys(mobileErr).map((key)=>{
+                          return <div style={{color:'red'}} className='fonts'>{mobileErr[key]}</div>
+                        })}
                 </div>
 
                 <div class="col-md-6">

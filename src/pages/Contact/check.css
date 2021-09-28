@@ -101,27 +101,6 @@
       font-size: 25px;
       font-weight: bold;
   }
-  
-  @media (min-width:300px),(max-width:492px){
-    .firstinput{
-      margin-bottom: 15px;
-      width: auto;
-    }
-  }
-
-    
-  @media (min-width:495px),(max-width:992px){
-    .secondinput{
-      width:30vw;
-     
-    }
-  }
-  @media (min-width:993px){
-    .thirdinput{
-      width:14vw;
-     
-    }
-  }
 
   
 
