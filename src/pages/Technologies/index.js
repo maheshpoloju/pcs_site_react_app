@@ -2,22 +2,31 @@ import React from 'react'
 
 import 'swiper/swiper-bundle.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { technolgies } from './content'
+import { technolgies, headings} from './content'
 import './index.css'
-import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper'
-// import Swiper, { Navigation, Pagination } from 'swiper';
-SwiperCore.use([Autoplay, Pagination, Navigation])
+import SwiperCore, { Autoplay, Pagination } from 'swiper'
+
+SwiperCore.use([Autoplay, Pagination])
 
 function Technologies() {
 	const breakpoints = {
-		600: {
+		450: {
 			slidesPerView: 2,
 			slidesPerColumn: 4,
-			// slidesPerGroup: 8,
+			spaceBetween: 10,
+		},
+		600: {
+			slidesPerView: 3,
+			slidesPerColumn: 4,
 			spaceBetween: 10,
 		},
 		900: {
-			slidesPerView: 3,
+			slidesPerView: 4,
+			spaceBetween: 10,
+			slidesPerColumn: 4,
+		},
+		1024: {
+			slidesPerView: 6,
 			spaceBetween: 10,
 			slidesPerColumn: 4,
 		},
@@ -27,12 +36,10 @@ function Technologies() {
 			<div className='container' data-aos=''>
 				<div className='col-xl-12 text-center mb-4'>
 					<div className=''>
-						<h3 className='technology-head'>what we use</h3>
-						<h2 className='technology-title'>Technologies</h2>
+						<h3 className='technology-head mt-5'>{headings.heading}</h3>
+						<h2 className='technology-title'>{headings.title}</h2>
 						<div className='small-separator'></div>
-						{/* <div className="bar">
-							::before
-						</div> */}
+						
 					</div>
 				</div>
 
@@ -43,8 +50,8 @@ function Technologies() {
 						spaceBetween={20}
 						slidesPerColumnFill='row'
 						grabCursor={true}
-						autoplay={{ delay: 3500 }}
-						navigation
+						autoplay={{ delay: 2500 }}
+						
 						pagination={{
 							clickable: true,
 						}}

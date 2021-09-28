@@ -1,3 +1,8 @@
+export const headings = {
+    heading: "what we do",
+	title: "Technologies",
+}
+
 export const technolgies = [
 	{
 		title: 'React',
@@ -28,7 +33,7 @@ export const technolgies = [
 		icon: 'devicon-mysql-plain',
 	},
 	{
-		title: 'bootstrap',
+		title: 'boot strap',
 		icon: 'devicon-bootstrap-plain',
 	},
 	{
@@ -36,7 +41,7 @@ export const technolgies = [
 		icon: 'devicon-git-plain',
 	},
 	{
-		title: 'bitbucket',
+		title: 'bit bucket',
 		icon: 'devicon-bitbucket-original',
 	},
 	{
@@ -105,7 +110,7 @@ export const technolgies = [
 		icon: 'devicon-jupyter-plain',
 	},
 	{
-		title: 'tensorflow',
+		title: 'tensor flow',
 		icon: 'devicon-tensorflow-original',
     },
     {
