@@ -24,7 +24,7 @@ function Navbar() {
 		<header
 			id='header'
 			className={`header fixed-top col-12 ${
-				changeNavbar ? 'changeNavbar' : ''
+				changeNavbar ? 'navbar-white' : ''
 			}`}>
 			<div
 				className='
