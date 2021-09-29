@@ -1,5 +1,5 @@
 export const headings = {
-    heading: "what we do",
+    heading: "what we use",
 	title: "Technologies",
 }
 

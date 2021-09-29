@@ -20,6 +20,7 @@
     color: #444444;
     font-weight: 700;
     font-size: 18px;
+    margin-top: 14px;
   }
   .services-title-description{
     font-size: 16px;
@@ -137,27 +138,30 @@
 	position: relative;
 	display: inline-block;
 }
-.service-icon {
-	position: relative;
-}
-.sections-head {
-	color: #2a2a2a;
-  font-size: 18px;
+.services-title-heading{
+  font-size: 13px;
+  letter-spacing: 1px;
   font-weight: 700;
-	letter-spacing: initial;
-	text-transform: uppercase;
+  margin: 0;
+  color: #565dab;
+  text-transform: uppercase;
 }
-.sections-title {
-	font-size: 36px;
-	text-transform: uppercase;
-	font-weight: 700;
-	margin-top: 15px;
-	letter-spacing: 0 !important;
-}
-.service-title p {
-	padding: 0 190px;
-	margin-bottom: 10px;
+.technology-sub-heading{
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+  text-transform: uppercase;
 }
 .service-description{
   font-size: 15px;
+}
+.service-icon{
+  height: 70px;
+  /* filter: invert(27%) sepia(81%) saturate(6293%) hue-rotate(126deg) brightness(102%) contrast(73%); */
+}
+.services-description{
+  font-size: 14px;
 }

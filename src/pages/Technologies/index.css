@@ -1,10 +1,19 @@
-.technology-head{
-  font-weight: 600;
-  text-transform: uppercase;
-}
 .technology-title{
-  font-weight: 600;
-  text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #565dab;
+    text-transform: uppercase;
+}
+.technology-head{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+    text-transform: uppercase;
 }
 .swiper {
 	width: 100%;

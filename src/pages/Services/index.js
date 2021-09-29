@@ -9,8 +9,8 @@ const Services = () => (
 			<div className='row'>
 				<div className='col-xl-12 text-center mb-4'>
 					<div className='service-title'>
-						<h3 className='sections-head mt-5'>{services.heading_1}</h3>
-						<h2 className='sections-title'>{services.heading_2}</h2>
+						<h2 className='services-title-heading mt-5'>{services.heading_2}</h2>
+						<p className='technology-sub-heading'>{services.heading_1}</p>
 						<div className='small-separator'></div>
         			</div>
         			<p className="services-title-description">
@@ -21,79 +21,61 @@ const Services = () => (
         	<div className="row gy-4">
           		<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
 					<div className="service-box blue">
-						{/* <i className="ri-discuss-line icon"></i> */}
+						<img src={fullstactServices.icon} className="service-icon" />
 						<h3>{fullstactServices.title}</h3>
-						<ul className="services-container text-start">
-						{fullstactServices.services.map(service => (
-							<li className="service-description">{service}</li>
-						))
-						}
-						</ul>
+						<p className="services-description">
+						{fullstactServices.description}
+						</p>
 					</div>
           		</div>
 
 				<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
 					<div className="service-box orange">
-						{/* <i className="ri-discuss-line icon"></i> */}
+						<img src={devopsServices.icon} className="service-icon" />
 						<h3>{devopsServices.title}</h3>
-						<ul className="services-container text-start">
-						{devopsServices.services.map(service => (
-							<li className="service-description">{service}</li>
-						))
-						}
-						</ul>
+						<p className="services-description">
+							{devopsServices.description}
+						</p>
 					</div>
 				</div>
 
 				<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
 					<div className="service-box green">
-					{/* <i className="ri-discuss-line icon"></i> */}
+						<img src={mobileServices.icon} className="service-icon" />
 						<h3>{mobileServices.title}</h3>
-						<ul className="services-container text-start">
-						{mobileServices.services.map(service => (
-							<li className="service-description">{service}</li>
-						))
-						}
-						</ul>
+						<p className="services-description">
+						{mobileServices.description}
+						</p>
 					</div>
 				</div>
 
 				<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
 					<div className="service-box red">
-					{/* <i className="ri-discuss-line icon"></i> */}
+						<img src={dataEngServices.icon} className="service-icon" />
 						<h3>{dataEngServices.title}</h3>
-						<ul className="services-container text-start">
-						{dataEngServices.services.map(service => (
-							<li className="service-description">{service}</li>
-						))
-						}
-						</ul>
+						<p className="services-description">
+						{dataEngServices.description}
+						</p>
 					</div>
 				</div>
 
 				<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
 					<div className="service-box purple">
-					{/* <i className="ri-discuss-line icon"></i> */}
+						<img src={mlServices.icon} className="service-icon" />
 						<h3>{mlServices.title}</h3>
-						<ul className="services-container text-start">
-						{mlServices.services.map(service => (
-							<li className="service-description">{service}</li>
-						))
-						}
-						</ul>
+						<p className="services-description">
+							{mlServices.description}
+						</p>
 					</div>
 				</div>
 
 				<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
 					<div className="service-box pink">
-						{/* <i className="ri-discuss-line icon"></i> */}
+						<img src={qaServices.icon} className="service-icon" />
 						<h3>{qaServices.title}</h3>
-						<ul className="services-container text-start">
-						{qaServices.services.map(service => (
-							<li className="service-description">{service}</li>
-						))
-						}
-						</ul>
+						<p className="services-description">
+						{qaServices.description}
+						</p>
 					</div>
 				</div>
         	</div>

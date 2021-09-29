@@ -35,9 +35,9 @@ function Technologies() {
 		<section id='technologies' class='technologies mt-5'>
 			<div className='container' data-aos=''>
 				<div className='col-xl-12 text-center mb-4'>
-					<div className=''>
-						<h3 className='technology-head mt-5'>{headings.heading}</h3>
-						<h2 className='technology-title'>{headings.title}</h2>
+					<div>
+						<h2 className='technology-title mt-5'>{headings.title}</h2>
+						<p className='technology-head'>{headings.heading}</p>
 						<div className='small-separator'></div>
 						
 					</div>
