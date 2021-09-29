@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import styled from 'styled-components'
 import { main } from './content'
-
+import { Typewriter } from 'react-simple-typewriter'
 import './index.css'
 
 const ScrollContainer = styled.div`
@@ -31,7 +31,25 @@ function Banner() {
 						className='col-lg-6 d-flex flex-column justify-content-center'
 						data-aos='fade-right'>
 						<h1>{main.title}</h1>
-						<h2>{main.subtitle}</h2>
+						<h2>
+							<span style={{ color: '#77be45', fontSize: '2rem' }}>
+								<Typewriter
+									words={[
+										main.subtitle1,
+										main.subtitle2,
+										main.subtitle3,
+										main.subtitle,
+									]}
+									loop={1}
+									cursor
+									cursorStyle='|'
+									typeSpeed={70}
+									deleteSpeed={50}
+									delaySpeed={1000}
+									onLoopDone={() => console.log(`Done after 5 loops!`)}
+								/>
+							</span>
+						</h2>
 						<div className='before'></div>
 						<div>
 							<div className='text-center text-lg-start'>
