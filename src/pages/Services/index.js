@@ -1,108 +1,96 @@
 import React from 'react'
 import './index.css'
-import fullstack from '../../assets/img/services2/fullstack.svg'
 
-import {fullstactServices,devopsServices,mobileServices,dataEngServices,mlServices,qaServices, services} from "./content"
+import {services,fullstactServices,devopsServices,mobileServices,dataEngServices,mlServices,qaServices} from "./content"
 
 const Services = () => (
-    <section id="services" className="services mt-5">
-    	<div className="container" data-aos="fade-up">
-      		<div className='row'>
+	<section id="services" className="services mt-5">
+    	<div className="container" data-aos="fade-up" data-aos-delay="200">
+			<div className='row'>
 				<div className='col-xl-12 text-center mb-4'>
 					<div className='service-title'>
-						<h3 className='sections-head mt-5'>{services.heading_1}</h3>
-						<h2 className='sections-title'>{services.heading_2}</h2>
+						<h2 className='services-title-heading mt-5'>{services.heading_2}</h2>
+						<p className='technology-sub-heading'>{services.heading_1}</p>
 						<div className='small-separator'></div>
-						<img className="service-image" src={fullstack} />
-				</div>
-        		<p className="services-description">
-					{services.description}
-				</p>
-    		</div>
-		</div>
-        <div className="row gy-4">
+        			</div>
+        			<p className="services-title-description">
+						{services.description}
+					</p>
+    			</div>
+			</div>
+		<div class="row">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={fullstactServices.icon} className="service-icon" alt="fullstack-icon" />
+			  </div>
+              <h4 class="title">{fullstactServices.title}</h4>
+              <p class="description">
+				{fullstactServices.description}
+			  </p>
+            </div>
+          </div>
 
-          	<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-				<div className="service-box blue">
-				{/* <i className="ri-discuss-line icon"></i> */}
-				<h3>{fullstactServices.title}</h3>
-				<ul className="services-container text-start">
-				{fullstactServices.services.map(service => (
-					<li className="service-description">{service}</li>
-				))
-				}
-				</ul>
-				</div>
-          	</div>
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+		  <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={devopsServices.icon} className="service-icon" alt="devops-icon" />
+			  </div>
+              <h4 class="title">{devopsServices.title}</h4>
+              <p class="description">
+				{devopsServices.description}
+			  </p>
+            </div>
+          </div>
 
-         	<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            	<div className="service-box orange">
-				{/* <i className="ri-discuss-line icon"></i> */}
-				<h3>{devopsServices.title}</h3>
-				<ul className="services-container text-start">
-				{devopsServices.services.map(service => (
-					<li className="service-description">{service}</li>
-				))
-				}
-				</ul>
-				</div>
-          	</div>
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+		  <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={mobileServices.icon} className="service-icon" alt="mobile-icon" />
+			  </div>
+              <h4 class="title">{mobileServices.title}</h4>
+              <p class="description">
+				{mobileServices.description}
+			  </p>
+            </div>
+          </div>
 
-          	<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-				<div className="service-box green">
-				{/* <i className="ri-discuss-line icon"></i> */}
-				<h3>{mobileServices.title}</h3>
-				<ul className="services-container text-start">
-				{mobileServices.services.map(service => (
-					<li className="service-description">{service}</li>
-				))
-				}
-				</ul>
-				</div>
-          	</div>
-
-          	<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-				<div className="service-box red">
-				{/* <i className="ri-discuss-line icon"></i> */}
-				<h3>{dataEngServices.title}</h3>
-				<ul className="services-container text-start">
-				{dataEngServices.services.map(service => (
-					<li className="service-description">{service}</li>
-				))
-				}
-				</ul>
-				</div>
-          	</div>
-
-          	<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-				<div className="service-box purple">
-				{/* <i className="ri-discuss-line icon"></i> */}
-				<h3>{mlServices.title}</h3>
-				<ul className="services-container text-start">
-				{mlServices.services.map(service => (
-					<li className="service-description">{service}</li>
-				))
-				}
-				</ul>
-				</div>
-          	</div>
-
-          	<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
-				<div className="service-box pink">
-				{/* <i className="ri-discuss-line icon"></i> */}
-				<h3>{qaServices.title}</h3>
-				<ul className="services-container text-start">
-				{qaServices.services.map(service => (
-					<li className="service-description">{service}</li>
-				))
-				}
-				</ul>
-            	</div>
-          	</div>
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+		  <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={dataEngServices.icon} className="service-icon" alt="dataengineer-icon" />
+			  </div>
+              <h4 class="title">{dataEngServices.title}</h4>
+              <p class="description">
+				{dataEngServices.description}
+			  </p>
+            </div>
+          </div>
+		  <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+		  <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={mlServices.icon} className="service-icon" alt="ml-icon" />
+			  </div>
+              <h4 class="title">{mlServices.title}</h4>
+              <p class="description">
+				{mlServices.description}
+			  </p>
+            </div>
+          </div>
+		  <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+		  <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={qaServices.icon} className="service-icon" alt="qa-icon" />
+			  </div>
+              <h4 class="title">{qaServices.title}</h4>
+              <p class="description">
+				{qaServices.description}
+			  </p>
+            </div>
+          </div>
         </div>
-    </div>
-    </section>
-  
-)
 
+      	</div>
+    </section>
+)
 export default Services

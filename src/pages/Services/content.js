@@ -1,157 +1,49 @@
+import full_stack from '../../assets/img/services_2/full_stack.svg'
+import devops from '../../assets/img/services_2/devops.svg'
+import mobile from '../../assets/img/services_2/mobile.svg'
+import data_scientist from '../../assets/img/services_2/data_scientist.svg'
+import qa from '../../assets/img/services_2/qa.svg'
+import ai from "../../assets/img/services_2/ai.svg"
+
 export const services = {
-  heading_1: "what we do",
-  heading_2: "services",
-  description: "We at Perfect and Complete Solutions constantly evolve our and develop new methods to serve our customers better and ensure that they always stay top in the market ahead of their competitors."
-  
+    heading_1: "what we do",
+    heading_2: "services",
+    description: "We at Perfect and Complete Solutions constantly evolve our strategies and develop new methods to serve our customers better and ensure that they always stay top in the market ahead of their competitors."
 }
 
 export const fullstactServices = {
+    icon: full_stack,
     title: "FULL STACK",
-    services: [
-      "Building and consuming REST web services",
-      "Modern front-end JavaScript(ES5, ES6) development",
-      "Modern JS frameworks like ReactJS, Angular, Vue",
-      "Backend frameworks like NodeJs,Python, Java for developing web services",
-      "SQL and/or NoSQL databases",
-      "Using Git, Bitbucket and other source control systems",
-    ]
+    description: "We develop full-stack web applications which processed, analyzed, and rendered data visually. We Liaised with back-end and front-end developers. We manage time-sensitive updates, including content changes and database upgrades."
 }
-export const devopsServices = {
-  title: "DEV OPS",
-  services: [
-  "Strong knowledge of Linux systems and internals like Kernel, Memory, Process, Threads, Static / Shared Libraries, IPC, Signals",
-  "Strong knowledge of cloud platforms like AWS and microservices architecture",
-  "Use of Docker, Ansible, Artifactory, Maven, Git and Jenkins technology",
-  "Expertise in scripting languages like: Python, Ruby, Perl",
-  "Strong knowledge of storage and networking",
-  ]
+export const devopsServices = 
+  {
+    icon: devops,
+    title: "DEV OPS",
+    description: "We collaborate with the Development and Operations teams to build, test and deploy software in short, fast bursts. The traditional strategy is built around infrequent, large deployments of software, that lends itself to long phases of fixing unforeseen issues and software failures."
+    
 }
-export const mobileServices = {
-  title: "MOBILE",
-  services: [
-  "Expertise in native Android and iOS",
-  "Strong knowledge of Java for Android and Swift for iOS",
-  "Expertise in Hybrid App development using React Native, Redux",
-  "Expertise in integrating with RESTful APIs",
-  "Very strong UX expertise across the team",
-  "Deep understanding of life cycle of mobile development",
-  ]
+export const mobileServices = 
+  {
+    icon: mobile,
+    title: "MOBILE",
+    description: "We build apps for Android and Apple’s iOS Phone platforms. We develop application programming interfaces (APIs) to support mobile functionality. We work with our expertise engineers to develop and maintain high quality mobile applications."
 }
-export const dataEngServices = {
-  title: "DATA ENGINEER",
-  services: [
-  "Expertise in designing and building dimensional data models to improve accessibility, efficiency, and quality of data",
-  "Expertise in designing and developing ETL data pipelines",
-  "Database development expertise with Relational or MPP/distributed systems such as Oracle/Teradata/Vertica/Hadoop",
-  "Expertise in performance tuning of SQLs and writing Advanced SQLs",
-  "Expertise in developing Big Data/Hadoop applications using java, Spark, Hive, Oozie, Kafka, and Map Reduce",
-  ]
+export const dataEngServices = 
+  {
+    icon: data_scientist,
+    title: "DATA ENGINEER",
+    description: "We expertise in designing and building dimensional data models to improve accessibility, efficiency, and quality of data. We expertise in designing and developing ETL data pipelines, Big Data/Hadoop applications."
 }
-export const mlServices = {
-  title: "AI, ML & DATA SCIENCE",
-  services: [
-  "Use of big data technologies such as SQL, Hadoop or Spark",
-  "Capabilities for providing end to end machine learning solution",
-  "Experience with Information Retrieval, Recommendation Systems or Natural Language Processing",
-  "Experience with machine learning frameworks such as Scikit-Learn, Keras, Tensorflow",
-  "Use of data visualization tools such as D3, Tableau",
-  ]
+export const mlServices = 
+  {
+    icon: ai,
+    title: "AI, ML & DATA SCIENCE",
+    description: "We provide end to end machine learning solution.We have experience with Information Retrieval, Recommendation Systems or Natural Language Processing. We have experience with machine learning frameworks such as Scikit-Learn, Keras, Tensorflow."
 }
 export const qaServices = {
-  title: "QUALITY ASSURANCE",
-  services: [
-  "Strong experience in QA tools like Selenium, TestingWhiz, TestNG and others",
-  "Strong knowledge of JAVA for creating automation scripts",
-  "Expertise in developing test plans, test cases, assessing risk, and defects managements",
-  ]
+    icon: qa,
+    title: "QUALITY ASSURANCE",
+    description: "We expertise in developing test plans, test cases, assessing risk, and defects managements and ensures that the final product observes the company’s quality standards.We carefully process through records and tracking systems, including root cause and corrective actions."
 }
-
-
-
-
-
-// import ImgFullStackDevelopment from '../../assets/img/services-img/full-stack-development-main.jpg';
-// import ImgDevOps from '../../assets/img/services-img/devops-tools.png';
-// import ImgMobile from '../../assets/img/services-img/mobile4.jpg';
-// import ImgAnalytics from '../../assets/img/services-img/analytics.png';
-// import ImgDataScience from '../../assets/img/services-img/data-science-tools.png';
-// import ImgQA from '../../assets/img/services-img/testing tools 3png.png';
-
-// eslint-disable-next-line import/prefer-default-export
-// export const services = {
-//   title: 'services.title',
-//   services: [
-//     {
-//       image: ImgFullStackDevelopment,
-//       alt: 'full-stack',
-//       title: 'Full Stack',
-//       list: [
-//         'services.0.0',
-//         'services.0.1',
-//         'services.0.2',
-//         'services.0.3',
-//         'services.0.4',
-//         'services.0.5',
-//       ],
-//     },
-//     {
-//       image: ImgDevOps,
-//       alt: 'dev-ops',
-//       title: 'Dev Ops',
-//       list: [
-//         'services.1.0',
-//         'services.1.1',
-//         'services.1.2',
-//         'services.1.3',
-//         'services.1.4',
-//       ],
-//     },
-//     {
-//       image: ImgMobile,
-//       alt: 'mobile',
-//       title: 'Mobile',
-//       list: [
-//         'services.2.0',
-//         'services.2.1',
-//         'services.2.2',
-//         'services.2.3',
-//         'services.2.4',
-//         'services.2.5',
-//       ],
-//     },
-//     {
-//       image: ImgAnalytics,
-//       alt: 'analytics',
-//       title: 'Data Engineer',
-//       list: [
-//         'services.3.0',
-//         'services.3.1',
-//         'services.3.2',
-//         'services.3.3',
-//         'services.3.4',
-//       ],
-//     },
-//     {
-//       image: ImgDataScience,
-//       alt: 'data-science',
-//       title: 'AI, ML &amp; Data Science',
-//       list: [
-//         'services.4.0',
-//         'services.4.1',
-//         'services.4.2',
-//         'services.4.3',
-//         'services.4.4',
-//       ],
-//     },
-//     {
-//       image: ImgQA,
-//       alt: 'qa',
-//       title: 'Quality Assurance',
-//       list: [
-//         'services.5.0',
-//         'services.5.1',
-//         'services.5.2',
-//       ],
-//     },
-//   ],
-// };
+  
