@@ -10,7 +10,7 @@ export const contact = {
   },
   address: {
     icon: <MapPin />,
-    title: 'PCS IT Solutions Pvt. Ltd.',
+    title: 'Address',
     addresses: [
       '2nd Floor, Godrej Millennium, 9, Koregaon Park Road, Pune - 411001.',
       '6th Floor, Pentagon P2, Magarpatta City, Pune - 411013',

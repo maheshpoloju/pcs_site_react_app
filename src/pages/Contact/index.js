@@ -2,7 +2,7 @@
 import React,{useState} from 'react';
 import emailjs from 'emailjs-com'
 import { contact } from './content';
-import PhoneInput,{isValidPhoneNumber} from 'react-phone-number-input';
+import PhoneInput,{ isPossiblePhoneNumber } from 'react-phone-number-input';
 import 'react-phone-number-input/style.css'
 import './check.css'
 import {AiOutlineClockCircle} from 'react-icons/ai'
@@ -56,7 +56,7 @@ const Contact = () => {
     }
     
  
-    if(isValidPhoneNumber (mobile) !== true){
+    if( isPossiblePhoneNumber(mobile) === false){
       mobileErr.mobileShort = "Please enter valid number";
       isValid = false;
 
@@ -92,7 +92,7 @@ const Contact = () => {
    
     
     if(isValid){
-      emailjs.sendForm('service_aheeayk','template_qgsffpq',e.target,'user_c5iygaKH1ofP2xjbjkc98').then(
+      emailjs.sendForm('service_f3fnq0f','template_ppe181a',e.target,'user_c5iygaKH1ofP2xjbjkc98').then(
         res =>{
           console.log(res);
           
@@ -125,9 +125,9 @@ const Contact = () => {
 
 <div class="col-lg-6">
 
-  <div class="row gy-4 firstcontainer">
+  <div class="row gy-4">
       <div class="col-md-6">
-        <div class="info-box">
+      <div class="info-box">
           <div className="icon">
                 {contact.address.icon}
               </div>
@@ -139,6 +139,8 @@ const Contact = () => {
                 </>
               ))}
         </div>
+     
+
       </div>
 
     <div class="col-md-6">
@@ -153,17 +155,18 @@ const Contact = () => {
       </div>
     </div>
 
-    <div class="col-md-6 mt-3">
-      <div class="info-box">
+    <div class="col-md-6 mt-4">
+        <div class="info-box">
       <div className="icon">
               {contact.email.icon}
             </div>
             <h3 className='addressheading'>Mail Here</h3>
             <p><a href={`mailto:${contact.email.email}`}>{contact.email.email}</a></p>
       </div>
+
     </div>
 
-    <div class="col-md-6 mt-3">
+    <div class="col-md-6 mt-4">
       <div class="info-box">
       <AiOutlineClockCircle className='clockimage'/>
         <h3>Open Hours</h3>
@@ -232,7 +235,7 @@ const Contact = () => {
                 </div>
 
                 <div class="col-md-12 text-center">                 
-                 <input type = 'submit' value='send' className='btn btn-primary mt-2'/>
+                 <input type = 'submit' value='send Message' className='btn btn-primary mt-2'/>
                 {check?window.alert('You have sent successfully!!'):''}
                 </div>
 
