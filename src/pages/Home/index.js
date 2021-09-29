@@ -15,8 +15,8 @@ function Home() {
 			<div id='home'>Home</div>
 			<About />
 			<Clients />
-			<Team />
 			<Services />
+			<Team />
 			<BOT />
 			<Technologies />
 			<Careers />

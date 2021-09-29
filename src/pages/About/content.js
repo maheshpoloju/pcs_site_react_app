@@ -1,57 +1,19 @@
-import React from 'react';
-import {
-  Users, UserCheck, Award, Clock, UserPlus, Globe,
-} from 'react-feather';
+export const about ={
+    title: "Who We Are",
+    desc1:"We are a team of experienced people who want to help our customers develop products that bring benefits and change for the good of society.",
+    desc2:"PCS is designed to help product companies by providing a flexible talent pool with very clear business models that help our clients convert these contractors into full time employees by paying a conversion fee if necessary."
+}
 
-export const about = {
-  title: 'about.title',
-  content: [
-    { desc: 'about.content.desc.0' },
-    { desc: 'about.content.desc.1' },
-    { desc: 'about.content.desc.2' },
-  ],
-};
+export const weBuild = {
+    title:"We Build",
+    desc1:"Intuitive User Experience",
+    desc2:"Competent Workforce",
+    desc3:"Various products across Web, Mobile, Analytics"
+}
 
-export const features = {
-  title: 'about.features.title',
-  features: [
-    {
-      icon: <Users />,
-      title: 'about.features.title.0',
-    },
-    {
-      icon: <UserCheck />,
-      title: 'about.features.title.1',
-    },
-    {
-      icon: <Award />,
-      title: 'about.features.title.2',
-    },
-    {
-      icon: <Clock />,
-      title: 'about.features.title.3',
-    },
-    {
-      icon: <UserPlus />,
-      title: 'about.features.title.4',
-    },
-    {
-      icon: <Globe />,
-      title: 'about.features.title.5',
-    },
-  ],
-  inner: [
-    {
-      title: 'about.inner.title.0',
-      desc: 'about.inner.desc.0',
-    },
-    {
-      title: 'about.inner.title.1',
-      desc: 'about.inner.desc.1',
-    },
-    {
-      title: 'about.inner.title.2',
-      desc: 'about.inner.desc.2',
-    },
-  ],
-};
+export const counts = {
+    title:"We Always Try To Understand Users Expectation",
+    desc1:"Start-ups",
+    desc2:"Employees",
+    desc3:"Clients"
+}
