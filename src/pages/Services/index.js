@@ -18,67 +18,78 @@ const Services = () => (
 					</p>
     			</div>
 			</div>
-        	<div className="row gy-4">
-          		<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-					<div className="service-box blue">
-						<img src={fullstactServices.icon} className="service-icon" />
-						<h3>{fullstactServices.title}</h3>
-						<p className="services-description">
-						{fullstactServices.description}
-						</p>
-					</div>
-          		</div>
+		<div class="row">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={fullstactServices.icon} className="service-icon" />
+			  </div>
+              <h4 class="title">{fullstactServices.title}</h4>
+              <p class="description">
+				{fullstactServices.description}
+			  </p>
+            </div>
+          </div>
 
-				<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-					<div className="service-box orange">
-						<img src={devopsServices.icon} className="service-icon" />
-						<h3>{devopsServices.title}</h3>
-						<p className="services-description">
-							{devopsServices.description}
-						</p>
-					</div>
-				</div>
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+		  <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={devopsServices.icon} className="service-icon" />
+			  </div>
+              <h4 class="title">{devopsServices.title}</h4>
+              <p class="description">
+				{devopsServices.description}
+			  </p>
+            </div>
+          </div>
 
-				<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-					<div className="service-box green">
-						<img src={mobileServices.icon} className="service-icon" />
-						<h3>{mobileServices.title}</h3>
-						<p className="services-description">
-						{mobileServices.description}
-						</p>
-					</div>
-				</div>
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+		  <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={mobileServices.icon} className="service-icon" />
+			  </div>
+              <h4 class="title">{mobileServices.title}</h4>
+              <p class="description">
+				{mobileServices.description}
+			  </p>
+            </div>
+          </div>
 
-				<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-					<div className="service-box red">
-						<img src={dataEngServices.icon} className="service-icon" />
-						<h3>{dataEngServices.title}</h3>
-						<p className="services-description">
-						{dataEngServices.description}
-						</p>
-					</div>
-				</div>
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+		  <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={dataEngServices.icon} className="service-icon" />
+			  </div>
+              <h4 class="title">{dataEngServices.title}</h4>
+              <p class="description">
+				{dataEngServices.description}
+			  </p>
+            </div>
+          </div>
+		  <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+		  <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={mlServices.icon} className="service-icon" />
+			  </div>
+              <h4 class="title">{mlServices.title}</h4>
+              <p class="description">
+				{mlServices.description}
+			  </p>
+            </div>
+          </div>
+		  <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+		  <div class="icon-box" data-aos="fade-up">
+              <div class="icon">
+				  <img src={qaServices.icon} className="service-icon" />
+			  </div>
+              <h4 class="title">{qaServices.title}</h4>
+              <p class="description">
+				{qaServices.description}
+			  </p>
+            </div>
+          </div>
+        </div>
 
-				<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-					<div className="service-box purple">
-						<img src={mlServices.icon} className="service-icon" />
-						<h3>{mlServices.title}</h3>
-						<p className="services-description">
-							{mlServices.description}
-						</p>
-					</div>
-				</div>
-
-				<div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-					<div className="service-box pink">
-						<img src={qaServices.icon} className="service-icon" />
-						<h3>{qaServices.title}</h3>
-						<p className="services-description">
-						{qaServices.description}
-						</p>
-					</div>
-				</div>
-        	</div>
       	</div>
     </section>
 )
