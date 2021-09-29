@@ -235,7 +235,7 @@ const Contact = () => {
                 </div>
 
                 <div class="col-md-12 text-center">                 
-                 <input type = 'submit' value='send Message' className='btn btn-primary mt-2'/>
+                 <input type = 'submit' value='Send Message' className='btn btn-primary mt-2'/>
                 {check?window.alert('You have sent successfully!!'):''}
                 </div>
 
