@@ -5,7 +5,7 @@ import { contact } from './content';
 import PhoneInput,{ isPossiblePhoneNumber } from 'react-phone-number-input';
 import 'react-phone-number-input/style.css'
 import './check.css'
-import {AiOutlineClockCircle} from 'react-icons/ai'
+
 
 
 let check = false;
@@ -131,28 +131,40 @@ const Contact = () => {
           <div className="icon">
                 {contact.address.icon}
               </div>
-              <h3 className='addressheading'>{contact.address.title}</h3>
-              {contact.address.addresses.map((item, index) => (
+              <h3 className='addressheading'>{contact.addresss.title}</h3>
+              {contact.addresss.addresses1.map((item, index) => (
                 <>
-                  <p key={`address-${index}`}>{item}</p>
-                  <br />
+                  <p key={`address-${index}`}  className='p-2'>{item}</p>
+                  
                 </>
               ))}
+            <div className='row'>
+            <div className="icon mt-2">
+             
+              <h3 className='addressheading'>Call Here</h3>
+            </div>
+            <p className='ml-4'>+ (1) 949 981 4976</p>
         </div>
+        </div>
+
+      
      
 
       </div>
 
     <div class="col-md-6">
-      <div class="info-box">
-       <div className="icon">
-              {contact.phone.icon}
-            </div>
-            <h3 className='addressheading'>Call Here</h3>
-            {contact.phone.phones.map((item, index) => (
-              <p key={`phone-${index}`}>{item}</p>
-            ))}
-      </div>
+    <div class="info-box">
+          <div className="icon">
+                {contact.address.icon}
+              </div>
+              <h3 className='addressheading'>{contact.address.title}</h3>
+              {contact.address.addresses.map((item, index) => (
+                <>
+                  <p key={`address-${index}`}  className='p-2'>{item}</p>
+                  
+                </>
+              ))}
+        </div>
     </div>
 
     <div class="col-md-6 mt-4">
@@ -162,15 +174,20 @@ const Contact = () => {
             </div>
             <h3 className='addressheading'>Mail Here</h3>
             <p><a href={`mailto:${contact.email.email}`}>{contact.email.email}</a></p>
+            <p><a href={`mailto:${contact.email.email}`}>{contact.email.email2}</a></p>
       </div>
 
     </div>
 
     <div class="col-md-6 mt-4">
-      <div class="info-box">
-      <AiOutlineClockCircle className='clockimage'/>
-        <h3>Open Hours</h3>
-        <p>Monday - Friday 10:00AM - 7:00PM</p>
+    <div class="info-box">
+       <div className="icon">
+              {contact.phone.icon}
+            </div>
+            <h3 className='addressheading'>Call Here</h3>
+            {contact.phone.phones.map((item, index) => (
+              <p key={`phone-${index}`}>{item}</p>
+            ))}
       </div>
     </div>
 
@@ -197,6 +214,7 @@ const Contact = () => {
                        <PhoneInput
                           placeholder="Your Number"
                               value={mobile}
+                              type='text'
                               defaultCountry="IN"
                               onChange={setMobile} className='mt-4'/>
                           <input type='text' name='number' placeholder='Your Number' value={mobile} onChange={(e)=>{

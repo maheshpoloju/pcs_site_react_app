@@ -1,7 +1,7 @@
 .contact .info-box {
     color: #444444;
     background: #fafbff;
-    padding: 6px;
+    padding: 20px;
   }
   
   .contact .info-box i {
@@ -98,7 +98,7 @@
   }
   .heading{
       text-align: center;
-      font-size: 25px;
+      font-size: 30px;
       font-weight: bold;
   }
 
@@ -130,16 +130,18 @@
   font-weight: bold;
 }
 
-@media (min-width:993px){
-  .area {
-    text-align: center;
-  }
-}
 @media (min-width:500px){
   .area {
     text-align: center;
   }
 }
+@media (min-width:993px){
+  .area {
+    text-align: center;
+  }
+}
+
+
 @media (min-width:300px){
   .firstcontainer {
     text-align: center;
@@ -149,4 +151,7 @@
   .formcontainer {
     padding-left: 20px;
   }
+}
+.heightchecking{
+  height: ;
 }
