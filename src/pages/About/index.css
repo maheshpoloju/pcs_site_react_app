@@ -1,0 +1,173 @@
+.about{
+	min-height: 100vh;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+@media (min-width:768px) {
+	.about{
+		padding-top: 120px;
+	}
+}
+.about .content {
+	background-color: #f6f9ff;
+	padding: 40px;
+}
+  
+.about h3 {
+	font-size: 14px;
+	font-weight: 700;
+	color: #77BE45;
+	text-transform: uppercase;
+}
+  
+.about h2 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #6B71B5;
+}
+  
+.about p {
+	margin: 15px 0 30px 0;
+	line-height: 24px;
+	color: #6B71B5;
+	font-size: 20px;
+}
+
+.container{
+	margin-bottom: 100px;
+}
+
+/*--------------------------------------------------------------
+# We Build
+--------------------------------------------------------------*/
+.we-build{
+	padding-top: 50px;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    zoom: 1;
+    z-index: 0;
+}
+
+.we-build h4{
+	text-align: center;
+	padding-bottom: 10px;
+	font-weight: bold;
+	/* color:#6B71B5 */
+	color:#6B71B5
+}
+
+.small-separator {
+    width: 100px;
+    height: 7px;
+    background: #d2d2d2;
+    margin: 20px auto;
+}
+.grids{
+	flex-wrap: wrap;
+	display: flex;
+}
+.grids h6{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.grid{
+	background: linear-gradient(90deg, rgba(67,64,121,1) 0%, rgba(93,99,174,1) 85%);
+	padding:30px;
+	margin:10px;
+	border-radius: 10px;
+	box-shadow: 0px 0 30px rgba(5, 5, 5, 0.1);
+	text-align: center;
+	flex-grow: 1;
+	display: flex;
+	justify-content:center;
+	align-items: space-between;
+}
+.grids :hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+@media (min-width:768px) {
+	.grid{
+		width:30%
+	}
+}
+.grids h6{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.grids h6 span{
+	margin-top: 25px;
+	font-size: 15px;
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+	padding: 30px 0 60px;
+	max-width: 1200px;
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+    zoom: 1;
+    z-index: 2;
+} 
+  
+.counts .count-box {
+	display: flex;
+	align-items: center;
+	padding: 30px;
+	width:100%;
+	background: #fff;
+	box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+	border-radius: 15px;
+}
+  
+.counts .count-box i {
+	font-size: 42px;
+	line-height: 0;
+	margin-right: 20px;
+	color: #7C81BD
+}
+
+.count-container :hover {
+	transform: scale(1.08);
+}
+
+.counts .count-box span {
+	font-size: 20px;
+	display: block;
+	font-weight: 600;
+	color: #0b198f;
+} 
+
+.counts .count-box p {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+  
+.counts h4{
+	text-align: center;
+	padding-bottom: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	color:#6B71B5
+}
+
+@media (min-width:768px) {
+	.counts h4{
+		font-size: 23px;
+	}
+}
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
@@ -94,3 +95,23 @@ const Footer = () => {
 
 export default Footer;
 
+=======
+import React from 'react'
+import { footer } from './content'
+
+function Footer() {
+	const year = new Date().getFullYear()
+	console.log(year)
+	return (
+		<footer className='footer-area'>
+			<div className='container'>
+				<div className='row'>
+					<div className='footer clear container'>{footer.copyright}</div>
+				</div>
+			</div>
+		</footer>
+	)
+}
+
+export default Footer
+>>>>>>> 9255c419e38a8a4ca28f2aac7f494d41233cc6b5
