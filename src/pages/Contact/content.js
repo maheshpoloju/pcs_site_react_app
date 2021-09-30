@@ -7,7 +7,7 @@ export const contact = {
     icon: <Mail />,
     title: 'contact.email.title',
     email: 'anu@pcsitspl.com',
-    email2:'kanika@perfect108.com',
+    email2:'deepak@perfect108.com',
   },
   address: {
     icon: <MapPin />,

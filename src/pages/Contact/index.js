@@ -12,6 +12,7 @@ let check = false;
 var validator = require("email-validator");
 
 
+
 const Contact = () => {
  
   const [firstName,setFirstName] = useState("");
@@ -41,7 +42,8 @@ const Contact = () => {
     const nameErr = {}
 
     let isValid = true;
-   
+    let phoneNumberValidation = isPossiblePhoneNumber(mobile) !== true
+    
    
 
     if(firstName.trim().length < 1){
@@ -56,7 +58,7 @@ const Contact = () => {
     }
     
  
-    if( isPossiblePhoneNumber(mobile) === false){
+    if(phoneNumberValidation){
       mobileErr.mobileShort = "Please enter valid number";
       isValid = false;
 
@@ -92,7 +94,7 @@ const Contact = () => {
    
     
     if(isValid){
-      emailjs.sendForm('service_f3fnq0f','template_ppe181a',e.target,'user_c5iygaKH1ofP2xjbjkc98').then(
+      emailjs.sendForm('service_iybbixf','template_od5vhlh',e.target,'user_1ZQjtCiBoh1HFfh3WfmyD').then(
         res =>{
           console.log(res);
           
@@ -116,7 +118,7 @@ const Contact = () => {
 
   <header class="section-header" className='layout'>
     
-    <p className='heading mb-2'>Contact Us</p>
+    <p className='heading mb-4'>Contact Us</p>
   </header>
 
 
@@ -143,7 +145,7 @@ const Contact = () => {
              
               <h3 className='addressheading'>Call Here</h3>
             </div>
-            <p className='ml-4'>+ (1) 949 981 4976</p>
+            <p className='usphonenumber'>+ (1) 949 981 4976</p>
         </div>
         </div>
 
@@ -173,8 +175,8 @@ const Contact = () => {
               {contact.email.icon}
             </div>
             <h3 className='addressheading'>Mail Here</h3>
-            <p><a href={`mailto:${contact.email.email}`}>{contact.email.email}</a></p>
-            <p><a href={`mailto:${contact.email.email}`}>{contact.email.email2}</a></p>
+            <p><a href={`mailto:${contact.email.email}`} className='mailcolor'>{contact.email.email}</a></p>
+            <p><a href={`mailto:${contact.email.email}`} className='mailcolor'>{contact.email.email2}</a></p>
       </div>
 
     </div>
@@ -213,8 +215,8 @@ const Contact = () => {
                       
                        <PhoneInput
                           placeholder="Your Number"
+                             type = 'text'
                               value={mobile}
-                              type='text'
                               defaultCountry="IN"
                               onChange={setMobile} className='mt-4'/>
                           <input type='text' name='number' placeholder='Your Number' value={mobile} onChange={(e)=>{
