@@ -1,7 +1,11 @@
 import React from 'react'
 
 function BOT() {
-	return <div id='bot'>BOT</div>
+	return (
+		<section id='bot'>
+			<div>BOT</div>
+		</section>
+	)
 }
 
 export default BOT

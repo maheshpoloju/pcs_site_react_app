@@ -161,6 +161,7 @@ section {
 	z-index: 997;
 	padding: 13px 0;
 	background: transparent;
+	height: 100px;
 }
 .header.header-scrolled {
 	background: #fff;
@@ -169,10 +170,12 @@ section {
 }
 .header .logo {
 	line-height: 0;
+	cursor: pointer;
 }
 .header .logo img {
-	max-height: 40px;
+	height: auto;
 	margin-right: 6px;
+	max-height: 60px;
 }
 .header .logo span {
 	font-size: 30px;
@@ -213,19 +216,24 @@ section {
 	align-items: center;
 	justify-content: space-between;
 	font-family: 'Nunito', sans-serif;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 	font-weight: 700;
 	color: rgb(32, 32, 32);
 	white-space: nowrap;
 	transition: 0.3s;
 	text-transform: uppercase;
 	position: relative;
+	transition: all 0.3s ease-in-out;
+	margin-right: 5px;
 }
 .navbar .active {
 	background: #fff;
 	border-radius: 5px;
-	border: 1px solid #565dab;
-	color: black !important;
+	border: 2px solid #565dab;
+	color: #565dab !important;
+	transition: all 0.25s ease-in;
+	font-weight: bolder;
+	font-size: 1rem;
 }
 
 .navbar a::before,
@@ -265,11 +273,13 @@ section {
 .navbar a:hover > span {
 	width: 100%;
 	background: #565dab;
+	font-size: 1rem;
 	/* transition-delay: 0.5s; */
 }
 
 .navbar a:hover {
 	color: #fff;
+	font-size: 1rem;
 	/* transition-delay: 0.5s; */
 }
 
@@ -445,6 +455,10 @@ section {
 }
 .hero .hero-img {
 	text-align: right;
+}
+
+.hero i {
+	font-size: 1rem;
 }
 @media (min-width: 1024px) {
 	.hero {
@@ -1312,26 +1326,31 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-.clients .clients-slider .swiper-slide img {
-	opacity: 0.5;
-	transition: 0.3s;
+.clients {
+	padding-top: 130px;
 }
-.clients .clients-slider .swiper-slide img:hover {
-	opacity: 1;
+.clients .clients-wrap {
 }
-.clients .clients-slider .swiper-pagination {
-	margin-top: 20px;
-	position: relative;
+.clients .client-logo {
+	padding: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgb(167, 167, 167, 0.5);
+	overflow: hidden;
+	background: #fff;
+	height: 140px;
+	cursor: pointer;
+	filter: grayscale(100%);
 }
-.clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
-	width: 12px;
-	height: 12px;
-	background-color: #fff;
-	opacity: 1;
-	border: 1px solid #565dab;
+.clients .client-logo:hover img {
+	transform: scale(1.1);
 }
-.clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-	background-color: #565dab;
+.clients img {
+	transition: all 0.4s ease-in-out;
+}
+.clients .client-logo:hover {
+	filter: none;
 }
 
 /*--------------------------------------------------------------

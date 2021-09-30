@@ -1,4 +1,4 @@
-import ImgMTC from '../../assets/img/clients/mind-therapy.svg'
+import ImgMTC from '../../assets/img/clients/mind-therapy.jpg'
 import ImgDSI from '../../assets/img/clients/dsi.png'
 import ImgCriot from '../../assets/img/clients/criot.png'
 import ImgMyChatri from '../../assets/img/clients/mychatri.jpg'
@@ -12,9 +12,16 @@ import ImgPrizeLogic from '../../assets/img/clients/prizelogic.svg'
 import ImgEllieMae from '../../assets/img/clients/ellie-mae.jpeg'
 
 export const clients = {
-	title: 'clients.title',
-	desc: 'clients.desc',
+	title: 'Our Clients',
+	desc: 'Meet our happy clients',
 	clients: [
+		{
+			url: 'https://www.icemortgagetechnology.com',
+			image: ImgEllieMae,
+			alt: 'ellie-mae',
+			title: 'Ellie Mae',
+			desc: 'clients.desc.11',
+		},
 		{
 			url: 'https://www.mindtherapyclinic.com',
 			image: ImgMTC,
@@ -92,13 +99,6 @@ export const clients = {
 			alt: 'prizelogic',
 			title: 'Prize Logic',
 			desc: 'clients.desc.10',
-		},
-		{
-			url: 'https://www.icemortgagetechnology.com',
-			image: ImgEllieMae,
-			alt: 'ellie-mae',
-			title: 'Ellie Mae',
-			desc: 'clients.desc.11',
 		},
 	],
 }

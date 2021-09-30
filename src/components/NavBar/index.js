@@ -40,7 +40,7 @@ function Navbar() {
 					duration={100}
 					hashSpy={true}
 					isDynamic={true}
-					className='logo d-flex align-items-center'>
+					className='logo'>
 					<img src={pcsLogo} alt='pcs logo' />
 				</Link>
 
