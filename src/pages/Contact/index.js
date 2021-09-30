@@ -218,12 +218,12 @@ const Contact = () => {
                              type = 'text'
                               value={mobile}
                               defaultCountry="IN"
-                              onChange={setMobile} className='mt-4'/>
+                              onChange={setMobile} className='medium mt-4'/>
                           <input type='text' name='number' placeholder='Your Number' value={mobile} onChange={(e)=>{
                           setMobile(e.target.value)
                         }} className='w-100 d-none'/> 
                         {Object.keys(mobileErr).map((key)=>{
-                          return <div style={{color:'red'}} className='fonts'>{mobileErr[key]}</div>
+                          return <div style={{color:'red'}} className='fonts mt-1'>{mobileErr[key]}</div>
                         })}
                 </div>
 
@@ -248,14 +248,13 @@ const Contact = () => {
                 <div class="col-md-12" className='area'>
                 <textarea name='message' rows='5' cols='60' placeholder='Message' onChange={(e)=>{
                       setName(e.target.value)
-                    }}/><br/>
+                    }}/>
                      {Object.keys(nameErr).map((key)=>{
                       return <div style={{color:'red'}} className='fonts'>{nameErr[key]}</div>
                     })}
                 </div>
-
                 <div class="col-md-12 text-center">                 
-                 <input type = 'submit' value='Send Message' className='btn btn-primary mt-2'/>
+                 <input type = 'submit' value='Send Message' className='btn btn-primary'/>
                 {check?window.alert('You have sent successfully!!'):''}
                 </div>
 

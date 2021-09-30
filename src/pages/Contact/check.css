@@ -110,6 +110,12 @@
       
     }
   }
+  @media (min-width:992px){
+    .medium{
+      margin-top: 35px;
+      
+    }
+  }
   .layout{
     margin-top: 120px;
   }
