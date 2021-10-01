@@ -8,6 +8,30 @@
 	background: #565dab;
 	height: auto;
 	width: 100vw;
+	background: -moz-radial-gradient(
+		center,
+		ellipse cover,
+		rgba(86, 93, 171, 0.8) 0%,
+		rgba(86, 93, 171, 0.9) 50%,
+		rgba(86, 93, 171, 0.9) 51%,
+		rgba(86, 93, 171, 1) 100%
+	);
+	background: -webkit-radial-gradient(
+		center,
+		ellipse cover,
+		rgba(86, 93, 171, 0.8) 0%,
+		rgba(86, 93, 171, 0.9) 50%,
+		rgba(86, 93, 171, 0.9) 51%,
+		rgba(86, 93, 171, 1) 100%
+	);
+	background: radial-gradient(
+		ellipse at center,
+		rgba(86, 93, 171, 0.8) 0%,
+		rgba(86, 93, 171, 0.9) 50%,
+		rgba(86, 93, 171, 0.9) 51%,
+		rgba(86, 93, 171, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc565dab', endColorstr='#565dab',GradientType=1 );
 }
 
 #footer .container {
@@ -17,7 +41,7 @@
 #footer .footer-top {
 	padding: 60px 0 30px 0;
 	/* background: #565dab; */
-	background: radial-gradient(circle, #565dab25, #565dab70);
+	/* background: radial-gradient(circle, #565dab25, #565dab70); */
 }
 #footer .footer-top .footer-contact {
 	margin-bottom: 30px;

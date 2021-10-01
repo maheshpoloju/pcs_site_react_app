@@ -1,7 +1,7 @@
 const year = new Date().getFullYear()
 export const footer = {
 	title: 'PCS IT Solutions Pvt. Ltd.',
-	subtitle: 'Sspire. Create. Understand',
+	subtitle: 'Aspire. Create. Understand',
 	copyright: `© ${year} PCS IT Solutions Pvt. Ltd. All rights reserved`,
 	address: {
 		india: {
