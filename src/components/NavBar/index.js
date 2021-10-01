@@ -3,24 +3,29 @@ import { Link } from 'react-scroll'
 import pcsLogo from '../../assets/images/pcs-logo.png'
 import './index.css'
 
-const items = [
-	{ to: 'home', title: 'home' },
-	{ to: 'about', title: 'about' },
-	{ to: 'clients', title: 'clients' },
-	{ to: 'services', title: 'services' },
-	{ to: 'bot', title: 'bot' },
-	{ to: 'team', title: 'team' },
-	{ to: 'careers', title: 'careers' },
-	{ to: 'contact', title: 'contact' },
-	{ to: 'technologies', title: 'technologies' },
-]
+import { items } from './content'
 
 function Navbar() {
 	const [click, setClick] = useState(false)
 	const [isActive, setIsActive] = useState(true)
+	const [changeNavbar, setChangeNavbar] = useState(false)
+
+	const changeNavbarColor = () => {
+		if (window.scrollY >= 100) {
+			setChangeNavbar(true)
+		} else {
+			setChangeNavbar(false)
+		}
+	}
+
+	window.addEventListener('scroll', changeNavbarColor)
 
 	return (
-		<header id='header' className='header fixed-top'>
+		<header
+			id='header'
+			className={`header fixed-top col-12 ${
+				changeNavbar ? 'navbar-white' : ''
+			}`}>
 			<div
 				className='
 					container-fluid container-xl
@@ -28,30 +33,33 @@ function Navbar() {
 					align-items-center
 					justify-content-between
 				'>
-				<a href='index.html' className='logo d-flex align-items-center'>
-					<img src={pcsLogo} alt='' />
-				</a>
+				<Link
+					to='hero'
+					spy={true}
+					smooth={true}
+					duration={100}
+					hashSpy={true}
+					isDynamic={true}
+					className='logo'>
+					<img src={pcsLogo} alt='pcs logo' />
+				</Link>
 
 				<nav
 					id='navbar'
-					className={`${click ? 'navbar navbar-mobile' : 'navbar'}`}>
+					className={`${click ? `navbar navbar-mobile` : `navbar `}`}>
 					<ul>
 						{items.map((each, index) => (
 							<Link
-								className={`nav-link scrollto d-flex justify-content-center align-items-center ${
-									isActive ? 'active' : ''
-								}`}
+								className={`nav-link scrollto d-flex justify-content-center align-items-center`}
 								exact
 								to={each.to}
-								activeclassname={`nav-link scrollto ${
-									isActive ? 'active' : ''
-								}`}
+								activeclassname={` ${isActive ? `active` : ''}`}
 								key={index}
 								spy={true}
 								smooth={true}
 								duration={100}
 								hashSpy={true}
-								isDynamic={true}
+								isDynamic={false}
 								onClick={() => {
 									setIsActive(isActive)
 									if (click) {
@@ -59,6 +67,7 @@ function Navbar() {
 									}
 								}}>
 								{each.title}
+								<span></span>
 							</Link>
 						))}
 					</ul>

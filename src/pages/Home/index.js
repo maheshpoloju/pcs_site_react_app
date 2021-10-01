@@ -1,6 +1,8 @@
 import React from 'react'
+import Banner from '../../components/Banner'
 import About from '../About'
 import BOT from '../BOT'
+// import BOT from '../BOT'
 import Careers from '../Careers'
 import Clients from '../Clients'
 import Contact from '../Contact'
@@ -12,15 +14,15 @@ import './index.css'
 function Home() {
 	return (
 		<>
-			<div id='home'>Home</div>
+			<Banner />
 			<About />
 			<Clients />
-			<Team />
 			<Services />
+			<Team />
 			<BOT />
+			<Technologies />
 			<Careers />
 			<Contact />
-			<Technologies />
 		</>
 	)
 }
