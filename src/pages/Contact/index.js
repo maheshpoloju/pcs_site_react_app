@@ -1,68 +1,37 @@
 // eslint-disable-next-line
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
-import { contact } from './content'
+// import { contact } from './content'
 import PhoneInput, { isPossiblePhoneNumber } from 'react-phone-number-input'
+import { isValidPhoneNumber } from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
 
 import './index.css'
 
-let check = false
-var validator = require('email-validator')
+// let check = false
 
 const Contact = () => {
 	const [firstName, setFirstName] = useState('')
 	const [email, setEmail] = useState('')
 	const [mobile, setMobile] = useState('')
 	const [lastName, setLastName] = useState('')
-	const [Name, setName] = useState('')
+	const [name, setName] = useState('')
 
-	const [firstNameErr, setFirstNameErr] = useState({})
-	const [emailErr, setEmailErr] = useState({})
 	const [mobileErr, setMobileErr] = useState({})
-	const [lastNameErr, setLastNameErr] = useState({})
-	const [nameErr, setNameErr] = useState({})
 
 	const formValidation = () => {
-		const firstNameErr = {}
-		const emailErr = {}
 		const mobileErr = {}
-		const lastNameErr = {}
-		const nameErr = {}
-
 		let isValid = true
-		let phoneNumberValidation = isPossiblePhoneNumber(mobile) !== true
-
-		if (firstName.trim().length < 1) {
-			firstNameErr.firstNameShort = 'Please enter your name'
-			isValid = false
-		}
-
-		if (validator.validate(email) !== true) {
-			emailErr.emailShort = 'Please enter valid email'
-			isValid = false
-		}
+		let phoneNumberValidation =
+			isPossiblePhoneNumber(mobile) !== true &&
+			isValidPhoneNumber(mobile) === false
 
 		if (phoneNumberValidation) {
-			mobileErr.mobileShort = 'Please enter valid number'
+			mobileErr.mobileShort = '* Please enter valid number'
 			isValid = false
 		}
 
-		if (lastName.trim().length < 3) {
-			lastNameErr.lastNameShort = 'Please enter your address'
-			isValid = false
-		}
-
-		if (Name.trim().length < 3) {
-			nameErr.nameShort = 'Please enter your query'
-			isValid = false
-		}
-
-		setFirstNameErr(firstNameErr)
-		setEmailErr(emailErr)
 		setMobileErr(mobileErr)
-		setLastNameErr(lastNameErr)
-		setNameErr(nameErr)
 
 		return isValid
 	}
@@ -70,7 +39,6 @@ const Contact = () => {
 	function sentEmail(e) {
 		e.preventDefault()
 		const isValid = formValidation()
-		check = isValid
 
 		if (isValid) {
 			emailjs
@@ -81,7 +49,11 @@ const Contact = () => {
 					'user_1ZQjtCiBoh1HFfh3WfmyD'
 				)
 				.then((res) => {
-					console.log(res)
+					setFirstName('')
+					setEmail('')
+					setMobile('')
+					setLastName('')
+					setName('')
 				})
 				.catch((err) => {
 					console.log(err)
@@ -97,57 +69,58 @@ const Contact = () => {
 					<h3>
 						<span>Contact Us</span>
 					</h3>
-					<p>
-						Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-						adipisci expedita at voluptas atque vitae autem.
-					</p>
 				</div>
 
 				<div
 					className='row aos-init aos-animate'
 					data-aos='fade-up'
 					data-aos-delay='100'>
-					<div className='col-lg-6'>
-						<div className='info-box mb-4'>
-							<i class='fas fa-map-marker-alt'></i>
-							<h3>Our Address</h3>
-							<p>A108 Adam Street, New York, NY 535022</p>
-						</div>
-					</div>
-
-					<div className='col-lg-3 col-md-6'>
-						<div className='info-box  mb-4'>
-							<i class='far fa-envelope'></i>
-							<h3>Email Us</h3>
-							<p>contact@example.com</p>
-						</div>
-					</div>
-
-					<div className='col-lg-3 col-md-6'>
-						<div className='info-box  mb-4'>
-							<i class='fas fa-mobile-alt'></i>
-							<h3>Call Us</h3>
-							<p>+1 5589 55488 55</p>
-						</div>
-					</div>
-				</div>
-
-				<div
-					className='row aos-init aos-animate'
-					data-aos='fade-up'
-					data-aos-delay='100'>
-					<div className='col-lg-6 '>
+					<div className='col-lg-12 '>
 						<iframe
 							title='This is a unique title'
 							className='mb-4 mb-lg-0'
-							src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621'
-							frameborder='0'
+							src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.378171967709!2d73.92341131440718!3d18.511805074274783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1f2bf66ef03%3A0x465c38ee790d278b!2sPCS%20It%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1633119288768!5m2!1sen!2sin'
+							frameBorder='0'
 							style={{ border: '0', width: '100%', height: '384px' }}
-							allowfullscreen=''></iframe>
+							allowFullScreen=''></iframe>
 					</div>
+				</div>
 
+				<div
+					className='row aos-init aos-animate'
+					data-aos='fade-up'
+					data-aos-delay='100'>
+					<div className='col-12 col-lg-6 d-flex flex-wrap'>
+						<div className='col-12 col-lg-12'>
+							<div className='info-box mb-4 text-left'>
+								<i className='fas fa-map-marker-alt'></i>
+								<h3>Our Address</h3>
+								<p>Perfect and Complete Solutions Inc,</p>
+								<p>704 Lundy Way,</p>
+								<p>Pacifica, CA, </p>
+								<p>94044</p>
+							</div>
+						</div>
+						<div className='col-12 col-lg-12 d-flex '>
+							<div
+								className='info-box flex-grow-1  mb-4'
+								style={{ marginRight: '1rem' }}>
+								<i className='far fa-envelope'></i>
+								<h3 className='text-left'>Email Us</h3>
+								<p className='mr-auto'>anu@pcsitspl.com</p>
+								<p className='text-left'>anu@pcsitspl.com</p>
+							</div>
+
+							<div className='info-box flex-grow-1  mb-4'>
+								<i className='fas fa-mobile-alt'></i>
+								<h3>Call Us</h3>
+								<p>+ (1) 949 981 4976</p>
+								<p>+ (1) 949 981 4976</p>
+							</div>
+						</div>
+					</div>
 					<div className='col-lg-6'>
-						<form className='php-email-form'>
+						<form onSubmit={sentEmail} className='php-email-form'>
 							<div className='row'>
 								<div className='col form-group'>
 									<input
@@ -155,34 +128,30 @@ const Contact = () => {
 										name='name'
 										className='form-control'
 										id='name'
+										value={firstName}
 										placeholder='Your Name'
-										required=''
+										required
 										onChange={(e) => {
 											setFirstName(e.target.value)
 										}}
 									/>
-									{Object.keys(firstNameErr).map((key) => {
-										return (
-											<div style={{ color: 'red' }} className='fonts'>
-												{firstNameErr[key]}
-											</div>
-										)
-									})}
 								</div>
 								<div className='form-group'>
-									<div className='col-md-6'>
-										<label>Phone Number</label>
+									<div className='col-md-12 '>
 										<PhoneInput
-											className='input'
+											className='input form-control d-flex'
+											defaultCountry='IN'
 											name='phone'
+											placeholder='Your Number'
 											value={mobile}
-											onChange={(e) => {
-												setMobile(e.target.value)
-											}}
+											onChange={setMobile}
 										/>
-										{Object.keys(mobileErr).map((key) => {
+										{Object.keys(mobileErr).map((key, index) => {
 											return (
-												<div style={{ color: 'red' }} className='fonts mt-1'>
+												<div
+													key={index}
+													style={{ color: 'red' }}
+													className='fonts mt-1'>
 													{mobileErr[key]}
 												</div>
 											)
@@ -195,19 +164,13 @@ const Contact = () => {
 										className='form-control'
 										name='email'
 										id='email'
+										value={email}
 										placeholder='Your Email'
-										required=''
+										required
 										onChange={(e) => {
 											setEmail(e.target.value)
 										}}
 									/>
-									{Object.keys(emailErr).map((key) => {
-										return (
-											<div style={{ color: 'red' }} className='fonts'>
-												{emailErr[key]}
-											</div>
-										)
-									})}
 								</div>
 							</div>
 							<div className='form-group'>
@@ -217,37 +180,24 @@ const Contact = () => {
 									name='address'
 									id='address'
 									placeholder='Your Address'
-									required=''
+									value={lastName}
+									required
 									onChange={(e) => {
 										setLastName(e.target.value)
 									}}
 								/>
-								{Object.keys(lastNameErr).map((key) => {
-									return (
-										<div style={{ color: 'red' }} className='fonts'>
-											{lastNameErr[key]}
-										</div>
-									)
-								})}
 							</div>
-
 							<div className='form-group'>
 								<textarea
 									className='form-control'
 									name='message'
-									rows='5'
+									rows='3'
 									placeholder='Message'
-									required=''
+									required
+									value={name}
 									onChange={(e) => {
 										setName(e.target.value)
 									}}></textarea>
-								{Object.keys(nameErr).map((key) => {
-									return (
-										<div style={{ color: 'red' }} className='fonts'>
-											{nameErr[key]}
-										</div>
-									)
-								})}
 							</div>
 							<div className='my-3'>
 								<div className='loading'>Loading</div>
@@ -259,6 +209,8 @@ const Contact = () => {
 							<div className='text-center'>
 								<button type='submit'>Send Message</button>
 							</div>
+
+							{/* {check ? window.alert('You have sent successfully!!') : ''} */}
 						</form>
 					</div>
 				</div>

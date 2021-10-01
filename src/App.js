@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
+import Popup from 'react-popup'
 
 import './App.css'
 
@@ -32,6 +33,7 @@ function App() {
 					</div>
 				</div>
 			</div>
+			<Popup />
 		</>
 	)
 }
