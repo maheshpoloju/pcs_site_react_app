@@ -2,12 +2,9 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 // import { contact } from './content'
-import PhoneInput, {
-	isPossiblePhoneNumber,
-	isValidPhoneNumber,
-} from 'react-phone-number-input'
+import PhoneInput, { isPossiblePhoneNumber } from 'react-phone-number-input'
+import { isValidPhoneNumber } from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
-// import './check.css'
 
 import './index.css'
 
