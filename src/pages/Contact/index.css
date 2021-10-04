@@ -137,3 +137,148 @@ input {
 	color: #fff;
 	opacity: 0.9;
 }
+
+button:disabled {
+	cursor: not-allowed;
+	pointer-events: all !important;
+}
+
+/* Modal */
+
+.modal {
+	font-size: 12px;
+}
+.modal > .header {
+	width: 100%;
+	border-bottom: 1px solid gray;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+}
+.modal > .content {
+	width: 100%;
+	padding: 10px 5px;
+}
+.modal > .actions {
+	width: 100%;
+	padding: 10px 5px;
+	margin: auto;
+	text-align: center;
+}
+.modal > .close {
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	padding: 2px 5px;
+	line-height: 20px;
+	right: -10px;
+	top: -10px;
+	font-size: 24px;
+	background: #ffffff;
+	border-radius: 18px;
+	border: 1px solid #cfcece;
+}
+@keyframes anvil {
+	0% {
+		transform: scale(1) translateY(0px);
+		opacity: 0;
+		box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+	}
+	1% {
+		transform: scale(0.96) translateY(10px);
+		opacity: 0;
+		box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+	}
+	100% {
+		transform: scale(1) translateY(0px);
+		opacity: 1;
+		box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+	}
+}
+.popup-content {
+	animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+
+	-webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}
+
+.notification-container {
+	min-width: 100px !important;
+	height: auto !important;
+	font-size: 1rem !important;
+	background: #28a745 !important;
+}
+
+.notification-body {
+	font-size: 1rem !important;
+	background: #28a745 !important;
+	color: #fff;
+}
+.toast-container {
+	background: #28a745 !important;
+	width: 100% !important;
+}
+.toast-container button {
+	color: #fff !important;
+	font-size: 2rem;
+	opacity: 1 !important;
+}
+/* success animation */
+.success-animation {
+	margin: 150px auto;
+}
+
+.checkmark {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: block;
+	stroke-width: 2;
+	stroke: #565dab;
+	stroke-miterlimit: 10;
+	box-shadow: inset 0px 0px 0px #565dab;
+	animation: fill 1s ease-in-out 2s infinite, scale 1s ease-in-out 0.9s both;
+	position: relative;
+	top: 5px;
+	right: 5px;
+	margin: 0 auto;
+}
+.checkmark__circle {
+	stroke-dasharray: 166;
+	stroke-dashoffset: 166;
+	stroke-width: 2;
+	stroke-miterlimit: 10;
+	stroke: #565dab;
+	fill: #fff;
+	animation: stroke 3s cubic-bezier(0.65, 0, 0.45, 1) infinite;
+}
+
+.checkmark__check {
+	transform-origin: 50% 50%;
+	stroke-dasharray: 48;
+	stroke-dashoffset: 48;
+	animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+	100% {
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes scale {
+	0%,
+	100% {
+		transform: none;
+	}
+
+	50% {
+		transform: scale3d(1.1, 1.1, 1);
+	}
+}
+
+@keyframes fill {
+	100% {
+		box-shadow: inset 0px 0px 0px 30px #565dab;
+	}
+}
+/* another */

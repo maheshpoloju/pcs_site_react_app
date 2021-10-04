@@ -2,7 +2,7 @@ import React from 'react'
 import { Mail, MapPin, Phone } from 'react-feather'
 // eslint-disable-next-line import/prefer-default-export
 export const contact = {
-	title: 'contact.title',
+	title: 'Contact Us',
 	email: {
 		icon: <Mail />,
 		title: 'contact.email.title',
@@ -28,5 +28,14 @@ export const contact = {
 		icon: <Phone />,
 		title: 'contact.phone.title',
 		phones: ['+ (91) 93597 60780', '+ (91) 93730 97062‬'],
+	},
+	formPlaceHolder: {
+		name: 'Your Name',
+		number: 'Your Number',
+		email: 'Your Email',
+		address: 'Your Address',
+		message: 'Your message',
+		button: 'Send Message',
+		afterSubmit: "	We'll get back to you soon...",
 	},
 }
