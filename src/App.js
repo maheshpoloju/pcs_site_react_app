@@ -23,7 +23,7 @@ function App() {
 					<div className='col-12  web-container d-flex justify-content-center align-items-center'>
 						<NavBar />
 						<Switch>
-							<Route path='/' exact>
+							<Route path='/' exact="true">
 								<Home />
 							</Route>
 							<Redirect to='/'></Redirect>

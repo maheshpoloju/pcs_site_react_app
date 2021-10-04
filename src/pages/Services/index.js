@@ -7,9 +7,12 @@ const Services = () => (
 	<section id="services" className="services mt-5">
     	<div className="container" data-aos="fade-up" data-aos-delay="200">
 			<div className='row'>
+				<div className='section-title aos-init aos-animate' data-aos='fade-down'>
+					<h2 className='text-center'>{services.heading_2}</h2>
+					<span>{services.heading_2}</span>
+				</div>
 				<div className='col-xl-12 text-center mb-4'>
 					<div className='service-title'>
-						<h2 className='services-title-heading mt-5'>{services.heading_2}</h2>
 						<p className='technology-sub-heading'>{services.heading_1}</p>
         			</div>
         			<p className="services-title-description">

@@ -23,8 +23,11 @@ function Clients() {
 	return (
 		<>
 			<section id='clients' class='clients'>
+				<div className='section-title aos-init aos-animate' data-aos='fade-down'>
+					<h2 className='text-center'>{clients.title}</h2>
+					<span>{clients.title}</span>
+				</div>
 				<div className='section-header'>
-					<h3>{clients.title}</h3>
 					<p>{clients.desc}</p>
 				</div>
 				<div class='container'>

@@ -81,9 +81,13 @@ function Banner() {
 							alt='hero'
 						/>
 					</div>
+					
 				</div>
-				<Link
-					to='home'
+
+				
+			</div>
+			<Link
+					to='about'
 					spy={'true'}
 					smooth={'true'}
 					hashspy={'true'}
@@ -96,7 +100,7 @@ function Banner() {
 						<div className='circle' style={{ animationDelay: '3s' }}></div>
 					</ScrollContainer>
 				</Link>
-			</div>
+			
 		</section>
 	)
 }

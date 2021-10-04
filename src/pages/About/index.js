@@ -9,6 +9,10 @@ function About() {
 			<div id='about' className='about d-flex flex-column'>
 				<div className='container' data-aos='zoom-in'>
 					<div className='row gx-0 '>
+						<div className='section-title aos-init aos-animate' data-aos='fade-down'>
+							<h2 className='text-center'>{about.title}</h2>
+							<span>{about.title}</span>
+						</div>
 						<div className='col-lg-6 d-flex flex-column justify-content-center '>
 							<div className='content'>
 								<h3>{about.title}</h3>
@@ -24,8 +28,12 @@ function About() {
 
 				{/* we build section */}
 				<div id='weBuild' className='we-build'>
-					<h4>{weBuild.title}</h4>
-					<div className='small-separator'></div>
+					<div className='section-title aos-init aos-animate' data-aos='fade-down'>
+						<h2 className='text-center'>{weBuild.title}</h2>
+						<span>{weBuild.title}</span>
+					</div>
+
+					{/* <div className='small-separator'></div> */}
 					<div className='grids'>
 						<div
 							className='grid'

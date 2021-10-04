@@ -398,22 +398,26 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+#hero{
+	width: 100vw;
+	min-height: 100vh ;
+	position: relative;
+}
+
 .hero {
 	width: 100vw;
 	height: 100vh;
-	/* background: linear-gradient(rgb(24, 144, 255, 0.7), rgba(24, 144, 255, 0.9)),
-		url('../img/banner.png'); */
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 0;
 	background: url(../img/hero-bg.png) top center no-repeat;
-	/* background-size: cover; */
 }
 .hero h1 {
 	margin: 0;
 	font-size: 48px;
 	font-weight: 700;
-	color: #012970;
+	color: #565dab;
 }
 .hero h2 {
 	color: #444444;
@@ -430,6 +434,7 @@ section {
 	background: #565dab;
 	box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 	transition: all 0.5s ease-in;
+	text-decoration: none;
 }
 
 .hero .btn-get-started:hover {
@@ -517,6 +522,7 @@ section {
 .about p {
 	margin: 15px 0 30px 0;
 	line-height: 24px;
+
 }
 .about .btn-read-more {
 	line-height: 0;
