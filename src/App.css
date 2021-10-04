@@ -21,9 +21,7 @@ code {
 	flex-direction: column;
 }
 #about,
-#bot,
 #careers,
-#clients,
 #contact,
 #team,
 #technologies,
@@ -35,4 +33,5 @@ code {
 	justify-content: center;
 	align-items: center;
 	font-size: 3rem;
+	padding-top: 130px;
 }
