@@ -35,8 +35,8 @@ function Banner() {
 						<div className='before'></div>
 						<div>
 							<div className='text-center text-lg-start'>
-								<a
-									href='#about'
+								<Link
+									to='about'
 									className='
 										btn-get-started
 										scrollto
@@ -47,7 +47,7 @@ function Banner() {
 									'>
 									<span>{main.button}</span>
 									<i className='bi bi-arrow-right'></i>
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -60,7 +60,7 @@ function Banner() {
 					</div>
 				</div>
 				<Link
-					to='home'
+					to='about'
 					spy={'true'}
 					smooth={'true'}
 					hashspy={'true'}
