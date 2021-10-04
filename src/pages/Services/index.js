@@ -11,7 +11,6 @@ const Services = () => (
 					<div className='service-title'>
 						<h2 className='services-title-heading mt-5'>{services.heading_2}</h2>
 						<p className='technology-sub-heading'>{services.heading_1}</p>
-						<div className='small-separator'></div>
         			</div>
         			<p className="services-title-description">
 						{services.description}
@@ -54,7 +53,6 @@ const Services = () => (
 			  </p>
             </div>
           </div>
-
           <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
 		  <div class="icon-box" data-aos="fade-up">
               <div class="icon">
@@ -89,6 +87,7 @@ const Services = () => (
             </div>
           </div>
         </div>
+
 
       	</div>
     </section>

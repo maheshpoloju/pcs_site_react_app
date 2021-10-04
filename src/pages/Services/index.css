@@ -60,8 +60,8 @@
 .services .icon-box:hover .icon {
   background: #fff;
 }
-.services .icon-box:hover .icon i {
-  color: #1bbca3;
+.services .icon-box:hover .read-more-trigger {
+ border: 1px solid white;
 }
 
 .service-title {
@@ -92,7 +92,9 @@
   height: 40px;
   margin-bottom: 20px;
   font-size: 13px;
-  filter: invert(28%) sepia(87%) saturate(836%) hue-rotate(209deg) brightness(93%) contrast(72%);}
+  filter: invert(28%) sepia(87%) saturate(836%) hue-rotate(209deg) brightness(93%) contrast(72%);
+}
+
 .services-description{
   font-size: 14px;
 }
