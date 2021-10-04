@@ -1,5 +1,6 @@
 import React from 'react'
 import { clients } from './content'
+import './index.css'
 
 // Import Swiper React components
 
@@ -11,6 +12,8 @@ import SwiperCore, { Pagination } from 'swiper'
 
 // install Swiper modules
 SwiperCore.use([Pagination])
+
+
 
 function Clients() {
 	const openInNewTab = (url) => {
