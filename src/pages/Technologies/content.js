@@ -1,114 +1,120 @@
+export const headings = {
+    heading: "what we use",
+	title: "Technologies",
+}
+
 export const technolgies = [
 	{
 		title: 'React',
-		icon: 'devicon-react-original icon',
+		icon: 'devicon-react-original',
 	},
 	{
-		title: 'Bootstrap',
-		icon: 'devicon-react-original icon',
-	},
-	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
-	},
-	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
-	},
-	{
-		title: 'React Native',
-		icon: 'devicon-react-original icon',
+		title: 'Angular',
+		icon: 'devicon-angularjs-plain',
 	},
 	{
 		title: 'Vue',
-		icon: 'devicon-react-original icon',
+		icon: 'devicon-vuejs-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'Node Js',
+		icon: 'devicon-nodejs-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'Python',
+		icon: 'devicon-python-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'java',
+		icon: 'devicon-java-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'mysql',
+		icon: 'devicon-mysql-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'boot strap',
+		icon: 'devicon-bootstrap-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'git',
+		icon: 'devicon-git-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'bit bucket',
+		icon: 'devicon-bitbucket-original',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'aws',
+		icon: 'devicon-amazonwebservices-original',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'mongodb',
+		icon: 'devicon-mongodb-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'Docker',
+		icon: 'devicon-docker-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: '.net',
+		icon: 'devicon-dot-net-plain',
+	},
+	
+	{
+		title: 'Jenkins',
+		icon: 'devicon-jenkins-line',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'ruby',
+		icon: 'devicon-ruby-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'Perl',
+		icon: 'devicon-perl-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'Android',
+		icon: 'devicon-android-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'ios',
+		icon: 'devicon-apple-original',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'swift',
+		icon: 'devicon-swift-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'React Native',
+		icon: 'devicon-react-original',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'Redux',
+		icon: 'devicon-redux-original',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'oracle',
+		icon: 'devicon-oracle-original',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'apache',
+		icon: 'devicon-apache-plain',
+    },
+        {
+		title: 'kafka',
+		icon: 'devicon-apachekafka-original',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'jupyter',
+		icon: 'devicon-jupyter-plain',
 	},
 	{
-		title: 'React',
-		icon: 'devicon-react-original icon',
+		title: 'tensor flow',
+		icon: 'devicon-tensorflow-original',
+    },
+    {
+		title: 'd3',
+		icon: 'devicon-d3js-plain',
 	},
 ]
