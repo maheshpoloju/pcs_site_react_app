@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import styled from 'styled-components'
 import { main } from './content'
+import { Typewriter } from 'react-simple-typewriter'
 
 import './index.css'
 
@@ -30,13 +31,35 @@ function Banner() {
 					<div
 						className='col-lg-6 d-flex flex-column justify-content-center'
 						data-aos='fade-right'>
-						<h1>{main.title}</h1>
-						<h2>{main.subtitle}</h2>
+						<h1>{main.title} </h1>
+
+						<div className='d-flex justify-content-start align-tems-center '>
+							<h2 style={{ fontSize: '2rem' }}>
+								<span>{'    '}</span>{' '}
+							</h2>
+							<h2 style={{ color: '#77be45', fontSize: '2rem' }}>
+								<Typewriter
+									words={[
+										main.subtitle1,
+										main.subtitle2,
+										main.subtitle3,
+										main.subtitle,
+									]}
+									loop={1}
+									cursor
+									cursorStyle=''
+									typeSpeed={100}
+									deleteSpeed={50}
+									delaySpeed={1000}
+								/>
+							</h2>
+						</div>
+
 						<div className='before'></div>
 						<div>
 							<div className='text-center text-lg-start'>
-								<Link
-									to='about'
+								<a
+									href='#about'
 									className='
 										btn-get-started
 										scrollto
@@ -47,7 +70,7 @@ function Banner() {
 									'>
 									<span>{main.button}</span>
 									<i className='bi bi-arrow-right'></i>
-								</Link>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -60,7 +83,7 @@ function Banner() {
 					</div>
 				</div>
 				<Link
-					to='about'
+					to='home'
 					spy={'true'}
 					smooth={'true'}
 					hashspy={'true'}
