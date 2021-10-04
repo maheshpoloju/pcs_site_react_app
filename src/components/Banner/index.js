@@ -3,6 +3,7 @@ import { Link } from 'react-scroll'
 import styled from 'styled-components'
 import { main } from './content'
 import { Typewriter } from 'react-simple-typewriter'
+
 import './index.css'
 
 const ScrollContainer = styled.div`
