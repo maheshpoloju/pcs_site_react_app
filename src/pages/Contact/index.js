@@ -39,14 +39,6 @@ const Contact = () => {
 		return isValid
 	}
 
-	// const checkIfDisabled = () => {
-	// 	if (!(userName && email && mobile && address && message)) {
-	// 		return true
-	// 	} else {
-	// 		return false
-	// 	}
-	// }
-
 	function sentEmail(e) {
 		e.preventDefault()
 
@@ -140,18 +132,6 @@ const Contact = () => {
 														value={mobile}
 														onChange={setMobile}
 													/>
-													{/* <input
-														type='number'
-														className='d-none form-control'
-														name='number'
-														id='phone'
-														value={mobile}
-														placeholder={contact.formPlaceHolder.email}
-														required
-														onChange={(e) => {
-															setMobile(e.target.value)
-														}}
-													/> */}
 													{Object.keys(mobileErr).map((key, index) => {
 														return (
 															<div
@@ -207,10 +187,7 @@ const Contact = () => {
 										</div>
 										<div className='text-center'>
 											<div className='cont'>
-												<button
-													type='submit'
-													// disabled={checkIfDisabled()}
-												>
+												<button type='submit'>
 													{contact.formPlaceHolder.button}
 												</button>
 											</div>
@@ -254,7 +231,6 @@ const Contact = () => {
 					</div>
 				</div>
 			</section>
-			{/* <ReactNotification /> */}
 		</>
 	)
 }

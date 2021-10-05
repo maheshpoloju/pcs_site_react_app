@@ -9,7 +9,7 @@ import ImgEnergetics from '../../assets/img/clients/energetics-logo.svg'
 import ImgNYT from '../../assets/img/clients/nyt-logo.jpg'
 import ImgAccenture from '../../assets/img/clients/accenture.png'
 import ImgPrizeLogic from '../../assets/img/clients/prizelogic.svg'
-import ImgEllieMae from '../../assets/img/clients/ellie-mae.jpeg'
+import ImgEllieMae from '../../assets/img/clients/ellie-mae.png'
 
 export const clients = {
 	title: 'Our Clients',

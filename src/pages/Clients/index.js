@@ -2,18 +2,11 @@ import React from 'react'
 import { clients } from './content'
 import './index.css'
 
-// Import Swiper React components
-
-// Import Swiper styles
 import 'swiper/swiper-bundle.css'
 
-// import Swiper core and required modules
 import SwiperCore, { Pagination } from 'swiper'
 
-// install Swiper modules
 SwiperCore.use([Pagination])
-
-
 
 function Clients() {
 	const openInNewTab = (url) => {
@@ -23,7 +16,9 @@ function Clients() {
 	return (
 		<>
 			<section id='clients' class='clients'>
-				<div className='section-title aos-init aos-animate' data-aos='fade-down'>
+				<div
+					className='section-title aos-init aos-animate'
+					data-aos='fade-down'>
 					<h2 className='text-center'>{clients.title}</h2>
 					<span>{clients.title}</span>
 				</div>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
 import pcsLogo from '../../assets/images/pcs-logo.png'
 import './index.css'
 
@@ -74,8 +75,8 @@ function Navbar() {
 					<i
 						className={
 							click
-								? 'bi bi-x mobile-nav-toggle'
-								: 'bi bi-list mobile-nav-toggle'
+								? 'fas fa-times mobile-nav-toggle i-pcs-color'
+								: 'fas fa-bars mobile-nav-toggle i-white-color'
 						}
 						onClick={() => setClick(!click)}></i>
 				</nav>

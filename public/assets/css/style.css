@@ -290,15 +290,17 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-	color: black;
 	font-size: 28px;
 	cursor: pointer;
 	display: none;
 	line-height: 0;
 	transition: 0.5s;
 }
-.mobile-nav-toggle.bi-x {
+i.mobile-nav-toggle.i-pcs-color {
 	color: #fff;
+}
+i.mobile-nav-toggle.i-white-color {
+	color: #565dab;
 }
 
 @media (max-width: 991px) {
@@ -311,7 +313,7 @@ section {
 	}
 }
 .navbar-mobile {
-	position: fixed;
+	position: fixed !important;
 	overflow: hidden;
 	top: 0;
 	right: 0;
@@ -322,7 +324,7 @@ section {
 }
 .navbar-mobile .mobile-nav-toggle {
 	position: absolute;
-	top: 15px;
+	top: 30px;
 	right: 15px;
 }
 .navbar-mobile ul {
@@ -399,9 +401,9 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 
-#hero{
+#hero {
 	width: 100vw;
-	min-height: 100vh ;
+	min-height: 100vh;
 	position: relative;
 }
 
@@ -522,7 +524,6 @@ section {
 .about p {
 	margin: 15px 0 30px 0;
 	line-height: 24px;
-
 }
 .about .btn-read-more {
 	line-height: 0;
