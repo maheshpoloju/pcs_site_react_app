@@ -1,0 +1,53 @@
+#careers {
+	padding-top: 0px;
+	font-size: 1rem;
+}
+
+#careers .container {
+	width: 100vw;
+}
+
+#careers .breadcrumb-container {
+	position: absolute;
+	width: 100vw;
+	background: #565dab;
+	padding: 50px 0;
+	top: 100px;
+}
+#careers .breadcrumb-container h2 {
+	color: #fff !important;
+	font-size: 3rem;
+	line-height: 38px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+	/* border: 1px solid red; */
+	padding: 20px;
+	position: relative;
+}
+
+#careers .breadcrumb-container h2::before {
+	content: '';
+	border: 1px solid green;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: #fff;
+	position: absolute;
+	left: -75px;
+	transform: rotateZ(45deg);
+}
+#careers .breadcrumb-container h2::after {
+	content: '';
+	border: 1px solid yellow;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: #fff;
+	position: absolute;
+	right: -75px;
+	transform: rotateZ(45deg);
+}
+
+#careers .breadcrumb-container li a {
+	color: #fff;
+}

@@ -37,7 +37,7 @@ function BOT() {
 							className='col-lg-5 align-items-stretch position-relative video-box  mb-4'
 							data-aos='fade-right'>
 							<video
-								autostart
+								autostart='true'
 								autoPlay
 								muted
 								loop

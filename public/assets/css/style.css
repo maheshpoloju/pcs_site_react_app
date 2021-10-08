@@ -76,7 +76,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
 	padding: 15px 0;
-	background: #012970;
+	background: #565dab;
 	min-height: 40px;
 	margin-top: 82px;
 	color: #fff;
@@ -96,10 +96,10 @@ section {
 	list-style: none;
 	padding: 0 0 10px 0;
 	margin: 0;
-	font-size: 14px;
+	font-size: 1.5rem;
 }
 .breadcrumbs ol a {
-	color: #fff;
+	color: #565dab;
 	transition: 0.3s;
 }
 .breadcrumbs ol a:hover {
@@ -111,7 +111,7 @@ section {
 .breadcrumbs ol li + li::before {
 	display: inline-block;
 	padding-right: 10px;
-	color: #8894f6;
+	color: #565dab;
 	content: '/';
 }
 
@@ -410,10 +410,11 @@ i.mobile-nav-toggle.i-white-color {
 .hero {
 	width: 100vw;
 	height: 100vh;
+
+	padding: 0;
+	background: url(../img/hero-bg2.png) center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	padding: 0;
-	background: url(../img/hero-bg.png) top center no-repeat;
 }
 .hero h1 {
 	margin: 0;
@@ -909,11 +910,17 @@ i.mobile-nav-toggle.i-white-color {
 	padding: 30px 50px;
 	transition: 0.5s;
 	transform: scale(1.1);
+	height: 65%;
 }
 .values .box h3 {
 	font-size: 24px;
 	color: #012970;
 	font-weight: 700;
+	margin-bottom: 18px;
+}
+.values .box p {
+	font-size: 1rem;
+	/* color: #012970; */
 	margin-bottom: 18px;
 }
 .values .box:hover {
@@ -1066,6 +1073,10 @@ i.mobile-nav-toggle.i-white-color {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
 .services .service-box {
 	box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 	height: 100%;
@@ -1180,7 +1191,7 @@ i.mobile-nav-toggle.i-white-color {
 	background: #f51f9c;
 }
 .services .service-box:hover h3,
-.services .service-box:hover p,
+.services .service-box:hover h5,
 .services .service-box:hover .read-more {
 	color: #fff;
 }
@@ -1305,6 +1316,9 @@ i.mobile-nav-toggle.i-white-color {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+	width: 100vw;
+}
 .portfolio #portfolio-flters {
 	padding: 0;
 	margin: 0 auto 25px auto;
@@ -1329,8 +1343,8 @@ i.mobile-nav-toggle.i-white-color {
 }
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-	color: #565dab;
-	border-color: #565dab;
+	color: #4154f1;
+	border-color: #4154f1;
 }
 .portfolio #portfolio-flters li:last-child {
 	margin-right: 0;
@@ -1417,7 +1431,7 @@ i.mobile-nav-toggle.i-white-color {
 }
 .portfolio .portfolio-wrap .portfolio-links a {
 	color: #fff;
-	background: #565dab;
+	background: #4154f1;
 	margin: 10px 2px;
 	width: 36px;
 	height: 36px;
@@ -1477,13 +1491,13 @@ i.mobile-nav-toggle.i-white-color {
 	height: 12px;
 	background-color: #fff;
 	opacity: 1;
-	border: 1px solid #565dab;
+	border: 1px solid #4154f1;
 }
 .portfolio-details
 	.portfolio-details-slider
 	.swiper-pagination
 	.swiper-pagination-bullet-active {
-	background-color: #565dab;
+	background-color: #4154f1;
 }
 .portfolio-details .portfolio-info {
 	padding: 30px;
@@ -1568,10 +1582,10 @@ i.mobile-nav-toggle.i-white-color {
 	height: 12px;
 	background-color: #fff;
 	opacity: 1;
-	border: 1px solid #565dab;
+	border: 1px solid #4154f1;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-	background-color: #565dab;
+	background-color: #4154f1;
 }
 .testimonials .swiper-slide {
 	opacity: 0.3;
@@ -1590,7 +1604,6 @@ i.mobile-nav-toggle.i-white-color {
 		transform: scale(1.12);
 	}
 }
-
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -1679,10 +1692,13 @@ i.mobile-nav-toggle.i-white-color {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-.clients {
+#clients {
+	height: auto;
+	width: 100%;
+
+	font-size: 3rem;
 	padding-top: 130px;
 }
-
 .clients .client-logo {
 	padding: 64px;
 	display: flex;

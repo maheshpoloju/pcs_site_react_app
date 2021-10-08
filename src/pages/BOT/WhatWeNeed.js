@@ -14,8 +14,8 @@ const Whatweneed = () => {
 				</div>
 
 				<div className='row'>
-					{whatWeDoContent.points.map((each) => (
-						<div className='col-md-6'>
+					{whatWeDoContent.points.map((each, index) => (
+						<div key={index} className='col-md-6'>
 							<div
 								className='icon-box aos-init aos-animate'
 								data-aos='fade-up'

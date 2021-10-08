@@ -8,6 +8,8 @@ import './App.css'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Contact from './pages/Contact'
+import Careers from './pages/Careers'
 
 function App() {
 	useEffect(() => {
@@ -23,8 +25,14 @@ function App() {
 					<div className='col-12  web-container d-flex justify-content-center align-items-center'>
 						<NavBar />
 						<Switch>
-							<Route path='/' exact="true">
+							<Route path='/' exact={true}>
 								<Home />
+							</Route>
+							<Route exact path='/contact'>
+								<Contact />
+							</Route>
+							<Route exact path='/careers'>
+								<Careers />
 							</Route>
 							<Redirect to='/'></Redirect>
 						</Switch>

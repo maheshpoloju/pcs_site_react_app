@@ -83,12 +83,7 @@ function Banner() {
 					</div>
 				</div>
 			</div>
-			<Link
-				to='about'
-				spy={'true'}
-				smooth={'true'}
-				hashspy={'true'}
-				duration={100}>
+			<Link to='about' spy={true} smooth={true} hashspy='true' duration={100}>
 				<ScrollContainer>
 					<i className='fas fa-chevron-down'></i>
 					<div className='circle' style={{ animationDelay: '0s' }}></div>

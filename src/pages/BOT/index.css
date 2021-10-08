@@ -256,6 +256,11 @@ section {
 		height: 210px;
 	}
 }
+@media (min-width: 1200px) {
+	.how-can-we .icon-box {
+		height: 150px;
+	}
+}
 
 /*--------------------------------------------------------------
 # WHAT WE NEED
@@ -307,5 +312,10 @@ section {
 @media (max-width: 1200px) and (min-width: 768px) {
 	.what-we-need .icon-box {
 		height: 210px;
+	}
+}
+@media (min-width: 1200px) {
+	.what-we-need .icon-box {
+		height: 150px;
 	}
 }
