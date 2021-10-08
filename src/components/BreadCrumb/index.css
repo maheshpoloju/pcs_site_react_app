@@ -89,6 +89,14 @@
 	text-transform: capitalize;
 }
 
+.text-primary a {
+	text-decoration: none;
+	color: #6c757d;
+}
+.text-primary a:hover {
+	text-decoration: none;
+	color: #565dab;
+}
 .breadcrumb {
 	padding-left: 0;
 	background: transparent;

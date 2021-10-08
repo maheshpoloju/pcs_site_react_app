@@ -1,5 +1,5 @@
 import React from 'react'
-import { Breadcrumb } from 'react-bootstrap'
+
 import { NavHashLink } from 'react-router-hash-link'
 import './index.css'
 
@@ -9,10 +9,17 @@ const BreadCrumb = (props) => {
 			<div className='container'>
 				<div className='row'>
 					<div className='col-12'>
-						<h2 className='text-primary'>{props.title}</h2>
+						<h2 className='text-primary mb-3'>
+							<NavHashLink to='/'>
+								<span>
+									<i class='fas fa-chevron-circle-left'></i>
+								</span>
+							</NavHashLink>{' '}
+							{props.title}
+						</h2>
 						<ol className='breadcrumb mb-0 p-0'>
 							<li className='breadcrumb-items'>
-								<a href='index.html'>Home</a>
+								<NavHashLink to='/'>Home</NavHashLink>
 							</li>
 							<li className='breadcrumb-items active'>
 								<i class='fas fa-chevron-right'></i>
