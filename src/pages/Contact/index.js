@@ -12,10 +12,13 @@ import './index.css'
 
 const Contact = () => {
 	return (
-		<>
+		<section id='contact-us'>
 			<NavBar />
+
 			<section className='col-12 breadcrumb-container '>
-				<i className='fas fa-arrow-circle-left'></i>
+				<NavHashLink to='/'>
+					<i className='fas fa-arrow-circle-left'></i>
+				</NavHashLink>
 				<div className='d-flex flex-column justify-content-center align-items-center'>
 					<h2>Contact-Us</h2>
 					<Breadcrumb>
@@ -29,7 +32,7 @@ const Contact = () => {
 			{/* <div style={{ color: 'red' }}>Contact</div> */}
 			<ContactUs />
 			<Footer />
-		</>
+		</section>
 	)
 }
 

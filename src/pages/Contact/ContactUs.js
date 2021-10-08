@@ -70,11 +70,8 @@ const ContactUs = () => {
 	}
 	return (
 		<section id='contact' className='contact mb-5'>
-			<div className='container aos-init aos-animate' data-aos='fade-up'>
-				<div
-					className='row aos-init aos-animate'
-					data-aos='fade-up'
-					data-aos-delay='100'>
+			<div className='container ' data-aos='fade-up'>
+				<div className='row ' data-aos='fade-up' data-aos-delay='100'>
 					<div className='col-lg-6 order-2 order-lg-1 my-4 my-lg-0 '>
 						<iframe
 							title='This is a unique title'
