@@ -17,7 +17,7 @@ import './index.css'
 
 function Home() {
 	return (
-		<>
+		<section>
 			<NavBar />
 			<Banner />
 			<About />
@@ -30,7 +30,7 @@ function Home() {
 			{/* <Careers /> */}
 			{/* <Contact /> */}
 			<Footer />
-		</>
+		</section>
 	)
 }
 
