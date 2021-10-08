@@ -21,7 +21,6 @@ code {
 }
 #about,
 #values,
-#contact,
 #team,
 #home,
 #services {
@@ -32,4 +31,5 @@ code {
 	align-items: center;
 	font-size: 3rem;
 	padding-top: 130px;
+	min-width: 360px;
 }

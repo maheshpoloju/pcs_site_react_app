@@ -69,7 +69,7 @@ const ContactUs = () => {
 		}
 	}
 	return (
-		<div className='contact'>
+		<section id='contact' className='contact mb-5'>
 			<div className='container aos-init aos-animate' data-aos='fade-up'>
 				<div
 					className='row aos-init aos-animate'
@@ -230,7 +230,7 @@ const ContactUs = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 

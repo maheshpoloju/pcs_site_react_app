@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
-import NavBar from './components/NavBar'
+
 import Home from './pages/Home'
-import Footer from './components/Footer'
 
 import './App.css'
 
@@ -22,8 +21,7 @@ function App() {
 		<>
 			<div className='container-fluid'>
 				<div className='row'>
-					<div className='col-12  web-container d-flex justify-content-center align-items-center'>
-						<NavBar />
+					<div className='col-12  web-container '>
 						<Switch>
 							<Route path='/' exact={true}>
 								<Home />
@@ -36,7 +34,6 @@ function App() {
 							</Route>
 							<Redirect to='/'></Redirect>
 						</Switch>
-						<Footer />
 					</div>
 				</div>
 			</div>

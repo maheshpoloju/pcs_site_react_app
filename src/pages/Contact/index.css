@@ -1,11 +1,11 @@
 .breadcrumb-container {
-	position: absolute;
 	width: 100vw;
 	background: #565dab;
+	margin-top: 100px;
 	padding: 50px 0;
-	top: 100px;
 	margin-bottom: 2rem;
 	height: auto;
+	position: relative;
 }
 .breadcrumb-container i {
 	font-size: 3rem;
@@ -50,6 +50,8 @@
 
 .breadcrumb-container li a {
 	color: #fff;
+}
+#contact {
 }
 .contact {
 	height: auto;

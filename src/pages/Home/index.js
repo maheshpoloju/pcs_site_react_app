@@ -1,5 +1,7 @@
 import React from 'react'
 import Banner from '../../components/Banner'
+import Footer from '../../components/Footer'
+import NavBar from '../../components/NavBar'
 import Navbar from '../../components/NavBar'
 import About from '../About'
 import BOT from '../BOT'
@@ -16,6 +18,7 @@ import './index.css'
 function Home() {
 	return (
 		<>
+			<NavBar />
 			<Banner />
 			<About />
 			<Clients />
@@ -26,6 +29,7 @@ function Home() {
 			{/* <Portfolio /> */}
 			{/* <Careers /> */}
 			{/* <Contact /> */}
+			<Footer />
 		</>
 	)
 }

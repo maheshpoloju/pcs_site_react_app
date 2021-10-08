@@ -1,5 +1,9 @@
 // eslint-disable-next-line
 import React, { useRef, useState } from 'react'
+import { Breadcrumb } from 'react-bootstrap'
+import { NavHashLink } from 'react-router-hash-link'
+import Footer from '../../components/Footer'
+import NavBar from '../../components/NavBar'
 import ContactUs from './ContactUs'
 
 import './index.css'
@@ -9,8 +13,9 @@ import './index.css'
 const Contact = () => {
 	return (
 		<>
-			{/* <div className='col-12 breadcrumb-container '>
-				<i class='fas fa-arrow-circle-left'></i>
+			<NavBar />
+			<section className='col-12 breadcrumb-container '>
+				<i className='fas fa-arrow-circle-left'></i>
 				<div className='d-flex flex-column justify-content-center align-items-center'>
 					<h2>Contact-Us</h2>
 					<Breadcrumb>
@@ -20,8 +25,10 @@ const Contact = () => {
 						<Breadcrumb.Item active>Contact-Us</Breadcrumb.Item>
 					</Breadcrumb>
 				</div>
-			</div> */}
+			</section>
+			{/* <div style={{ color: 'red' }}>Contact</div> */}
 			<ContactUs />
+			<Footer />
 		</>
 	)
 }
