@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
-import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
 import pcsLogo from '../../assets/images/pcs-logo.png'
 import './index.css'
+import { NavHashLink as Link } from 'react-router-hash-link'
 
 import { items } from './content'
 
-function Navbar() {
+function NavBar() {
 	const [click, setClick] = useState(false)
 	const [isActive, setIsActive] = useState(true)
 	const [changeNavbar, setChangeNavbar] = useState(false)
@@ -35,11 +37,11 @@ function Navbar() {
 				'>
 				<Link
 					to='hero'
-					spy={true}
+					spy='true'
 					smooth={true}
 					duration={100}
-					hashSpy={true}
-					isDynamic={true}
+					hashspy='true'
+					isdynamic='true'
 					className='logo'>
 					<img src={pcsLogo} alt='pcs logo' />
 				</Link>
@@ -51,15 +53,14 @@ function Navbar() {
 						{items.map((each, index) => (
 							<Link
 								className={`nav-link scrollto d-flex justify-content-center align-items-center`}
-								exact
 								to={each.to}
 								activeclassname={` ${isActive ? `active` : ''}`}
 								key={index}
-								spy={true}
+								spy='true'
 								smooth={true}
 								duration={100}
-								hashSpy={true}
-								isDynamic={false}
+								hashspy='true'
+								isdynamic='false'
 								onClick={() => {
 									setIsActive(isActive)
 									if (click) {
@@ -74,8 +75,8 @@ function Navbar() {
 					<i
 						className={
 							click
-								? 'bi bi-x mobile-nav-toggle'
-								: 'bi bi-list mobile-nav-toggle'
+								? 'fas fa-times mobile-nav-toggle i-pcs-color'
+								: 'fas fa-bars mobile-nav-toggle i-white-color'
 						}
 						onClick={() => setClick(!click)}></i>
 				</nav>
@@ -84,4 +85,4 @@ function Navbar() {
 	)
 }
 
-export default Navbar
+export default NavBar

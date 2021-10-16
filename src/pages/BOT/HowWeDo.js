@@ -45,8 +45,10 @@ const Howwedo = () => {
 					</div>
 					<div className='col-lg-8'>
 						<div className='row'>
-							{tabContent.map((each) => (
-								<div className='col-md-6 d-flex align-items-stretch mb-4 mr-2'>
+							{tabContent.map((each, index) => (
+								<div
+									key={index}
+									className='col-md-6 d-flex align-items-stretch mb-4 mr-2'>
 									<div
 										className='icon-box aos-init aos-animate rounded-4'
 										data-aos='zoom-in'

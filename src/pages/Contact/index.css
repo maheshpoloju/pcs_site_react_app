@@ -1,5 +1,18 @@
+/* new styles */
+#contact-us {
+	width: 100%;
+	min-height: 100vh;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
 .contact {
-	padding-top: 130px;
+	height: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .contact .info-box {
 	text-align: left;
@@ -143,29 +156,27 @@ button:disabled {
 	pointer-events: all !important;
 }
 
-/* Modal */
-
-.modal {
+.contact .modal {
 	font-size: 12px;
 }
-.modal > .header {
+.contact .modal > .header {
 	width: 100%;
 	border-bottom: 1px solid gray;
 	font-size: 18px;
 	text-align: center;
 	padding: 5px;
 }
-.modal > .content {
+.contact .modal > .content {
 	width: 100%;
 	padding: 10px 5px;
 }
-.modal > .actions {
+.contact .modal > .actions {
 	width: 100%;
 	padding: 10px 5px;
 	margin: auto;
 	text-align: center;
 }
-.modal > .close {
+.contact .modal > .close {
 	cursor: pointer;
 	position: absolute;
 	display: block;
@@ -195,39 +206,39 @@ button:disabled {
 		box-shadow: 0 0 500px rgba(241, 241, 241, 0);
 	}
 }
-.popup-content {
+.contact .popup-content {
 	animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
 
 	-webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
 }
 
-.notification-container {
+.contact .notification-container {
 	min-width: 100px !important;
 	height: auto !important;
 	font-size: 1rem !important;
 	background: #28a745 !important;
 }
 
-.notification-body {
+.contact .notification-body {
 	font-size: 1rem !important;
 	background: #28a745 !important;
 	color: #fff;
 }
-.toast-container {
+.contact .toast-container {
 	background: #28a745 !important;
 	width: 100% !important;
 }
-.toast-container button {
+.contact .toast-container button {
 	color: #fff !important;
 	font-size: 2rem;
 	opacity: 1 !important;
 }
-/* success animation */
-.success-animation {
+
+.contact .success-animation {
 	margin: 150px auto;
 }
 
-.checkmark {
+.contact .checkmark {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -242,7 +253,7 @@ button:disabled {
 	right: 5px;
 	margin: 0 auto;
 }
-.checkmark__circle {
+.contact .checkmark__circle {
 	stroke-dasharray: 166;
 	stroke-dashoffset: 166;
 	stroke-width: 2;
@@ -252,7 +263,7 @@ button:disabled {
 	animation: stroke 3s cubic-bezier(0.65, 0, 0.45, 1) infinite;
 }
 
-.checkmark__check {
+.contact .checkmark__check {
 	transform-origin: 50% 50%;
 	stroke-dasharray: 48;
 	stroke-dashoffset: 48;
@@ -281,4 +292,48 @@ button:disabled {
 		box-shadow: inset 0px 0px 0px 30px #565dab;
 	}
 }
-/* another */
+
+.breadcrumbs {
+	padding: 50px 0 15px 0;
+	background: #fff;
+	min-height: 40px;
+}
+@media (max-width: 992px) {
+	.breadcrumbs {
+		margin-top: 130px;
+	}
+}
+.breadcrumbs h2 {
+	font-size: 28px;
+	margin-bottom: 0;
+	font-weight: 300;
+}
+.breadcrumbs ol {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+
+	margin: 0;
+	font-size: 1.5rem;
+	color: #565dab;
+}
+.breadcrumbs ol li + li {
+	padding-left: 10px;
+}
+.breadcrumbs ol li + li::before {
+	display: inline-block;
+	padding-right: 10px;
+	color: #fff;
+	content: '/';
+}
+@media (max-width: 768px) {
+	.breadcrumbs .d-flex {
+		display: block !important;
+	}
+	.breadcrumbs ol {
+		display: block;
+	}
+	.breadcrumbs ol li {
+		display: inline-block;
+	}
+}

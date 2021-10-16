@@ -16,21 +16,21 @@ code {
 
 .web-container {
 	min-height: 100vh;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
 }
 #about,
-#careers,
-#contact,
+#values,
 #team,
-#technologies,
 #home,
 #services {
 	min-height: 100vh;
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 3rem;
 	padding-top: 130px;
+	min-width: 360px;
 }

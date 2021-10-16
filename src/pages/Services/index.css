@@ -1,100 +1,101 @@
 .services .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
-  border-radius: 8px;
-  z-index: 1;
-  margin-bottom: 15px;
-  border: 2px solid #565dab;
+	padding: 30px;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+	transition: all 0.3s ease-in-out;
+	border-radius: 8px;
+	z-index: 1;
+	margin-bottom: 15px;
+	border: 2px solid #565dab;
 }
 .services .icon-box::before {
-  content: "";
-  position: absolute;
-  background: #565dab80;
-  right: -60px;
-  top: -40px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  transition: all 0.3s;
-  z-index: -1;
+	content: '';
+	position: absolute;
+	background: #565dab80;
+	right: -60px;
+	top: -40px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	transition: all 0.3s;
+	z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #565dab;
-  right: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 0px;
+	background: #565dab;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
 }
 .services .icon {
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  background: #fff;
-  transition: all 0.3s ease-in-out;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	transition: all 0.3s ease-in-out;
 }
 
 .services .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 18px;
 }
-.services .title{
-  color: #425451;
-  margin-top: 8px;
+.services .title {
+	color: #425451;
+	margin-top: 8px;
 }
 .services .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
+	font-size: 15px;
+	line-height: 28px;
+	margin-bottom: 0;
 }
-.services .icon-box:hover .title, .services .icon-box:hover .description {
-  color: #fff;
+.services .icon-box:hover .title,
+.services .icon-box:hover .description {
+	color: #fff;
 }
 .services .icon-box:hover .icon {
-  background: #fff;
+	background: #fff;
 }
 .services .icon-box:hover .read-more-trigger {
- border: 1px solid white;
+	border: 1px solid white;
 }
 
 .service-title {
 	position: relative;
-  display: inline-block;
+	display: inline-block;
 }
-.services-title-heading{
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  margin: 0;
-  color: #565dab;
-  text-transform: uppercase;
+.services-title-heading {
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	margin: 0;
+	color: #565dab;
+	text-transform: uppercase;
 }
-.technology-sub-heading{
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-size: 38px;
-  line-height: 42px;
-  font-weight: 700;
-  color: #012970;
-  text-transform: uppercase;
+.technology-sub-heading {
+	margin: 10px 0 0 0;
+	padding: 0;
+	font-size: 38px;
+	line-height: 42px;
+	font-weight: 700;
+	color: #012970;
+	text-transform: uppercase;
 }
-.services-title-description{
-  font-size: 16px;
+.services-title-description {
+	font-size: 16px;
 }
-.service-icon{
-  height: 40px;
-  margin-bottom: 20px;
-  font-size: 13px;
-  filter: invert(28%) sepia(87%) saturate(836%) hue-rotate(209deg) brightness(93%) contrast(72%);
+.service-icon {
+	height: 80px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	/* filter: invert(28%) sepia(87%) saturate(836%) hue-rotate(209deg) brightness(93%) contrast(72%); */
 }
 
-.services-description{
-  font-size: 14px;
+.services-description {
+	font-size: 14px;
 }

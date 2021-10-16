@@ -61,7 +61,7 @@ export const tabContents = {
 		},
 		{
 			title: 'Operate',
-			description: 'perate in Steady and stealth mode',
+			description: 'Operate in Steady and stealth mode',
 		},
 	],
 	3: [
@@ -91,7 +91,7 @@ export const phasesHeading = {
 
 export const howWeDoHeading = {
 	title: 'How We Do it ?',
-	description: 'Scale in India, scale with us.',
+	description: 'Scale in India, Scale with us.',
 }
 
 export const howWeDOTabs = [
@@ -188,7 +188,7 @@ export const howCanWeContent = {
 			title: 'You Win We Win',
 			description:
 				'We will have our skin in the game for Your success, and we benefit for showing positive outcomes for company',
-			icon: 'bi bi-calendar4-week',
+			icon: 'bi bi-trophy',
 			style: '#a00098;',
 		},
 	],

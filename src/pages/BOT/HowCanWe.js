@@ -14,8 +14,8 @@ const Howcanwe = () => {
 				</div>
 
 				<div className='row'>
-					{howCanWeContent.points.map((each) => (
-						<div className='col-md-6'>
+					{howCanWeContent.points.map((each, index) => (
+						<div key={index} className='col-md-6'>
 							<div
 								className='icon-box aos-init aos-animate'
 								data-aos='fade-up'

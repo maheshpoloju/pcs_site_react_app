@@ -17,7 +17,7 @@ function Footer() {
 								<strong className='mb-4'>{footer.subtitle}</strong>
 							</h5>
 							<div className='d-flex p-2'>
-								<i class='fas fa-map-marker-alt m-2'></i>
+								<i className='fas fa-map-marker-alt m-2'></i>
 								<p>
 									{footer.address.india[1]}
 									<br />
@@ -31,31 +31,31 @@ function Footer() {
 								</p>
 							</div>
 							<div className='d-flex align-items-center'>
-								<i class='far fa-envelope p-2'></i>
+								<i className='far fa-envelope p-2'></i>
 								<strong>{footer.email}</strong>
 							</div>
 							<br />
 							<div className='d-flex align-items-center'>
-								<i class='fas fa-mobile-alt p-2'></i>
+								<i className='fas fa-mobile-alt p-2'></i>
 								<strong>{footer.contact}</strong>
 							</div>
 
 							<h4 className='mt-4'>{footer.socialHeading}</h4>
 							<div className='social-links mt-3'>
 								<a href='google' className='twitter'>
-									<i class='fab fa-twitter'></i>
+									<i className='fab fa-twitter'></i>
 								</a>
 								<a href='google' className='facebook'>
-									<i class='fab fa-facebook-f'></i>
+									<i className='fab fa-facebook-f'></i>
 								</a>
 								<a href='google' className='instagram'>
-									<i class='fab fa-instagram'></i>
+									<i className='fab fa-instagram'></i>
 								</a>
 								<a href='google' className='google-plus'>
-									<i class='fab fa-skype'></i>
+									<i className='fab fa-skype'></i>
 								</a>
 								<a href='google' className='linkedin'>
-									<i class='fab fa-linkedin-in'></i>
+									<i className='fab fa-linkedin-in'></i>
 								</a>
 							</div>
 						</div>
@@ -64,35 +64,35 @@ function Footer() {
 							<h4>{footer.quickLinksHeading}</h4>
 							<ul className='col-6'>
 								<li className='col-6'>
-									<i class='fas fa-angle-double-right'></i>
+									<i className='fas fa-angle-double-right'></i>
 									<Link to='about'>{footer.quickLinks[0]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-angle-double-right'></i>
+									<i className='fas fa-angle-double-right'></i>
 									<Link to='clients'>{footer.quickLinks[1]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-angle-double-right'></i>
+									<i className='fas fa-angle-double-right'></i>
 									<Link to='services'>{footer.quickLinks[2]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-angle-double-right'></i>
+									<i className='fas fa-angle-double-right'></i>
 									<Link to='team'>{footer.quickLinks[3]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-angle-double-right'></i>
+									<i className='fas fa-angle-double-right'></i>
 									<Link to='bot'>{footer.quickLinks[4]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-angle-double-right'></i>
+									<i className='fas fa-angle-double-right'></i>
 									<Link to='technologies'>{footer.quickLinks[5]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-angle-double-right'></i>
+									<i className='fas fa-angle-double-right'></i>
 									<Link to='careers'>{footer.quickLinks[6]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-angle-double-right'></i>
+									<i className='fas fa-angle-double-right'></i>
 									<Link to='contact'>{footer.quickLinks[7]}</Link>
 								</li>
 							</ul>
@@ -101,7 +101,7 @@ function Footer() {
 						<div className='col-lg-4 col-md-6 footer-links'>
 							<h4>Address India</h4>
 							<div className='d-flex'>
-								<i class='fas fa-map-marker-alt'></i>
+								<i className='fas fa-map-marker-alt'></i>
 								<p>
 									PCS IT Solutions Pvt Ltd, <br />
 									2nd Floor, Godrej Millennium,
@@ -114,7 +114,7 @@ function Footer() {
 								</p>
 							</div>
 							<div className='d-flex '>
-								<i class='fas fa-map-marker-alt'></i>
+								<i className='fas fa-map-marker-alt'></i>
 								<p>
 									PCS IT Solutions Pvt Ltd,
 									<br />
@@ -128,12 +128,12 @@ function Footer() {
 								</p>
 							</div>
 							<div className='d-flex align-items-center'>
-								<i class='far fa-envelope'></i>
+								<i className='far fa-envelope'></i>
 								<strong>anu@pcsitspl.com</strong>
 							</div>
 							<br />
 							<div className='d-flex align-items-center'>
-								<i class='fas fa-mobile-alt'></i>
+								<i className='fas fa-mobile-alt'></i>
 								<strong>+ (1) 949 981 4976</strong>
 							</div>
 

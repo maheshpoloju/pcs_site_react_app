@@ -91,17 +91,17 @@ const Contact = () => {
 
 	return (
 		<div className='mt-3'>
-			<section id='contact' class='contact'>
-				<div class='container'>
-					<header class='section-header' className='layout'>
+			<section id='contact' className='contact'>
+				<div className='container'>
+					<header className='section-header' className='layout'>
 						<p className='heading mb-4'>Contact Us</p>
 					</header>
 
-					<div class='row gy-4'>
-						<div class='col-lg-6'>
-							<div class='row gy-4'>
-								<div class='col-md-6'>
-									<div class='info-box'>
+					<div className='row gy-4'>
+						<div className='col-lg-6'>
+							<div className='row gy-4'>
+								<div className='col-md-6'>
+									<div className='info-box'>
 										<div className='icon'>{contact.address.icon}</div>
 										<h3 className='addressheading'>{contact.addresss.title}</h3>
 										{contact.addresss.addresses1.map((item, index) => (
@@ -120,8 +120,8 @@ const Contact = () => {
 									</div>
 								</div>
 
-								<div class='col-md-6'>
-									<div class='info-box'>
+								<div className='col-md-6'>
+									<div className='info-box'>
 										<div className='icon'>{contact.address.icon}</div>
 										<h3 className='addressheading'>{contact.address.title}</h3>
 										{contact.address.addresses.map((item, index) => (
@@ -134,8 +134,8 @@ const Contact = () => {
 									</div>
 								</div>
 
-								<div class='col-md-6 mt-4'>
-									<div class='info-box'>
+								<div className='col-md-6 mt-4'>
+									<div className='info-box'>
 										<div className='icon'>{contact.email.icon}</div>
 										<h3 className='addressheading'>Mail Here</h3>
 										<p>
@@ -155,8 +155,8 @@ const Contact = () => {
 									</div>
 								</div>
 
-								<div class='col-md-6 mt-4'>
-									<div class='info-box'>
+								<div className='col-md-6 mt-4'>
+									<div className='info-box'>
 										<div className='icon'>{contact.phone.icon}</div>
 										<h3 className='addressheading'>Call Here</h3>
 										{contact.phone.phones.map((item, index) => (
@@ -167,10 +167,10 @@ const Contact = () => {
 							</div>
 						</div>
 
-						<div class='col-lg-6'>
-							<form onSubmit={sentEmail} class='php-email-form'>
-								<div class='row gy-4'>
-									<div class='col-md-6'>
+						<div className='col-lg-6'>
+							<form onSubmit={sentEmail} className='php-email-form'>
+								<div className='row gy-4'>
+									<div className='col-md-6'>
 										<input
 											type='text'
 											name='name'
@@ -189,7 +189,7 @@ const Contact = () => {
 										})}
 									</div>
 
-									<div class='col-md-6'>
+									<div className='col-md-6'>
 										<PhoneInput
 											placeholder='Your Number'
 											type='text'
@@ -217,7 +217,7 @@ const Contact = () => {
 										})}
 									</div>
 
-									<div class='col-md-6'>
+									<div className='col-md-6'>
 										<input
 											type='text'
 											placeholder='Your Email'
@@ -236,7 +236,7 @@ const Contact = () => {
 										})}
 									</div>
 
-									<div class='col-md-6'>
+									<div className='col-md-6'>
 										<input
 											type='text'
 											name='address'
@@ -256,7 +256,7 @@ const Contact = () => {
 										})}
 									</div>
 
-									<div class='col-md-12' className='area'>
+									<div className='col-md-12' className='area'>
 										<textarea
 											name='message'
 											rows='5'
@@ -274,7 +274,7 @@ const Contact = () => {
 											)
 										})}
 									</div>
-									<div class='col-md-12 text-center'>
+									<div className='col-md-12 text-center'>
 										<input
 											type='submit'
 											value='Send Message'
