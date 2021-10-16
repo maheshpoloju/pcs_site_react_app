@@ -8,16 +8,6 @@
 		"@testing-library/user-event": "^12.8.3",
 		"aos": "^2.3.4",
 		"bootstrap": "^5.1.1",
-<<<<<<< HEAD
-		"react": "^17.0.2",
-		"react-bootstrap": "^2.0.0-rc.0",
-		"react-dom": "^17.0.2",
-		"react-router-dom": "^5.3.0",
-		"react-scripts": "4.0.3",
-		"react-scroll": "^1.8.4",
-		"react-simple-typewriter": "^3.0.1",
-		"styled-components": "^5.3.1",
-=======
 		"emailjs-com": "^3.2.0",
 		"install": "^0.13.0",
 		"react": "^17.0.2",
@@ -33,7 +23,6 @@
 		"react-scroll": "^1.8.4",
 		"styled-components": "^5.3.1",
 		"swiper": "^6.0.2",
->>>>>>> 11bde4adbc58528d52703023ee0ec14c6b2fe039
 		"web-vitals": "^1.1.2"
 	},
 	"scripts": {
