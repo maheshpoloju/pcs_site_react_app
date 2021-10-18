@@ -43,17 +43,6 @@ const Jobs = (props) => {
 						</div>
 					))}{' '}
 				</div>
-				{/* {jobsList.map((each, index) => (
-					<div className='row mb-6' key={index}>
-						<div className='col-12 mb-4'>
-							<div className='card bg-primary border-0 text-white'>
-								<div className='card-body p-4 p-lg-5'>
-									<Jobs />
-								</div>
-							</div>
-						</div>
-					</div>
-				))} */}
 			</div>
 		</section>
 	)

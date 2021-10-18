@@ -1,14 +1,8 @@
 import React from 'react'
 import { Route, Switch, useRouteMatch } from 'react-router'
-import { Link } from 'react-router-dom'
-import JobJdNew from '../../components/JobJdNew'
-import Jobjd from '../../components/JobJd'
-import { JDS } from '../../components/JobJdContent'
+import { NavHashLink as Link } from 'react-router-hash-link'
 
-import CareerPage from './CareerPage'
-import Careers from '.'
-import { contact } from '../Contact/content'
-import Contact from '../Contact'
+import Jobjd from '../../components/JobJd'
 
 const Jobitem = (props) => {
 	const { path, url } = useRouteMatch()
@@ -48,7 +42,8 @@ const Jobitem = (props) => {
 						Apply
 					</Link>
 					<Link
-						to={`${url}/python`}
+						// to={`${url}/python`}
+						to='/careers/python-developer/'
 						className='btn btn-white text-primary animate-up-2 m-0'>
 						<i className='fas fa-clipboard-list mr-2'></i>
 						See Details
@@ -57,7 +52,9 @@ const Jobitem = (props) => {
 			</div>
 			<Switch>
 				<Route
-					path={`${path}/python`}
+					// path={`${path}/python`}
+					exact
+					path='/careers/python-developer/'
 					// component={() => <Jobjd data={JDS[0]} />}
 					component={<Jobjd />}
 				/>

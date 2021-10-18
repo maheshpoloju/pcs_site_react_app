@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import './index.css'
 import NavBar from '../../components/NavBar'
-
-import CareerPage from './CareerPage'
+import BreadCrumb from '../../components/BreadCrumb'
+import Whyworkwithus from './WhyWorkWithUs'
 
 function Careers() {
 	useEffect(() => {
@@ -12,7 +12,10 @@ function Careers() {
 	return (
 		<>
 			<NavBar />
-			<CareerPage />
+			<section id='careers' style={{ border: '1px solid red' }}>
+				<BreadCrumb title={'careers'} />
+				<Whyworkwithus />
+			</section>
 		</>
 	)
 }

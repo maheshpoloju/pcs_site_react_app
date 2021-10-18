@@ -28,10 +28,10 @@ function App() {
 							<Route path='/'>
 								<Home />
 							</Route>
-							<Route path='/contact'>
+							<Route exact path='/contact'>
 								<Contact />
 							</Route>
-							<Route path='/careers'>
+							<Route exact path='/careers'>
 								<Careers />
 							</Route>
 							{/* <Route
