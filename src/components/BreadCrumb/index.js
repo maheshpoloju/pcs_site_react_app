@@ -12,7 +12,7 @@ const BreadCrumb = (props) => {
 						<h2 className='text-primary mb-3'>
 							<NavHashLink to='/'>
 								<span>
-									<i class='fas fa-chevron-circle-left'></i>
+									<i className='fas fa-chevron-circle-left'></i>
 								</span>
 							</NavHashLink>{' '}
 							{props.title}
@@ -22,7 +22,7 @@ const BreadCrumb = (props) => {
 								<NavHashLink to='/'>Home</NavHashLink>
 							</li>
 							<li className='breadcrumb-items active'>
-								<i class='fas fa-chevron-right'></i>
+								<i className='fas fa-chevron-right'></i>
 								<span>{props.title}</span>
 							</li>
 						</ol>

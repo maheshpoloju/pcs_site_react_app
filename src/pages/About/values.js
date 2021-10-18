@@ -21,7 +21,7 @@ const Values = () => {
 				</header>
 
 				<div className='row'>
-					<div className='col-lg-4'>
+					<div className='col-lg-4 mt-4  mb-4  '>
 						<div className='box ' data-aos='fade-up' data-aos-delay='200'>
 							<img src={values1} className='img-fluid' alt='' />
 							<h3>Faster Time to Market </h3>
@@ -33,7 +33,7 @@ const Values = () => {
 						</div>
 					</div>
 
-					<div className='col-lg-4 mt-4 mt-lg-0'>
+					<div className='col-lg-4 mt-4  mb-4 '>
 						<div className='box ' data-aos='fade-up' data-aos-delay='400'>
 							<img src={values2} className='img-fluid' alt='' />
 							<h3>Niche Technologies</h3>
@@ -44,35 +44,35 @@ const Values = () => {
 						</div>
 					</div>
 
-					<div className='col-lg-4 mt-4 mt-lg-0'>
+					<div className='col-lg-4 mt-4  mb-4 '>
 						<div className='box ' data-aos='fade-up' data-aos-delay='600'>
 							<img src={values3} className='img-fluid' alt='' />
 							<h3>E2E Execution</h3>
 							<p>Managed Services with end to end execution of projects</p>
 						</div>
 					</div>
-					<div className='col-12 d-flex justify-content-center'>
-						<div className='col-lg-4 mt-4 mt-lg-0'>
-							<div className='box ' data-aos='fade-up' data-aos-delay='600'>
-								<img src={values4} className='img-fluid' alt='' />
-								<h3>Flexible Engagements</h3>
-								<p>
-									Engagement models suitable for wide variety of organizations
-									requirements.
-								</p>
-							</div>
-						</div>
-						<div className='col-lg-4 mt-4 mt-lg-0'>
-							<div className='box ' data-aos='fade-up' data-aos-delay='600'>
-								<img src={values5} className='img-fluid' alt='' />
-								<h3>Right Location</h3>
-								<p>
-									Compliment existing teams in Europe to scale rapidly with
-									follow the sun approach and cost advantage
-								</p>
-							</div>
+					{/* <div className='col-12 d-flex justify-content-center'> */}
+					<div className='col-lg-4 mt-4  mb-4 mx-auto'>
+						<div className='box ' data-aos='fade-up' data-aos-delay='600'>
+							<img src={values4} className='img-fluid' alt='' />
+							<h3>Flexible Engagements</h3>
+							<p>
+								Engagement models suitable for wide variety of organizations
+								requirements.
+							</p>
 						</div>
 					</div>
+					<div className='col-lg-4 mt-4 mb-4 mx-auto'>
+						<div className='box ' data-aos='fade-up' data-aos-delay='600'>
+							<img src={values5} className='img-fluid' alt='' />
+							<h3>Right Location</h3>
+							<p>
+								Compliment existing teams in Europe to scale rapidly with follow
+								the sun approach and cost advantage
+							</p>
+						</div>
+					</div>
+					{/* </div> */}
 				</div>
 			</div>
 		</section>

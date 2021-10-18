@@ -1,5 +1,12 @@
 import React from 'react'
 
+import responsiveWeb from '../../assets/icons/responsive.png'
+import react from '../../assets/icons/react.png'
+import android from '../../assets/icons/android.png'
+import ui from '../../assets/icons/ui.png'
+import phpCode from '../../assets/icons/php-code.png'
+import ios from '../../assets/icons/ios.png'
+
 const Features = () => {
 	return (
 		<section id='features' className='features'>
@@ -8,8 +15,8 @@ const Features = () => {
 					<div
 						className='section-title aos-init aos-animate'
 						data-aos='fade-down'>
-						<h2 className='text-center'>Our Functions</h2>
-						<span className='text-center'>Our Functions</span>
+						<h2 className='text-center'>Functions</h2>
+						<span className='text-center'>Functions</span>
 					</div>
 					<p>
 						We want to be your preferred partner for your product development.
@@ -28,7 +35,7 @@ const Features = () => {
 								data-aos='zoom-out'
 								data-aos-delay='200'>
 								<div className='feature-box d-flex align-items-center'>
-									<i className='bi bi-check'></i>
+									<i className='far fa-check-square'></i>
 									<h3>Competent employees</h3>
 								</div>
 							</div>
@@ -38,7 +45,7 @@ const Features = () => {
 								data-aos='zoom-out'
 								data-aos-delay='300'>
 								<div className='feature-box d-flex align-items-center'>
-									<i className='bi bi-check'></i>
+									<i className='far fa-check-square'></i>
 									<h3>Warm customer approach</h3>
 								</div>
 							</div>
@@ -48,7 +55,7 @@ const Features = () => {
 								data-aos='zoom-out'
 								data-aos-delay='400'>
 								<div className='feature-box d-flex align-items-center'>
-									<i className='bi bi-check'></i>
+									<i className='far fa-check-square'></i>
 									<h3>Our own recommendation system</h3>
 								</div>
 							</div>
@@ -58,7 +65,7 @@ const Features = () => {
 								data-aos='zoom-out'
 								data-aos-delay='500'>
 								<div className='feature-box d-flex align-items-center'>
-									<i className='bi bi-check'></i>
+									<i className='far fa-check-square'></i>
 									<h3>Global connection</h3>
 								</div>
 							</div>
@@ -68,7 +75,7 @@ const Features = () => {
 								data-aos='zoom-out'
 								data-aos-delay='600'>
 								<div className='feature-box d-flex align-items-center'>
-									<i className='bi bi-check'></i>
+									<i className='far fa-check-square'></i>
 									<h3>Track record</h3>
 								</div>
 							</div>
@@ -78,7 +85,7 @@ const Features = () => {
 								data-aos='zoom-out'
 								data-aos-delay='700'>
 								<div className='feature-box d-flex align-items-center'>
-									<i className='bi bi-check'></i>
+									<i className='far fa-check-square'></i>
 									<h3>Open to opportunities</h3>
 								</div>
 							</div>
@@ -92,7 +99,7 @@ const Features = () => {
 					<div className='col-lg-6'>
 						<div className='tab-content'>
 							<div className='d-flex align-items-center mb-2'>
-								<i className='bi bi-check2'></i>
+								<i className='fas fa-check-double'></i>
 								<h4>Our history</h4>
 							</div>
 							<p>
@@ -101,7 +108,7 @@ const Features = () => {
 								companies.
 							</p>
 							<div className='d-flex align-items-center mb-2'>
-								<i className='bi bi-check2'></i>
+								<i className='fas fa-check-double'></i>
 								<h4>Our task</h4>
 							</div>
 							<p>
@@ -109,7 +116,7 @@ const Features = () => {
 								development.
 							</p>
 							<div className='d-flex align-items-center mb-2'>
-								<i className='bi bi-check2'></i>
+								<i className='fas fa-check-double'></i>
 								<h4>Who we are</h4>
 							</div>
 							<p>
@@ -129,6 +136,12 @@ const Features = () => {
 					className='row feature-icons aos-init aos-animate'
 					data-aos='fade-up'>
 					<h3>Design & Development</h3>
+					<div
+						className='section-title aos-init aos-animate'
+						data-aos='fade-down'>
+						<h2 className='text-center'>Design & Development</h2>
+						<span className='text-center'>Design & Development</span>
+					</div>
 
 					<div className='row'>
 						<div
@@ -147,7 +160,8 @@ const Features = () => {
 								<div
 									className='col-md-6 icon-box aos-init aos-animate'
 									data-aos='fade-up'>
-									<i className='bi bi-window '></i>
+									<img src={responsiveWeb} alt='responsive web' />
+
 									<div>
 										<h4> Responsive design</h4>
 										<p>
@@ -161,7 +175,7 @@ const Features = () => {
 									className='col-md-6 icon-box aos-init aos-animate '
 									data-aos='fade-up'
 									data-aos-delay='100'>
-									<i className='bi bi-code-square'></i>
+									<img src={react} alt='responsive web' />
 									<div>
 										<h4> React Web Developement</h4>
 										<p>
@@ -175,7 +189,7 @@ const Features = () => {
 									className='col-md-6 icon-box aos-init aos-animate'
 									data-aos='fade-up'
 									data-aos-delay='200'>
-									<i className='bi bi-phone'></i>
+									<img src={android} alt='responsive web' />
 									<div>
 										<h4> Android apps development</h4>
 										<p>
@@ -189,7 +203,7 @@ const Features = () => {
 									className='col-md-6 icon-box aos-init aos-animate'
 									data-aos='fade-up'
 									data-aos-delay='300'>
-									<i className='ri-magic-line'></i>
+									<img src={ui} alt='responsive web' />
 									<div>
 										<h4>UX/UI design</h4>
 										<p>
@@ -203,7 +217,7 @@ const Features = () => {
 									className='col-md-6 icon-box aos-init aos-animate '
 									data-aos='fade-up'
 									data-aos-delay='400'>
-									<i className='ri-command-line'></i>
+									<img src={phpCode} alt='responsive web' />
 									<div>
 										<h4>Laravel web development</h4>
 										<p>
@@ -217,7 +231,7 @@ const Features = () => {
 									className='col-md-6 icon-box aos-init aos-animate '
 									data-aos='fade-up'
 									data-aos-delay='500'>
-									<i className='ri-radar-line'></i>
+									<img src={ios} alt='responsive web' />
 									<div>
 										<h4> iOS apps development</h4>
 										<p>

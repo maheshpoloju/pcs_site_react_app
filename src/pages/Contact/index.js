@@ -1,7 +1,6 @@
 // eslint-disable-next-line
 import React, { useRef, useState } from 'react'
-import { Breadcrumb } from 'react-bootstrap'
-import { NavHashLink } from 'react-router-hash-link'
+
 import BreadCrumb from '../../components/BreadCrumb'
 import Footer from '../../components/Footer'
 import NavBar from '../../components/NavBar'

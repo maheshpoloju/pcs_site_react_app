@@ -664,7 +664,7 @@ i.mobile-nav-toggle.i-white-color {
 	outline: none;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
-	/* color: #fff; */
+	color: #fff;
 }
 
 .bot .accordion-list i {
@@ -980,17 +980,17 @@ i.mobile-nav-toggle.i-white-color {
 }
 .features .feature-box i {
 	line-height: 0;
-	background: #ecf3ff;
 	padding: 4px;
 	margin-right: 10px;
 	font-size: 24px;
 	border-radius: 3px;
 	transition: 0.3s;
+	color: #012970;
 }
-.features .feature-box:hover i {
+/* .features .feature-box:hover i {
 	background: #565dab;
 	color: #fff;
-}
+} */
 .features .feture-tabs {
 	margin-top: 120px;
 }
@@ -1059,11 +1059,10 @@ i.mobile-nav-toggle.i-white-color {
 	margin: 0 0 10px 0;
 	color: #012970;
 }
-.features .feature-icons .content .icon-box i {
-	font-size: 44px;
-	line-height: 44px;
-	color: #0245bc;
+.features .feature-icons .content .icon-box img {
+	height: 80px;
 	margin-right: 15px;
+	align-self: center;
 }
 .features .feature-icons .content .icon-box p {
 	font-size: 15px;

@@ -9,6 +9,8 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Contact from './pages/Contact'
 import Careers from './pages/Careers'
+import Jobjd from './components/JobJd'
+import { JDS } from './components/JobJdContent.js'
 
 function App() {
 	useEffect(() => {
@@ -23,15 +25,24 @@ function App() {
 				<div className='row'>
 					<div className='col-12  web-container '>
 						<Switch>
-							<Route path='/' exact={true}>
+							<Route path='/'>
 								<Home />
 							</Route>
-							<Route exact path='/contact'>
+							<Route path='/contact'>
 								<Contact />
 							</Route>
-							<Route exact path='/careers'>
+							<Route path='/careers'>
 								<Careers />
 							</Route>
+							{/* <Route
+								exact
+								path='/careers/python-developer'
+								render={(props) => <Jobjd data={JDS[0]} {...props} />}
+							/> */}
+
+							{/* <Route exact path='/careers/java-developer'>
+								<Jobjd data={JDS[1]} />
+							</Route> */}
 							<Redirect to='/'></Redirect>
 						</Switch>
 					</div>

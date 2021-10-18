@@ -31,8 +31,16 @@ function Banner() {
 					<div
 						className='col-lg-6 d-flex flex-column justify-content-center'
 						data-aos='fade-right'>
-						<h1>{main.title} </h1>
-
+						{/* <h1>{main.title} </h1> */}
+						<h1>
+							We provide
+							<br />
+							<span style={{ color: '#77be45' }}>
+								Perfect & Complete solutions
+							</span>
+							<br />
+							for your business!
+						</h1>
 						<div className='d-flex justify-content-start align-tems-center '>
 							<h2 style={{ fontSize: '2rem' }}>
 								<span>{'    '}</span>{' '}
@@ -67,9 +75,36 @@ function Banner() {
 										align-items-center
 										justify-content-center
 										align-self-center
-									'>
+									'
+									style={{
+										marginRight: '1rem',
+										padding: '1.5rem',
+										border: '1px solid #565dab',
+									}}>
 									<span>{main.button}</span>
-									<i className='bi bi-arrow-right'></i>
+									<i className='fas fa-arrow-right'></i>
+								</a>
+								<a
+									style={{
+										marginRight: '1rem',
+										padding: '1.5rem',
+										color: '#565dab',
+										background: '#fff',
+										border: '1px solid #565dab',
+									}}
+									href='#about'
+									className='
+										btn-get-started
+										scrollto
+										d-inline-flex
+										align-items-center
+										justify-content-center
+										align-self-center
+									'>
+									<i
+										style={{ marginRight: '0.5rem' }}
+										className='fas fa-envelope'></i>
+									<span>Contact</span>
 								</a>
 							</div>
 						</div>
