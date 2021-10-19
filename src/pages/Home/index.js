@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Banner from '../../components/Banner'
 import Footer from '../../components/Footer'
 import NavBar from '../../components/NavBar'
 // import Navbar from '../../components/NavBar'
 import About from '../About'
-import BOT from '../BOT'
+// import BOT from '../BOT'
 // import BOT from '../BOT'
 // import Careers from '../Careers'
 import Clients from '../Clients'
@@ -16,21 +16,24 @@ import Technologies from '../Technologies'
 import './index.css'
 
 function Home() {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 	return (
-		<section>
+		<>
 			<NavBar />
 			<Banner />
 			<About />
 			<Clients />
 			<Services />
 			<Team />
-			<BOT />
+			{/* <BOT /> */}
 			<Technologies />
 			{/* <Portfolio /> */}
 			{/* <Careers /> */}
 			{/* <Contact /> */}
 			<Footer />
-		</section>
+		</>
 	)
 }
 

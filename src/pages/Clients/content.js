@@ -10,7 +10,9 @@ import ImgNYT from '../../assets/img/clients/nyt-logo.jpg'
 import ImgAccenture from '../../assets/img/clients/accenture.png'
 import ImgPrizeLogic from '../../assets/img/clients/prizelogic.svg'
 import ImgEllieMae from '../../assets/img/clients/ellie-mae.png'
-
+import fortifId from '../../assets/img/clients/FortidID.png'
+import mhp from '../../assets/img/clients/mhp.png'
+import usepower from '../../assets/img/clients/usepower.png'
 export const clients = {
 	title: 'Our Clients',
 	desc: 'Meet our happy clients',
@@ -22,6 +24,28 @@ export const clients = {
 			title: 'Ellie Mae',
 			desc: 'clients.desc.11',
 		},
+		{
+			url: 'https://fortifid.com',
+			image: fortifId,
+			alt: 'fortifId',
+			title: 'fortifId',
+			desc: 'clients.desc.0',
+		},
+		{
+			url: 'https://www.myhomepathway.com',
+			image: mhp,
+			alt: 'My Home Pathway',
+			title: 'Mind Therapy Clinic',
+			desc: 'clients.desc.0',
+		},
+		{
+			url: 'https://usepower.com/',
+			image: usepower,
+			alt: 'usepower',
+			title: 'Use Power',
+			desc: 'clients.desc.0',
+		},
+
 		{
 			url: 'https://www.mindtherapyclinic.com',
 			image: ImgMTC,

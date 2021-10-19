@@ -20,7 +20,7 @@ const Whatweneed = () => {
 								className='icon-box aos-init aos-animate'
 								data-aos='fade-up'
 								data-aos-delay='100'>
-								<i className={each.icon} style={{ color: each.color }}></i>
+								<i className={each.icon} style={{ color: each.style }}></i>
 
 								<h4>{each.title}</h4>
 								<p>{each.description}</p>

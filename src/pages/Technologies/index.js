@@ -54,11 +54,12 @@ function Technologies() {
 							clickable: true,
 						}}
 						breakpoints={breakpoints}
-						className='mySwiper'>
+						className='mySwiper'
+						style={{ height: '100%' }}>
 						{technolgies.map((each, index) => (
 							<SwiperSlide key={index}>
 								<i className={each.icon}></i>
-								<div className='d-flex justify-content-center align-items-center'>
+								<div className='d-flex justify-content-center align-items-center h-100'>
 									<h4>{each.title}</h4>
 								</div>
 							</SwiperSlide>

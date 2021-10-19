@@ -1,6 +1,11 @@
 import React from 'react'
 import { Mail, MapPin, Phone } from 'react-feather'
-// eslint-disable-next-line import/prefer-default-export
+
+export const breadCrumbItemsContact = {
+	title1: 'Home',
+	title2: 'Contact Us',
+}
+
 export const contact = {
 	title: 'Contact Us',
 	email: {
