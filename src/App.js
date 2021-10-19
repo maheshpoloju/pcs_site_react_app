@@ -16,8 +16,9 @@ import ApplyForJob from './components/ApplyForJob'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import BreadCrumb from './components/BreadCrumb'
-import ContactWidget from './components/ContactWidget'
+import Widget from './components/Widget'
 // import ContactWidget from './components/ContactWidget'
+// icons
 
 function App() {
 	useEffect(() => {
@@ -36,22 +37,136 @@ function App() {
 							<Route path='/' exact>
 								<>
 									<Home />
-									<ContactWidget />
+									<Widget
+										widgetList={[
+											{
+												icon: <i className='fas fa-chevron-up'></i>,
+												action: 'scroll',
+												title: 'scroll to Top',
+											},
+											{
+												icon: <i className='fas fa-briefcase'></i>,
+												action: '/careers',
+												title: 'Careers',
+											},
+											{
+												icon: <i className='fas fa-envelope'></i>,
+												action: '/contact',
+												title: 'Contact Us',
+											},
+										]}
+									/>
 								</>
 							</Route>
 							<Route path='/bot'>
-								<BOT />
+								<>
+									<BOT />
+									<Widget
+										widgetList={[
+											{
+												icon: <i className='fas fa-chevron-up'></i>,
+												action: 'scroll',
+												title: 'scroll to Top',
+											},
+											{
+												icon: <i className='fas fa-briefcase'></i>,
+												action: '/careers',
+												title: 'Careers',
+											},
+											{
+												icon: <i className='fas fa-envelope'></i>,
+												action: '/contact',
+												title: 'Contact Us',
+											},
+											{
+												icon: <i className='fas fa-home'></i>,
+												action: '/',
+												title: 'Home',
+											},
+										]}
+									/>
+								</>
 							</Route>
 							<Route path='/contact'>
-								<Contact />
+								<>
+									<Contact />
+									<Widget
+										widgetList={[
+											{
+												icon: <i className='fas fa-chevron-up'></i>,
+												action: 'scroll',
+												title: 'scroll to Top',
+											},
+											{
+												icon: <i className='fas fa-briefcase'></i>,
+												action: '/careers',
+												title: 'Careers',
+											},
+											{
+												icon: <i className='fas fa-home'></i>,
+												action: '/',
+												title: 'Home',
+											},
+										]}
+									/>
+								</>
 							</Route>
 							<Route exact path='/careers'>
-								<Careers />
+								<>
+									<Careers />
+									<Widget
+										widgetList={[
+											{
+												icon: <i className='fas fa-chevron-up'></i>,
+												action: 'scroll',
+												title: 'scroll to Top',
+											},
+											{
+												icon: <i className='fas fa-envelope'></i>,
+												action: '/contact',
+												title: 'Contact Us',
+											},
+											{
+												icon: <i className='fas fa-home'></i>,
+												action: '/',
+												title: 'Home',
+											},
+										]}
+									/>
+								</>
 							</Route>
 							<Route
 								exact
 								path='/careers/:id/'
-								render={(props) => <Jobjd data={JDS} {...props} />}
+								render={(props) => (
+									<>
+										<Jobjd data={JDS} {...props} />
+										<Widget
+											widgetList={[
+												{
+													icon: <i className='fas fa-chevron-up'></i>,
+													action: 'scroll',
+													title: 'scroll to Top',
+												},
+												{
+													icon: <i className='fas fa-briefcase'></i>,
+													action: '/careers',
+													title: 'Careers',
+												},
+												{
+													icon: <i className='fas fa-envelope'></i>,
+													action: '/contact',
+													title: 'Contact Us',
+												},
+												{
+													icon: <i className='fas fa-home'></i>,
+													action: '/',
+													title: 'Home',
+												},
+											]}
+										/>
+									</>
+								)}
 							/>
 							<Route
 								exact
@@ -68,6 +183,30 @@ function App() {
 										/>
 										<ApplyForJob data={props} />
 										<Footer />
+										<Widget
+											widgetList={[
+												{
+													icon: <i className='fas fa-chevron-up'></i>,
+													action: 'scroll',
+													title: 'scroll to Top',
+												},
+												{
+													icon: <i className='fas fa-briefcase'></i>,
+													action: '/careers',
+													title: 'Careers',
+												},
+												{
+													icon: <i className='fas fa-envelope'></i>,
+													action: '/contact',
+													title: 'Contact Us',
+												},
+												{
+													icon: <i className='fas fa-home'></i>,
+													action: '/',
+													title: 'Home',
+												},
+											]}
+										/>
 									</>
 								)}
 							/>
