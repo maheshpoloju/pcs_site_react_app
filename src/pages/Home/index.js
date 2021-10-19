@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Banner from '../../components/Banner'
+import ContactWidget from '../../components/ContactWidget'
 import Footer from '../../components/Footer'
 import NavBar from '../../components/NavBar'
 // import Navbar from '../../components/NavBar'
@@ -32,6 +33,7 @@ function Home() {
 			{/* <Portfolio /> */}
 			{/* <Careers /> */}
 			{/* <Contact /> */}
+			<ContactWidget />
 			<Footer />
 		</>
 	)

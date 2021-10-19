@@ -31,7 +31,7 @@ function Banner() {
 				<div className='container'>
 					<div className='row'>
 						<div
-							className='col-lg-7 d-flex flex-column justify-content-center'
+							className='col-lg-7 d-flex flex-column justify-content-center text-center'
 							data-aos='fade-right'>
 							<h1>{main.title} </h1>
 
@@ -55,16 +55,16 @@ function Banner() {
 							{/* </div> */}
 
 							<div className='before'></div>
-							<div>
-								<div className='text-center text-lg-start'>
-									<Link
-										to='/#about'
-										spy='true'
-										smooth={true}
-										duration={100}
-										hashspy='true'
-										isdynamic='true'
-										className='
+
+							<div className='d-flex justify-content-center text-center text-lg-start'>
+								<Link
+									to='/#about'
+									spy='true'
+									smooth={true}
+									duration={100}
+									hashspy='true'
+									isdynamic='true'
+									className='
 										btn-get-started
 										scrollto
 										d-inline-flex
@@ -72,29 +72,29 @@ function Banner() {
 										justify-content-center
 										align-self-center
 									'
-										style={{
-											marginRight: '1rem',
-											padding: '1.5rem',
-											border: '1px solid #565dab',
-										}}>
-										<span>{main.button1}</span>
-										<i className='fas fa-arrow-right'></i>
-									</Link>
-									<Link
-										style={{
-											marginRight: '1rem',
-											padding: '1.5rem',
-											color: '#565dab',
-											background: '#fff',
-											border: '1px solid #565dab',
-										}}
-										to='/contact'
-										spy='true'
-										smooth={true}
-										duration={100}
-										hashspy='true'
-										isdynamic='true'
-										className='
+									style={{
+										marginRight: '1rem',
+										padding: '1.5rem',
+										border: '1px solid #565dab',
+									}}>
+									<span>{main.button1}</span>
+									<i className='fas fa-arrow-right'></i>
+								</Link>
+								<Link
+									style={{
+										marginRight: '1rem',
+										padding: '1.5rem',
+										color: '#565dab',
+										background: '#fff',
+										border: '1px solid #565dab',
+									}}
+									to='/contact'
+									spy='true'
+									smooth={true}
+									duration={100}
+									hashspy='true'
+									isdynamic='true'
+									className='
 										btn-get-started
 										scrollto
 										d-inline-flex
@@ -102,12 +102,11 @@ function Banner() {
 										justify-content-center
 										align-self-center
 									'>
-										<i
-											style={{ marginRight: '0.5rem' }}
-											className='fas fa-envelope'></i>
-										<span>{main.button2}</span>
-									</Link>
-								</div>
+									<i
+										style={{ marginRight: '0.5rem' }}
+										className='fas fa-envelope'></i>
+									<span>{main.button2}</span>
+								</Link>
 							</div>
 						</div>
 						<div className='col-lg-5 hero-img' data-aos='fade-left'>

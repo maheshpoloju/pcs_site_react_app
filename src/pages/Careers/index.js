@@ -14,7 +14,7 @@ function Careers() {
 	return (
 		<>
 			<NavBar />
-			<section id='careers' style={{ border: '1px solid red' }}>
+			<section id='careers'>
 				<BreadCrumb
 					breadCrumbData={[
 						{ title: careersBreadCrumb.title1, path: '/' },

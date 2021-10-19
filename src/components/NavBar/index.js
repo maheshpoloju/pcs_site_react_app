@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react'
-// import { Link } from 'react-scroll'
-// import { Link } from 'react-scroll'
+
 import pcsLogo from '../../assets/images/pcs-logo.png'
 import './index.css'
 import { NavHashLink as Link } from 'react-router-hash-link'
 
 import { items } from './content'
 
+import './index.css'
+
 function NavBar() {
 	const [click, setClick] = useState(false)
 	const [isActive, setIsActive] = useState(true)
 	const [changeNavbar, setChangeNavbar] = useState(false)
+	// const [showDropdown, setShowDropdown] = useState(false)
 
 	useEffect(() => {
 		changeNavbarColor()
