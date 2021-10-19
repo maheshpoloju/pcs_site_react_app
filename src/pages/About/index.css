@@ -17,7 +17,7 @@
 }
 .about .count-box i {
 	font-size: 48px;
-	color: #a1bdd1;
+	color: #565dab;
 	line-height: 0;
 	margin-right: 10px;
 }
@@ -51,7 +51,7 @@
 .about .content h3 {
 	font-weight: 700;
 	font-size: 24px;
-	color: #263d4d;
+	color: #565dab;
 }
 .about .content ul {
 	list-style: none;
@@ -61,9 +61,9 @@
 	padding-bottom: 10px;
 	padding-left: 28px;
 	position: relative;
-	color: #565dab;
+	color: #444444;
 	display: flex;
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 .about .content ul i {
 	font-size: 24px;

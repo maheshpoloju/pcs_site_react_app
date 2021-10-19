@@ -187,13 +187,22 @@ section {
 	position: relative;
 	z-index: 2;
 }
-@media (max-width: 575px) {
+@media (max-width: 768px) {
 	.section-title h2 {
 		font-size: 28px;
 		margin-bottom: 15px;
 	}
 	.section-title span {
 		font-size: 38px;
+	}
+}
+@media (max-width: 521px) {
+	.section-title h2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.section-title span {
+		font-size: 18px;
 	}
 }
 
@@ -211,12 +220,16 @@ section {
 	cursor: pointer;
 	border: 1px solid #565dab;
 	color: #565dab;
+	position: relative;
 }
 .how-can-we .icon-box i {
-	float: left;
+	position: absolute;
 	color: #565dab;
 	font-size: 40px;
 	line-height: 0;
+	top: 50%;
+	left: 10px;
+	width: 10%;
 }
 .how-can-we .icon-box h4 {
 	margin-left: 70px;
@@ -276,12 +289,15 @@ section {
 	color: #565dab;
 	border: 1px solid #565dab;
 	cursor: pointer;
+	position: relative;
 }
 .what-we-need .icon-box i {
-	float: left;
+	position: absolute;
 	color: #565dab;
 	font-size: 40px;
 	line-height: 0;
+	top: 50%;
+	left: 10px;
 }
 .what-we-need .icon-box h4 {
 	margin-left: 70px;
@@ -293,22 +309,22 @@ section {
 	color: #444444;
 	transition: 0.3s;
 }
-.what-we-need .icon-box .icon-box:hover h4 a {
-	color: #565dab;
-}
+
 .what-we-need .icon-box p {
 	margin-left: 70px;
 	line-height: 24px;
 	font-size: 14px;
 }
 .what-we-need .icon-box:hover {
-	color: #fff;
+	color: #fff !important;
 	background: #565dab;
 }
 .what-we-need .icon-box:hover i {
 	color: #fff;
 }
-
+.what-we-need .icon-box:hover h4 {
+	color: #fff !important;
+}
 @media (max-width: 1200px) and (min-width: 768px) {
 	.what-we-need .icon-box {
 		height: 210px;

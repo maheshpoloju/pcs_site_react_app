@@ -13,7 +13,7 @@ const Accordion = ({ title, desc }) => {
 				{isActive ? (
 					<i className='fas fa-chevron-up'></i>
 				) : (
-					<i className='fas fa-chevron-down'></i>
+					<i className='fas fa-chevron-up to-cross'></i>
 				)}
 			</div>
 			{isActive && (

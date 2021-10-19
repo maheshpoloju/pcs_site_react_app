@@ -1,8 +1,9 @@
 export const main = {
-	title: 'Perfect & Complete Solutions Inc',
+	title: 'We are a Quality Driven Software & Product Development Team',
 	subtitle: ' Aspire. Create. Understand.',
 	subtitle1: ' Aspire.',
 	subtitle2: ' Create.',
 	subtitle3: ' Understand.',
-	button: 'Get Started',
+	button1: 'Get Started',
+	button2: 'Contact Us',
 }

@@ -16,7 +16,12 @@ const Services = () => (
 		<section id='services' className='services'>
 			<div className='container aos-init aos-animate' data-aos='fade-up'>
 				<header className='section-header'>
-					<h2>Services</h2>
+					<div
+						className='section-title aos-init aos-animate'
+						data-aos='fade-down'>
+						<h2 className='text-center'>Services</h2>
+						<span className='text-center'>Services</span>
+					</div>
 					<p>Veritatis et dolores facere numquam et praesentium</p>
 				</header>
 

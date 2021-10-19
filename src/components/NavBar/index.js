@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 // import { Link } from 'react-scroll'
 // import { Link } from 'react-scroll'
 import pcsLogo from '../../assets/images/pcs-logo.png'
@@ -12,6 +12,13 @@ function NavBar() {
 	const [isActive, setIsActive] = useState(true)
 	const [changeNavbar, setChangeNavbar] = useState(false)
 
+	useEffect(() => {
+		changeNavbarColor()
+		return () => {
+			setChangeNavbar(false)
+		}
+	}, [])
+
 	const changeNavbarColor = () => {
 		if (window.scrollY >= 100) {
 			setChangeNavbar(true)
@@ -19,7 +26,6 @@ function NavBar() {
 			setChangeNavbar(false)
 		}
 	}
-
 	window.addEventListener('scroll', changeNavbarColor)
 
 	return (
@@ -54,13 +60,16 @@ function NavBar() {
 							<Link
 								className={`nav-link scrollto d-flex justify-content-center align-items-center`}
 								to={each.to}
-								activeclassname={` ${isActive ? `active` : ''}`}
+								// activeclassname={` ${isActive ? `active` : ''}`}
+								// activeClassName={'active'}
+								activeClassName='active'
 								key={index}
 								spy='true'
 								smooth={true}
 								duration={100}
 								hashspy='true'
-								isdynamic='false'
+								isdynamic='true'
+								offset={100}
 								onClick={() => {
 									setIsActive(isActive)
 									if (click) {
@@ -72,6 +81,7 @@ function NavBar() {
 							</Link>
 						))}
 					</ul>
+
 					<i
 						className={
 							click

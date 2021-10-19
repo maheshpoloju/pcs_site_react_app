@@ -30,7 +30,7 @@ function Clients() {
 						{clients.clients.map((each, index) => (
 							<div
 								key={index}
-								className='col-12 col-md-4  col-lg-3  mx-auto p-1 p-md-2 w-xs-100 '>
+								className='col-12 col-md-4  mx-auto p-1 p-lg-2 w-xs-100 '>
 								<div className='client-logo'>
 									<img
 										src={each.image}
