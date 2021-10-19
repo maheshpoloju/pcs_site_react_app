@@ -16,6 +16,7 @@ import ApplyForJob from './components/ApplyForJob'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import BreadCrumb from './components/BreadCrumb'
+import ContactWidget from './components/ContactWidget'
 // import ContactWidget from './components/ContactWidget'
 
 function App() {
@@ -33,7 +34,10 @@ function App() {
 					<div className='col-12  web-container '>
 						<Switch>
 							<Route path='/' exact>
-								<Home />
+								<>
+									<Home />
+									<ContactWidget />
+								</>
 							</Route>
 							<Route path='/bot'>
 								<BOT />
@@ -73,7 +77,6 @@ function App() {
 							</Route> */}
 							<Redirect to='/'></Redirect>
 						</Switch>
-						{/* <ContactWidget /> */}
 					</div>
 				</div>
 			</div>

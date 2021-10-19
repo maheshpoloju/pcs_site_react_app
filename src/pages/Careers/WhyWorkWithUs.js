@@ -8,21 +8,24 @@ import {
 } from './content'
 import addResume from '../../assets/images/addResume.jpg'
 import { NavHashLink } from 'react-router-hash-link'
-
+import joinUs from '../../assets/videos/joinUs.mp4'
 const Whyworkwithus = () => {
 	return (
 		<section className='why-work-with-us'>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-lg-6 mb-4 mb-lg-0'>
-						<div className='embed-responsive embed-responsive-16by9'>
-							{/* <img src={wearehiring} alt='' /> */}
-							<iframe
-								title='why join us'
+						<div className='embed-responsive embed-responsive-16by9 mr-2'>
+							<video
+								autostart='true'
+								autoPlay
+								muted
+								loop
 								height='370'
-								src='https://www.youtube.com/embed/n_Cn8eFo7u8'
-								allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-								allowFullScreen=''></iframe>
+								src={joinUs}
+								type={'video/mp4'}
+								className='about-video'
+							/>
 						</div>
 					</div>
 					<div className='col-lg-6 align-self-center'>
