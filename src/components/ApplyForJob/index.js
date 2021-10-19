@@ -6,7 +6,6 @@ import PhoneInput, {
 import emailjs from 'emailjs-com'
 import { contact } from '../../pages/Contact/content'
 import './index.css'
-import BreadCrumb from '../BreadCrumb'
 
 const ApplyForJob = (props) => {
 	console.log(props.data.match.params.id)

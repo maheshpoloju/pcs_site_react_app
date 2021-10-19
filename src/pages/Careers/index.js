@@ -4,6 +4,7 @@ import NavBar from '../../components/NavBar'
 import BreadCrumb from '../../components/BreadCrumb'
 import Whyworkwithus from './WhyWorkWithUs'
 import { careersBreadCrumb } from './content'
+import Footer from '../../components/Footer'
 
 function Careers() {
 	useEffect(() => {
@@ -22,6 +23,7 @@ function Careers() {
 				/>
 				<Whyworkwithus />
 			</section>
+			<Footer />
 		</>
 	)
 }
