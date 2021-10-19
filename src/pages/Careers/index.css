@@ -413,9 +413,15 @@ a {
 	position: relative;
 	transition: all 0.2s ease;
 	letter-spacing: 0.025em;
-	font-size: 1.07rem;
+	font-size: 1rem;
 	border-radius: 0.25rem;
 	color: #565dab !important;
+	font-weight: 700;
+}
+
+.card .btn:hover {
+	color: #fff !important;
+	background: #565dab;
 	font-weight: 700;
 }
 main .section {

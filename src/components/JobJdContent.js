@@ -1,9 +1,11 @@
-export const JDS = [
-	{
+export const JDS = {
+	'python-developer': {
+		params: 'python-developer',
 		title: 'Python Developer',
-		location: 'Pune',
+		location: 'Pune, India',
 		jobType: 'Full Time',
-		Salary: '800k',
+		Salary: 'N/A',
+
 		applyLink: '/careers/python-developer/apply',
 		responsibilities: [
 			'Write and execute test plans, design and develop test tools, debug and report code bugs and push quality upstream.',
@@ -31,12 +33,12 @@ export const JDS = [
 			"Bachelor's degree in Computer Science or relevant Engineering degree.",
 		],
 	},
-	{
+	'java-developer': {
 		title: 'Java Developer',
 		location: 'Pune',
 		jobType: 'Full Time',
 		jd: 'We are looking for an experienced Java Developer who will work closely with the technical lead to identify and establish best practices in the company.',
-		Salary: '800k',
+		Salary: 'N/A',
 		responsibilities: [
 			'Excellent in OOPS concepts, system design',
 			'Strong knowledge of Core Java, Spring, Hibernate and Microservices',
@@ -64,4 +66,4 @@ export const JDS = [
 			'The traits of a self-motivated, independent, detail-oriented, and responsible team player.',
 		],
 	},
-]
+}

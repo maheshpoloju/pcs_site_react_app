@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './index.css'
 
 import botVideo from '../../assets/videos/bot.mp4'
@@ -8,9 +8,16 @@ import Phases from './Phases'
 import Howwedo from './HowWeDo'
 import Howcanwe from './HowCanWe'
 import Whatweneed from './WhatWeNeed'
+import NavBar from '../../components/NavBar'
+import Footer from '../../components/Footer'
+
 function BOT() {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 	return (
 		<>
+			<NavBar />
 			<section id='bot' className='bot'>
 				<div
 					style={{ borderBottom: '1px solid rgb(161, 161, 161,0.5)' }}
@@ -61,10 +68,12 @@ function BOT() {
 					</div>
 				</div>
 				<Phases />
+
 				<Howwedo />
 				<Howcanwe />
 				<Whatweneed />
 			</section>
+			<Footer />
 		</>
 	)
 }

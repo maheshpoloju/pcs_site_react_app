@@ -1,22 +1,6 @@
 import React from 'react'
+import { jobItemsContent, jobsList } from './content'
 import Jobitem from './JobItem'
-
-const jobsList = [
-	{
-		jobTitle: 'Python',
-		jobBriefDescription:
-			'Write and execute test plans, design and develop test tools, debug and report code bugs and push quality upstream',
-		JobLocation: 'Pune',
-		JobType: 'Full-Time',
-	},
-	{
-		jobTitle: 'Java Developer',
-		jobBriefDescription:
-			'We are looking for an experienced Java Developer who will work closely with the technical lead to identify and establish best practices in the company.',
-		JobLocation: 'Pune',
-		JobType: 'Full-Time',
-	},
-]
 
 const Jobs = (props) => {
 	return (
@@ -24,12 +8,8 @@ const Jobs = (props) => {
 			<div className='container'>
 				<div className='row justify-content-center mb-4 mb-lg-6'>
 					<div className='col col-md-8 text-center'>
-						<h2 className='display-2 mb-3'>Open Positions</h2>
-						<p className='lead'>
-							We are always looking for creative, talented self-starters to join
-							the Front family. Check out our open positions and fill out an
-							application.
-						</p>
+						<h2 className='display-2 mb-3'>{jobItemsContent.title}</h2>
+						<p className='lead'>{jobItemsContent.desc}</p>
 					</div>
 				</div>
 				<div className='row mb-6'>
@@ -41,7 +21,7 @@ const Jobs = (props) => {
 								</div>
 							</div>
 						</div>
-					))}{' '}
+					))}
 				</div>
 			</div>
 		</section>

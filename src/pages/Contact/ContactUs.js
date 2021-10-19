@@ -99,7 +99,7 @@ const ContactUs = () => {
 												}}
 												className='fas fa-paper-plane mr-2'></i>
 											<h4 style={{ fontSize: '2rem', color: '#565dab' }}>
-												Contact Us
+												{contact.title}
 											</h4>
 										</div>
 										<div className='col form-group'>

@@ -60,13 +60,16 @@ function NavBar() {
 							<Link
 								className={`nav-link scrollto d-flex justify-content-center align-items-center`}
 								to={each.to}
-								activeclassname={` ${isActive ? `active` : ''}`}
+								// activeclassname={` ${isActive ? `active` : ''}`}
+								// activeClassName={'active'}
+								activeClassName='active'
 								key={index}
 								spy='true'
 								smooth={true}
 								duration={100}
 								hashspy='true'
-								isdynamic='false'
+								isdynamic='true'
+								offset={100}
 								onClick={() => {
 									setIsActive(isActive)
 									if (click) {

@@ -418,14 +418,14 @@ i.mobile-nav-toggle.i-white-color {
 }
 .hero h1 {
 	margin: 0;
-	font-size: 48px;
+	font-size: 2.5rem;
 	font-weight: 700;
 	color: #565dab;
 }
 .hero h2 {
 	color: #444444;
 	margin: 15px 0 0 0;
-	font-size: 26px;
+	font-size: 1.5rem;
 }
 .hero .btn-get-started {
 	margin-top: 30px;
@@ -491,10 +491,10 @@ i.mobile-nav-toggle.i-white-color {
 		text-align: center;
 	}
 	.hero h1 {
-		font-size: 32px;
+		font-size: 2rem;
 	}
 	.hero h2 {
-		font-size: 24px;
+		font-size: 1rem;
 	}
 	.hero .hero-img img {
 		width: 100%;
@@ -633,18 +633,41 @@ i.mobile-nav-toggle.i-white-color {
 .bot .accordion-list li + li {
 	margin-top: 15px;
 }
-.bot .accordion-list li {
+.bot .accordion-list li .accordion-title {
 	padding: 20px;
 	width: 100%;
-	background: #565dab;
+	background: #fff;
 	border-radius: 4px;
-	margin: 5px;
+	margin: 5px 5px 0 5px;
+	color: #565dab;
+	transition: all 0.25s ease-in-out;
+	cursor: pointer;
+}
+.bot .accordion-list li .accordion-content {
+	padding: 20px;
+	width: 100%;
+	background: #fff;
+	border-radius: 4px;
+	margin: 0 5px 5px 5px;
+	color: #565dab;
+	transition: width 0.4s ease-in-out;
+	cursor: pointer;
+}
+.bot .accordion-list li .accordion-title:hover {
+	background: #565dab;
 	color: #fff;
 	transition: all 0.25s ease-in-out;
 	cursor: pointer;
 }
 
-.bot .accordion-list li.active {
+.bot .to-cross {
+	transform: rotate(180deg);
+}
+.bot .fa-plus:before {
+	content: '' !important;
+}
+
+/* .bot .accordion-list li.active {
 	padding: 20px;
 	width: 100%;
 	background: #fff;
@@ -652,7 +675,7 @@ i.mobile-nav-toggle.i-white-color {
 	border-radius: 4px;
 	margin: 5px;
 	color: #565dab;
-}
+} */
 .bot .accordion-list li h6 {
 	display: block;
 	position: relative;
@@ -664,12 +687,20 @@ i.mobile-nav-toggle.i-white-color {
 	outline: none;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
-	color: #fff;
+	color: inherit;
+}
+
+.bot .accordion-list li .accordion-title .icon-container {
+	border-right: 1px solid #444444;
+	width: 50px;
+	height: 100%;
 }
 
 .bot .accordion-list i {
 	font-size: 24px;
+	transform-origin: center;
 	transition: all 0.2s ease-in-out;
+
 	/* position: absolute;
 	right: 15px;
 	top: 25%; */
@@ -697,8 +728,11 @@ i.mobile-nav-toggle.i-white-color {
 	display: none;
 }
 .bot .accordion-list .accordion-content {
-	border-top: 2px solid #565dab;
-	transition: all 0.5s ease-in-out;
+	/* border-top: 2px solid #565dab; */
+	/* transition: all 0.5s ease-in-out; */
+	background-color: #fff;
+	color: #565dab;
+	/* margin: 0; */
 }
 
 .bot .play-btn {
@@ -806,7 +840,10 @@ i.mobile-nav-toggle.i-white-color {
 		opacity: 0;
 	}
 }
-/*--------------------------------------------------------------
+
+/*------
+
+--------------------------------------------------------
 #BOT Phases
 --------------------------------------------------------------*/
 .bot.nav-tabs {
@@ -827,13 +864,8 @@ i.mobile-nav-toggle.i-white-color {
 
 .bot .nav-link.nav-item {
 	background: #565dab;
-	color: #fff;
+	color: #fff !important;
 	border-radius: 10px;
-}
-.bot .nav-link:hover {
-	border: 1px solid #565dab;
-	background: #fff;
-	color: #565dab;
 }
 
 .bot .nav-link i {
@@ -844,14 +876,16 @@ i.mobile-nav-toggle.i-white-color {
 	font-size: 18px;
 	font-weight: 600;
 	margin: 0;
+	/* color: #fff !important; */
+	color: inherit;
 }
 .bot .nav-link:hover {
 	color: #565dab;
 }
 .bot .nav-link.active {
-	background: #565dab;
-	color: #fff;
-	border-color: #565dab;
+	background: #565dab !important;
+	color: #fff !important;
+	border-color: #565dab !important;
 }
 @media (max-width: 768px) {
 	.bot .nav-link i {
@@ -901,16 +935,18 @@ i.mobile-nav-toggle.i-white-color {
 --------------------------------------------------------------*/
 .values .box {
 	padding: 30px;
-	box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+	opacity: 0;
 	text-align: center;
-	transition: 0.3s;
+	transition: all 0.3s;
 	height: 100%;
+	margin-bottom: 0px;
+	animation-name: fadeInUp;
 }
 .values .box img {
 	padding: 30px 50px;
 	transition: 0.5s;
 	transform: scale(1.1);
-	height: 65%;
+	height: 50%;
 }
 .values .box h3 {
 	font-size: 24px;
@@ -924,10 +960,35 @@ i.mobile-nav-toggle.i-white-color {
 	margin-bottom: 18px;
 }
 .values .box:hover {
-	box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+	background: #565dab90;
+	color: #fff;
+	transform: scale(1);
+	-webkit-box-shadow: 0px 18px 71px -10px rgb(0 0 0 / 75%);
+	-moz-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 18px 71px -10px rgb(0 0 0 / 75%);
+	border-radius: 25px;
 }
 .values .box:hover img {
 	transform: scale(1);
+}
+.values .box:hover h3 {
+	color: #fff;
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transform: translate3d(0, 40px, 0);
+		transform: translate3d(0, 40px, 0);
+	}
+
+	100% {
+		visibility: visible;
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -1066,7 +1127,8 @@ i.mobile-nav-toggle.i-white-color {
 }
 .features .feature-icons .content .icon-box p {
 	font-size: 15px;
-	color: #848484;
+	color: #444444;
+	font-weight: 500;
 }
 
 /*--------------------------------------------------------------
@@ -1696,7 +1758,7 @@ i.mobile-nav-toggle.i-white-color {
 	width: 100%;
 
 	font-size: 3rem;
-	padding-top: 130px;
+	padding-top: 100px;
 }
 .clients .client-logo {
 	padding: 64px;

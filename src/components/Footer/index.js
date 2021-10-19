@@ -4,8 +4,6 @@ import { footer } from './content'
 import './index.css'
 
 function Footer() {
-	const year = new Date().getFullYear()
-	console.log(year)
 	return (
 		<footer id='footer'>
 			<div className='footer-top'>
@@ -32,29 +30,39 @@ function Footer() {
 							</div>
 							<div className='d-flex align-items-center'>
 								<i className='far fa-envelope p-2'></i>
-								<strong>{footer.email}</strong>
+								<a
+									href={`mailto:${footer.email}.com?subject=I have Queries'`}
+									style={{ color: 'inherit' }}>
+									<strong>{footer.email}</strong>
+								</a>
 							</div>
 							<br />
 							<div className='d-flex align-items-center'>
 								<i className='fas fa-mobile-alt p-2'></i>
-								<strong>{footer.contact}</strong>
+								<a href={`tel:${footer.contact}`} style={{ color: 'inherit' }}>
+									<strong>{footer.contact}</strong>
+								</a>
 							</div>
 
 							<h4 className='mt-4'>{footer.socialHeading}</h4>
 							<div className='social-links mt-3'>
-								<a href='google' className='twitter'>
+								<div href='google' className='twitter'>
 									<i className='fab fa-twitter'></i>
-								</a>
-								<a href='google' className='facebook'>
+								</div>
+								<div href='google' className='facebook'>
 									<i className='fab fa-facebook-f'></i>
-								</a>
-								<a href='google' className='instagram'>
+								</div>
+								<div href='google' className='instagram'>
 									<i className='fab fa-instagram'></i>
-								</a>
-								<a href='google' className='google-plus'>
+								</div>
+								<div href='google' className='google-plus'>
 									<i className='fab fa-skype'></i>
-								</a>
-								<a href='google' className='linkedin'>
+								</div>
+								<a
+									href='https://www.linkedin.com/company/perfect-and-complete-solutions-inc/'
+									rel='noreferrer'
+									className='linkedin'
+									target='_blank'>
 									<i className='fab fa-linkedin-in'></i>
 								</a>
 							</div>
@@ -129,12 +137,18 @@ function Footer() {
 							</div>
 							<div className='d-flex align-items-center'>
 								<i className='far fa-envelope'></i>
-								<strong>anu@pcsitspl.com</strong>
+								<a
+									href="mailto:anu@pcsitspl.com?subject=I have Queries'"
+									style={{ color: 'inherit' }}>
+									<strong>anu@pcsitspl.com</strong>
+								</a>
 							</div>
 							<br />
 							<div className='d-flex align-items-center'>
 								<i className='fas fa-mobile-alt'></i>
-								<strong>+ (1) 949 981 4976</strong>
+								<a href='tel:+ (1) 949 981 4976' style={{ color: 'inherit' }}>
+									<strong>+ (1) 949 981 4976</strong>
+								</a>
 							</div>
 
 							<br />

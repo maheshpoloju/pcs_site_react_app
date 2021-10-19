@@ -153,43 +153,43 @@ export const howCanWeContent = {
 			title: 'Talent Pool',
 			description:
 				'India has amazing large talent pool and we can help you secure and operate that',
-			icon: 'bi bi-briefcase',
-			style: '#0ea5e0;',
+			icon: 'fas fa-briefcase',
+			style: '#0ea5e0',
 		},
 		{
 			title: 'Setting Up Operations',
 			description:
 				'Set up the operations and run in all aspect till you wish to take control 100%',
-			icon: 'bi bi-card-checklist',
-			style: '#07cc70;',
+			icon: 'fas fa-clipboard-check',
+			style: '#07cc70',
 		},
 		{
 			title: 'Manage Statutory and Laws',
 			description:
 				'India statutory and laws are not employer friendly and requires high touchpoints. We manage all that complexity for you.',
-			icon: 'bi bi-bar-chart',
-			style: '#e40373;',
+			icon: 'fas fa-chart-bar',
+			style: '#e40373',
 		},
 		{
 			title: 'Scalable',
 			description:
 				'Help scale fast with numbers and throughput with experienced execution team.',
-			icon: 'bi bi-binoculars',
-			style: '#f0b103;',
+			icon: 'fas fa-binoculars',
+			style: '#f0b103',
 		},
 		{
 			title: 'More than an Outsourcing Partner',
 			description:
 				'Not just an outsourcing partner , we are coming as engineering back office for company',
-			icon: 'bi bi-brightness-high',
-			style: '#3145fa;',
+			icon: 'fas fa-lightbulb',
+			style: '#3145fa',
 		},
 		{
 			title: 'You Win We Win',
 			description:
 				'We will have our skin in the game for Your success, and we benefit for showing positive outcomes for company',
-			icon: 'bi bi-trophy',
-			style: '#a00098;',
+			icon: 'fas fa-trophy',
+			style: '#a00098',
 		},
 	],
 }
@@ -202,44 +202,44 @@ export const whatWeDoContent = {
 			title: 'Resource Ramp Up Plan',
 			description:
 				'We need to know what engineers will work on, how many and when',
-			icon: 'bi bi-people',
-			style: '#0ea5e0;',
+			icon: 'fas fa-users',
+			style: '#0ea5e0',
 		},
 		{
 			title: 'Talent Acquisition Support',
 			description:
 				'In year 1, last 1 or 2 rounds to be done by company staff and hire only when agreed (year 2 fully from India)',
-			icon: 'bi bi-person-plus',
-			style: '#07cc70;',
+			icon: 'fas fa-user-plus',
+			style: '#07cc70',
 		},
 
 		{
 			title: 'Knowledge Ramp Up Plan',
 			description:
 				'Some people will be needed to travel India (reverse osmosis), Some people from India travel to HQ (osmosis)',
-			icon: 'bi bi-award',
-			style: '#f0b103;',
+			icon: 'fas fa-award',
+			style: '#f0b103',
 		},
 		{
 			title: 'Retrospection Session',
 			description:
 				'Forward looking 2 Qtr. Plan & than retrospect monthly session on what went right/wrong and fine tune plan ahead',
-			icon: 'bi bi-clock',
-			style: '#3145fa;',
+			icon: 'far fa-clock',
+			style: '#3145fa',
 		},
 		{
 			title: 'Agreed Engineering Operating Model as driven by company',
 			description:
 				'You decide Reporting structure, Hierarchy, Issue escalation and resolutions and we provide options',
-			icon: 'bi bi-person-plus',
-			style: '#a00098;',
+			icon: 'fas fa-user-cog',
+			style: '#a00098',
 		},
 		{
 			title: 'Sound Financial Operations and Transparency',
 			description:
 				'4 months Advanced Payments made for projections made. Any adjustments are discussed in monthly operations meetings..',
-			icon: 'bi bi-globe',
-			style: '#e40373;',
+			icon: 'fas fa-globe-asia',
+			style: '#e40373',
 		},
 	],
 }

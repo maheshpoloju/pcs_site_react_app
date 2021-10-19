@@ -1,12 +1,10 @@
 import React from 'react'
-import { Route, Switch, useRouteMatch } from 'react-router'
-import { NavHashLink as Link } from 'react-router-hash-link'
-
-import Jobjd from '../../components/JobJd'
+// import { NavHashLink as Link } from 'react-router-hash-link'
+import { Link } from 'react-router-dom'
+import { jobItems } from './content'
 
 const Jobitem = (props) => {
-	const { path, url } = useRouteMatch()
-	console.log(`${path}`)
+	console.log(props.jd)
 	return (
 		<>
 			<div className='row'>
@@ -17,7 +15,7 @@ const Jobitem = (props) => {
 					<p style={{ color: '#fff' }} className='mb-4'>
 						{props.jd.jobBriefDescription}
 					</p>
-					<div className='d-flex'>
+					<div className='d-flex flex-wrap'>
 						<div className='stretched-link' style={{ marginRight: '1rem' }}>
 							<i
 								style={{ color: '#fff', marginRight: '5px' }}
@@ -34,31 +32,21 @@ const Jobitem = (props) => {
 						</span>
 					</div>
 				</div>
-				<div className='col-12 col-md-6 d-flex align-items-center justify-content-md-end'>
+				<div className='col-12  col-md-6 d-flex align-items-center justify-content-md-end flex-wrap'>
 					<Link
-						to='/careers/python-developer/apply'
-						className='btn btn-secondary mr-3 animate-up-2'
+						to={`${props.jd.path}apply`}
+						className='btn btn-white mb-3 animate-up-2'
 						style={{ marginRight: '1rem' }}>
-						Apply
+						{jobItems.title1}
 					</Link>
 					<Link
-						// to={`${url}/python`}
-						to='/careers/python-developer/'
-						className='btn btn-white text-primary animate-up-2 m-0'>
+						to={props.jd.path}
+						className='btn btn-white text-primary  mb-3 animate-up-2 m-0'>
 						<i className='fas fa-clipboard-list mr-2'></i>
-						See Details
+						{jobItems.title2}
 					</Link>
 				</div>
 			</div>
-			<Switch>
-				<Route
-					// path={`${path}/python`}
-					exact
-					path='/careers/python-developer/'
-					// component={() => <Jobjd data={JDS[0]} />}
-					component={<Jobjd />}
-				/>
-			</Switch>
 		</>
 	)
 }
