@@ -42,5 +42,6 @@ export const contact = {
 		message: 'Your message',
 		button: 'Send Message',
 		afterSubmit: "	We'll get back to you soon...",
+		alertHeading: "Mail sent...We'll get back to you soon!!",
 	},
 }

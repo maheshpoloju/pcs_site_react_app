@@ -6,6 +6,8 @@ import PhoneInput, {
 import emailjs from 'emailjs-com'
 import { contact } from '../../pages/Contact/content'
 import './index.css'
+import IconAlerts from '../Alert/index,'
+import { Backdrop, CircularProgress } from '@mui/material'
 
 const ApplyForJob = (props) => {
 	console.log(props.data.match.params.id)
@@ -21,6 +23,14 @@ const ApplyForJob = (props) => {
 	// const [isDisabled, setIsDisabled] = useState(true)
 	const [isSubmitted, setIsSubmitted] = useState(false)
 
+	const [open, setOpen] = React.useState(false)
+	const handleClose = () => {
+		setOpen(false)
+	}
+	const handleToggle = () => {
+		setOpen(!open)
+	}
+
 	const onFileChange = (event) => {
 		// Update the state
 		setSelectedFile(event.target.files[0])
@@ -34,7 +44,7 @@ const ApplyForJob = (props) => {
 		formData.append('myFile', selectedFile)
 
 		// Details of the uploaded file
-		console.log(selectedFile)
+		// console.log(selectedFile)
 
 		// Request made to the backend api
 		// Send formData object
@@ -235,8 +245,19 @@ const ApplyForJob = (props) => {
 												data-sitekey='6LdWJ7EcAAAAADvBgytksLQf6pDFFkniIq23jAbo'></div>
 											<div className='text-center'>
 												<div className='cont'>
-													<button type='submit'>Apply</button>
+													<button onClick={handleToggle} type='submit'>
+														Apply
+													</button>
 												</div>
+												<Backdrop
+													sx={{
+														color: '#fff',
+														zIndex: (theme) => theme.zIndex.drawer + 1,
+													}}
+													open={open}
+													onClick={handleClose}>
+													<CircularProgress color='inherit' />
+												</Backdrop>
 											</div>
 										</div>
 									</form>
@@ -278,6 +299,9 @@ const ApplyForJob = (props) => {
 					</div>
 				</div>
 			</section>
+			{isSubmitted && (
+				<IconAlerts title={contact.formPlaceHolder.alertHeading} />
+			)}
 		</>
 	)
 }
