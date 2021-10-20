@@ -29,7 +29,7 @@ export const items = [
     Image: mufaddal,
     name: "Mufaddal",
     role: "Team Lead",
-    desc: "An engine to innovation who makes profitable decisions with her deep-insight view and strategic problem solving skills.",
+    desc: "Loves creating apps and focuses more on the look and feel and overall user experience. He is a big-time foodie, techie and loves sketching.",
     linkedIn: "in/mufaddalgulshan/",
   },
   {

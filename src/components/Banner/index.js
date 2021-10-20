@@ -56,7 +56,7 @@ function Banner() {
 
 							<div className='before'></div>
 
-							<div className='d-flex justify-content-center text-center text-lg-start'>
+							<div className='d-flex justify-content-center text-center flex-wrap text-lg-start'>
 								<Link
 									to='/#about'
 									spy='true'
@@ -95,6 +95,7 @@ function Banner() {
 									hashspy='true'
 									isdynamic='true'
 									className='
+								
 										btn-get-started
 										scrollto
 										d-inline-flex
