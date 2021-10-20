@@ -92,7 +92,7 @@ const Features = () => {
 										data-aos='fade-up'>
 										<img src={each.img} alt='responsive web' />
 
-										<div>
+										<div className='d-flex flex-column justify-content-center'>
 											<h4> {each.title}</h4>
 											<p>{each.desc}</p>
 										</div>

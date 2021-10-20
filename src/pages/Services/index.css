@@ -1,74 +1,3 @@
-.services .icon-box {
-	padding: 30px;
-	position: relative;
-	overflow: hidden;
-	background: #fff;
-	box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-	transition: all 0.3s ease-in-out;
-	border-radius: 8px;
-	z-index: 1;
-	margin-bottom: 15px;
-	border: 2px solid #565dab;
-}
-.services .icon-box::before {
-	content: '';
-	position: absolute;
-	background: #565dab80;
-	right: -60px;
-	top: -40px;
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
-	transition: all 0.3s;
-	z-index: -1;
-}
-.services .icon-box:hover::before {
-	background: #565dab;
-	right: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 0px;
-}
-.services .icon {
-	display: inline-block;
-	text-align: center;
-	border-radius: 50%;
-	width: 70px;
-	height: 70px;
-	background: #fff;
-	transition: all 0.3s ease-in-out;
-}
-
-.services .title {
-	font-weight: 700;
-	margin-bottom: 15px;
-	font-size: 18px;
-}
-.services .title {
-	color: #425451;
-	margin-top: 8px;
-}
-.services .description {
-	font-size: 15px;
-	line-height: 28px;
-	margin-bottom: 0;
-}
-.services .icon-box:hover .title,
-.services .icon-box:hover .description {
-	color: #fff;
-}
-.services .icon-box:hover .icon {
-	background: #fff;
-}
-.services .icon-box:hover .read-more-trigger {
-	border: 1px solid white;
-}
-
-.service-title {
-	position: relative;
-	display: inline-block;
-}
 .services-title-heading {
 	font-size: 13px;
 	letter-spacing: 1px;
@@ -77,7 +6,7 @@
 	color: #565dab;
 	text-transform: uppercase;
 }
-.technology-sub-heading {
+.services-sub-heading {
 	margin: 10px 0 0 0;
 	padding: 0;
 	font-size: 38px;
@@ -89,13 +18,73 @@
 .services-title-description {
 	font-size: 16px;
 }
-.service-icon {
-	height: 80px;
-	margin-bottom: 20px;
-	font-size: 13px;
-	/* filter: invert(28%) sepia(87%) saturate(836%) hue-rotate(209deg) brightness(93%) contrast(72%); */
+.services .icon-box {
+	padding: 30px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	transition: transform 0.2s;
+}
+.services .icon-box:hover {
+	/* -ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2); */
+	background: #565dab;
+	color: #fff !important;
+	transform: scale(1);
+	-webkit-box-shadow: 0px 18px 71px -10px rgb(0 0 0 / 75%);
+	-moz-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 18px 71px -10px rgb(0 0 0 / 75%);
+	border-radius: 25px;
+}
+.services .icon-box:hover .title {
+	color: #fff;
+}
+.services .icon {
+	position: absolute;
+	left: 7px;
+	top: calc(50% - 30px);
+	margin-right: 200px;
+}
+.services .icon i {
+	font-size: 64px;
+	line-height: 1;
+	transition: 0.5s;
+}
+.services .title {
+	margin-left: 40px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 18px;
+	color: #565dab;
+}
+.services .title a {
+	color: #2a2c39;
+	transition: ease-in-out 0.3s;
+}
+.services .title a:hover {
+	color: #ef6603;
+}
+.services .description {
+	font-size: 14px;
+	margin-left: 40px;
+	line-height: 24px;
+	margin-bottom: 0;
+}
+.service-title {
+	position: relative;
+	display: inline-block;
 }
 
-.services-description {
-	font-size: 14px;
+.service-icon {
+	height: 50px;
+	margin-bottom: 20px;
+	font-size: 12px;
 }
