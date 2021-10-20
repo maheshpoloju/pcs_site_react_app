@@ -9,6 +9,7 @@ import maheshpoluju from "../../assets/images/team/mahesh_poloju.png";
 import swapnildhok from "../../assets/images/team/swapnildhok.jpeg";
 import seshunersu from "../../assets/images/team/sheshunersu.jpeg";
 import sumansahu from "../../assets/images/team/sumansahu.jpeg";
+import archana from "../../assets/images/team/archana.jpg";
 export const items = [
   {
     Image: anu,
@@ -30,6 +31,13 @@ export const items = [
     role: "Team Lead",
     desc: "An engine to innovation who makes profitable decisions with her deep-insight view and strategic problem solving skills.",
     linkedIn: "in/mufaddalgulshan/",
+  },
+  {
+    Image: archana,
+    name: "Archana Tapadiya",
+    role: "Software Developer",
+    desc: "Loves coding and creating apps. Very enthusiastic, out-spoken and loves travelling and enjoys every bit of the challenges thrown",
+    linkedIn: "in/archana-tapadiya/",
   },
 
   {

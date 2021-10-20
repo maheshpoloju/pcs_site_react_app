@@ -39,10 +39,6 @@ function Technologies() {
             className="section-title aos-init aos-animate"
             data-aos="fade-down"
           >
-            {/* <h2 className='technology-title mt-5'>{headings.title}</h2>
-						<p className='technology-head'>{headings.heading}</p>
-						<div className='small-separator'></div> */}
-
             <h2 className="text-center">{headings.title}</h2>
             <span className="text-center">{headings.title}</span>
             <p>{headings.heading}</p>
