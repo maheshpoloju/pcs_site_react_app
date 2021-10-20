@@ -21,6 +21,19 @@ import Widget from './components/Widget'
 // icons
 
 function App() {
+	window.onscroll = function () {
+		myFunction()
+	}
+
+	function myFunction() {
+		var winScroll =
+			document.body.scrollTop || document.documentElement.scrollTop
+		var height =
+			document.documentElement.scrollHeight -
+			document.documentElement.clientHeight
+		var scrolled = (winScroll / height) * 100
+		document.getElementById('myBar').style.width = scrolled + '%'
+	}
 	useEffect(() => {
 		window.scrollTo(0, 0)
 		AOS.init({
@@ -30,6 +43,11 @@ function App() {
 	}, [])
 	return (
 		<>
+			<div className='progress-header'>
+				<div className='progress-container'>
+					<div className='progress-bar' id='myBar'></div>
+				</div>
+			</div>
 			<div className='container-fluid'>
 				<div className='row'>
 					<div className='col-12  web-container '>

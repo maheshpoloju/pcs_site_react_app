@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import team1 from '../../assets/images/portfolio/team1.jpeg'
 import team2 from '../../assets/images/portfolio/team2.jpeg'
@@ -6,7 +6,14 @@ import team3 from '../../assets/images/portfolio/team3.jpeg'
 import team4 from '../../assets/images/portfolio/team4.jpeg'
 import team5 from '../../assets/images/portfolio/team5.jpeg'
 
-import { Carousel } from 'react-carousel-minimal'
+// import { Carousel } from 'react-carousel-minimal'
+
+import { LightBox } from 'react-lightbox-pack' // <--- Importing LightBox Pack
+import 'react-lightbox-pack/dist/index.css'
+
+import Masonry from '@mui/lab/Masonry'
+import MasonryItem from '@mui/lab/MasonryItem'
+
 const images = [
 	{
 		image: team1,
@@ -35,50 +42,52 @@ const images = [
 	},
 ]
 
-const captionStyle = {
-	fontSize: '2em',
-	fontWeight: 'bold',
-}
-const slideNumberStyle = {
-	fontSize: '20px',
-	fontWeight: 'bold',
-}
-
 const TeamEvents = () => {
+	const [toggle, setToggle] = React.useState(false)
+	const [sIndex, setSIndex] = React.useState(0)
+	const [imagesList, setImagesList] = useState(images)
+	useEffect(() => {
+		setImagesList(images)
+	}, [])
+
+	const lightBoxHandler = (state, sIndex) => {
+		setToggle(state)
+		setSIndex(sIndex)
+	}
+
 	return (
 		<section id='teamEvents'>
 			<div className='section-title aos-init aos-animate' data-aos='fade-down'>
 				<h2 className='text-center'>Team Events</h2>
 				<span>Team Events</span>
 			</div>
-			<div className='col-12'>
-				<Carousel
-					data={images}
-					time={5000}
-					width='auto'
-					height='700px'
-					captionStyle={captionStyle}
-					radius='10px'
-					slideNumber={true}
-					slideNumberStyle={slideNumberStyle}
-					captionPosition='bottom'
-					automatic={true}
-					dots={true}
-					pauseIconColor='white'
-					pauseIconSize='40px'
-					slideBackgroundColor='none'
-					slideImageFit='contain'
-					thumbnails={true}
-					thumbnailWidth='200px'
-					style={{
-						textAlign: 'center',
-						maxWidth: '80%',
-						minWidth: '300px',
-						minHeight: '500px',
-						margin: '40px auto',
-					}}
-				/>
-			</div>
+			<Masonry columns={3} spacing={1}>
+				{imagesList.map((item, index) => (
+					<MasonryItem key={index}>
+						<img
+							src={`${item.image}?w=162&auto=format`}
+							srcSet={`${item.image}?w=162&auto=format&dpr=2 2x`}
+							alt={item.caption}
+							loading='lazy'
+							onClick={() => {
+								lightBoxHandler(true, index)
+							}}
+						/>
+					</MasonryItem>
+				))}
+			</Masonry>
+
+			<LightBox
+				state={toggle}
+				event={lightBoxHandler}
+				data={imagesList}
+				imageWidth='60vw'
+				imageHeight='70vh'
+				thumbnailHeight={50}
+				thumbnailWidth={50}
+				setImageIndex={setSIndex}
+				imageIndex={sIndex}
+			/>
 		</section>
 	)
 }

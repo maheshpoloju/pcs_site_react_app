@@ -12,7 +12,7 @@ export const footer = {
 		},
 	},
 	email: 'anu@pcsitspl.com',
-	contact: '+ (1) 949 981 4976',
+	contact: '+ (91) 93597 60780',
 	socialHeading: 'Our Social Networks',
 	quickLinksHeading: 'QUICK LINKS',
 	quickLinks: [

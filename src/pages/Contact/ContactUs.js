@@ -114,6 +114,17 @@ const ContactUs = () => {
 														setUserName(e.target.value)
 													}}
 												/>
+												<i
+													style={{
+														position: 'absolute',
+														right: '30px',
+														top: '6px',
+														background: '#565dab',
+														padding: '0.5rem',
+														borderRadius: '50%',
+														color: '#fff',
+													}}
+													className='far fa-user'></i>
 											</div>
 											<div className='form-group'>
 												<div className='col-md-12 '>
@@ -135,6 +146,18 @@ const ContactUs = () => {
 															</div>
 														)
 													})}
+													<i
+														style={{
+															position: 'absolute',
+															right: '30px',
+															top: '10px',
+															background: '#565dab',
+															padding: '0.5rem',
+															borderRadius: '50%',
+															color: '#fff',
+															transform: 'rotateZ(90deg)',
+														}}
+														className='fas fa-phone-alt'></i>
 												</div>
 											</div>
 											<div className='col form-group'>
@@ -150,6 +173,17 @@ const ContactUs = () => {
 														setEmail(e.target.value)
 													}}
 												/>
+												<i
+													style={{
+														position: 'absolute',
+														right: '30px',
+														top: '6px',
+														background: '#565dab',
+														padding: '0.5rem',
+														borderRadius: '50%',
+														color: '#fff',
+													}}
+													className='far fa-envelope'></i>
 											</div>
 										</div>
 										<div className='form-group'>
@@ -165,6 +199,17 @@ const ContactUs = () => {
 													setAddress(e.target.value)
 												}}
 											/>
+											<i
+												style={{
+													position: 'absolute',
+													right: '20px',
+													top: '6px',
+													background: '#565dab',
+													padding: '0.5rem',
+													borderRadius: '50%',
+													color: '#fff',
+												}}
+												className='fas fa-map-marker-alt'></i>
 										</div>
 										<div className='form-group'>
 											<textarea
@@ -186,6 +231,23 @@ const ContactUs = () => {
 												<button type='submit'>
 													{contact.formPlaceHolder.button}
 												</button>
+												{/* <button className='button'>
+													<span className='default'>Absenden</span>
+													<span className='success'>
+														<svg viewBox='0 0 16 16'>
+															<polyline points='3.75 9 7 12 13 5'></polyline>
+														</svg>
+														Sent
+													</span>
+													<svg className='trails' viewBox='0 0 33 64'>
+														<path d='M26,4 C28,13.3333333 29,22.6666667 29,32 C29,41.3333333 28,50.6666667 26,60'></path>
+														<path d='M6,4 C8,13.3333333 9,22.6666667 9,32 C9,41.3333333 8,50.6666667 6,60'></path>
+													</svg>
+													<div className='plane'>
+														<div className='left'></div>
+														<div className='right'></div>
+													</div>
+												</button> */}
 											</div>
 										</div>
 									</form>

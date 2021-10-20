@@ -100,20 +100,6 @@ const Whyworkwithus = () => {
 						</NavHashLink>
 					</div>
 				</div>
-				{/* <div className='tr-cta'>
-					<div className='container'>
-						<div className='cta-content section'>
-							<div className='cta-info'>
-								<div className='pull-left'>
-									<h1>{addResumeSection.title1}</h1>
-								</div>
-								<a href='google' className='btn btn-primary pull-right'>
-									{addResumeSection.title2}
-								</a>
-							</div>
-						</div>
-					</div>
-				</div> */}
 			</div>
 		</section>
 	)

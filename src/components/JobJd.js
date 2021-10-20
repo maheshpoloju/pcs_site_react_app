@@ -34,6 +34,7 @@ const Jobjd = (props) => {
 	const data = props.data[id]
 
 	// console.log(`${props.match.url}apply`)
+	console.log('job jd props:::', props.match.params.id)
 
 	useEffect(() => {
 		window.scrollTo(0, 0)
@@ -125,31 +126,6 @@ const Jobjd = (props) => {
 										</li>
 									))}
 								</ul>
-								{/* <h2>We offer great benefits too!</h2>
-								<ul className='list-unstyled mb-5'>
-									<li className='py-3 lead'>
-										<div className='media'>
-											<span className='icon icon-sm mr-3 mt-2'>
-												<i className='fas fa-plus-circle'></i>
-											</span>
-											<div>
-												Generous vacation package that increases with tenure in
-												addition to sick days, personal days and your birthday
-												off too!
-											</div>
-										</div>
-									</li>
-									<li className='py-3 lead'>
-										<div className='media'>
-											<span className='icon icon-sm mr-3 mt-2'>
-												<i className='fas fa-plus-circle'></i>
-											</span>
-											<div>
-												Strong company culture and happy work environment!
-											</div>
-										</div>
-									</li>
-								</ul> */}
 							</div>
 						</div>
 						<ApplyForJob data={data} />

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { jobItems } from './content'
 
 const Jobitem = (props) => {
-	console.log(props.jd)
+	console.log('Jobitem', props.jd.path)
 	return (
 		<>
 			<div className='row'>

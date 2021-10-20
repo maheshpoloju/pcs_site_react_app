@@ -7,10 +7,9 @@ import emailjs from 'emailjs-com'
 import { contact } from '../../pages/Contact/content'
 import './index.css'
 import IconAlerts from '../Alert/index,'
-import { Backdrop, CircularProgress } from '@mui/material'
 
 const ApplyForJob = (props) => {
-	console.log(props.data.match.params.id)
+	console.log('apply', props)
 	const form = useRef()
 	const [userName, setUserName] = useState('')
 	const [email, setEmail] = useState('')
@@ -24,9 +23,9 @@ const ApplyForJob = (props) => {
 	const [isSubmitted, setIsSubmitted] = useState(false)
 
 	const [open, setOpen] = React.useState(false)
-	const handleClose = () => {
-		setOpen(false)
-	}
+	// const handleClose = () => {
+	// 	setOpen(false)
+	// }
 	const handleToggle = () => {
 		setOpen(!open)
 	}
@@ -63,7 +62,9 @@ const ApplyForJob = (props) => {
 			return (
 				<div>
 					<br />
-					<h4>Choose before Pressing the Upload button</h4>
+					<h4 style={{ fontSize: '0.65rem', color: '#646f79' }}>
+						Choose before Pressing the Upload button
+					</h4>
 				</div>
 			)
 		}
@@ -105,7 +106,7 @@ const ApplyForJob = (props) => {
 					setMobile('')
 					setAddress('')
 					setMessage('')
-
+					setSelectedFile(null)
 					setIsSubmitted(true)
 					setTimeout(() => {
 						setIsSubmitted(false)
@@ -142,9 +143,9 @@ const ApplyForJob = (props) => {
 												className='fas fa-paper-plane mr-2'></i> */}
 												<h4 style={{ fontSize: '2rem', color: '#565dab' }}>
 													Apply for{' '}
-													{props.data.match.params.id
-														? props.data.match.params.id
-														: 'PCS'}
+													{props.data.title
+														? props.data.title
+														: props.data.match.params.id}
 												</h4>
 											</div>
 											<div className='col-12 col-md-6  form-group'>
@@ -216,6 +217,7 @@ const ApplyForJob = (props) => {
 													<input
 														type='file'
 														className='custom-file-input'
+														name='file'
 														id='customFile'
 														onChange={onFileChange}
 													/>{' '}
@@ -249,15 +251,6 @@ const ApplyForJob = (props) => {
 														Apply
 													</button>
 												</div>
-												<Backdrop
-													sx={{
-														color: '#fff',
-														zIndex: (theme) => theme.zIndex.drawer + 1,
-													}}
-													open={open}
-													onClick={handleClose}>
-													<CircularProgress color='inherit' />
-												</Backdrop>
 											</div>
 										</div>
 									</form>
