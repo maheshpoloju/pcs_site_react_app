@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Banner from '../../components/Banner'
-import ContactWidget from '../../components/ContactWidget'
+
 import Footer from '../../components/Footer'
 import NavBar from '../../components/NavBar'
 // import Navbar from '../../components/NavBar'
@@ -15,6 +15,7 @@ import Services from '../Services'
 import Team from '../Team'
 import Technologies from '../Technologies'
 import './index.css'
+import Widget from '../../components/Widget'
 
 function Home() {
 	useEffect(() => {
@@ -33,7 +34,7 @@ function Home() {
 			{/* <Portfolio /> */}
 			{/* <Careers /> */}
 			{/* <Contact /> */}
-			<ContactWidget />
+			<Widget />
 			<Footer />
 		</>
 	)
