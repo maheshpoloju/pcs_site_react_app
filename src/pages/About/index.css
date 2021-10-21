@@ -2,7 +2,6 @@
 # About
 --------------------------------------------------------------*/
 .about .container {
-	/* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
 	padding-bottom: 15px;
 	padding-left: 0px !important;
 }
@@ -84,7 +83,6 @@
   # About Boxes
   --------------------------------------------------------------*/
 .about-boxes {
-	/* background: url("../img/about-boxes-bg.jpg") center top no-repeat fixed; */
 	background-size: cover;
 	padding: 60px 0 30px 0;
 	position: relative;

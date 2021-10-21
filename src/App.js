@@ -17,8 +17,6 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import BreadCrumb from './components/BreadCrumb'
 import Widget from './components/Widget'
-// import ContactWidget from './components/ContactWidget'
-// icons
 
 function App() {
 	window.onscroll = function () {
@@ -229,9 +227,6 @@ function App() {
 								)}
 							/>
 
-							{/* <Route exact path='/careers/java-developer/'>
-								<Jobjd data={JDS[1]} />
-							</Route> */}
 							<Redirect to='/'></Redirect>
 						</Switch>
 					</div>

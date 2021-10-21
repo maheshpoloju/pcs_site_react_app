@@ -36,10 +36,7 @@ h6 {
 .embed-responsive-16by9::before {
 	padding-top: 56.25%;
 }
-/* .embed-responsive::before {
-	display: block;
-	content: '';
-} */
+
 .embed-responsive iframe {
 	position: absolute;
 	top: 0;
@@ -439,18 +436,6 @@ main .line-bottom-soft::after {
 	background: radial-gradient(ellipse at center, #565dab, #dbe5ef 80%);
 }
 
-/* .stretched-link::after {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 1;
-	pointer-events: auto;
-	content: '';
-	background-color: #77be45;
-} */
-
 /* JOB JD PAGE */
 
 .animate-up-2:hover {
@@ -489,7 +474,6 @@ main .line-bottom-soft::after {
 }
 main .floater {
 	background: #323a45 !important;
-	/* border: 1px solid red; */
 	color: #fff !important;
 	z-index: 1;
 }
@@ -525,7 +509,6 @@ main .floater {
 .floater .single-details .single-company-details .item-image a img {
 	display: block;
 	margin: 0 auto;
-	/* border-radius: 50%; */
 	border: none;
 	max-width: 100%;
 	height: auto;

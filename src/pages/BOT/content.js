@@ -1,5 +1,3 @@
-// eslint-disable-next-line import/prefer-default-export
-
 import feature1 from '../../assets/img/bot-features/feature1.svg'
 import feature2 from '../../assets/img/bot-features/feature2.svg'
 import feature3 from '../../assets/img/bot-features/feature3.svg'

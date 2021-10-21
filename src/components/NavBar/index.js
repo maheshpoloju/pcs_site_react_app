@@ -73,8 +73,6 @@ function NavBar() {
 							<Link
 								className={`nav-link scrollto d-flex justify-content-center align-items-center`}
 								to={each.to}
-								// activeclassname={` ${isActive ? `active` : ''}`}
-								// activeClassName={'active'}
 								activeClassName='active'
 								key={index}
 								spy='true'

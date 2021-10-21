@@ -39,16 +39,7 @@ section {
 	padding-bottom: 20px;
 	position: relative;
 }
-/* .how-we-do h2::after {
-	content: '';
-	position: absolute;
-	display: block;
-	width: 100px;
-	height: 3px;
-	background: #565dab;
-	bottom: 0;
-	left: 0;
-} */
+
 .how-we-do p {
 	margin-bottom: 0;
 }

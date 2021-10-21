@@ -42,32 +42,10 @@ code {
 #bot,
 #clients,
 #contact,
-#footer,
 #careers {
 	min-height: 100vh;
 	width: 100vw;
 }
-
-/* body {
-	margin: 0px;
-	font-family: 'Open Sans', sans-serif;
-	background: #111;
-} */
-/* .content {
-	color: #eee;
-	padding: 20px 10px;
-	font-size: 18px;
-}
-::-webkit-scrollbar {
-	position: fixed;
-	width: 5px;
-	background: #fff;
-}
-::-webkit-scrollbar-thumb {
-	background: #565dab;
-	box-shadow: 0 -100vh 0 100vh #565dab;
-	border-radius: 2rem;
-} */
 
 .progress-header {
 	position: fixed;

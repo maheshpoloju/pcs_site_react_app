@@ -9,7 +9,6 @@ import './index.css'
 import IconAlerts from '../Alert/index,'
 
 const ApplyForJob = (props) => {
-	console.log('apply', props)
 	const form = useRef()
 	const [userName, setUserName] = useState('')
 	const [email, setEmail] = useState('')
@@ -111,7 +110,6 @@ const ApplyForJob = (props) => {
 					setTimeout(() => {
 						setIsSubmitted(false)
 					}, 10000)
-					console.log('target', e.target)
 				})
 				.catch((err) => {
 					console.log(err)
@@ -134,13 +132,6 @@ const ApplyForJob = (props) => {
 										className='php-email-form'>
 										<div className='row'>
 											<div className='col-12 d-flex justify-content-center align-items-center mb-4'>
-												{/* <i
-												style={{
-													fontSize: '2rem',
-													marginRight: '1rem',
-													color: '#565dab',
-												}}
-												className='fas fa-paper-plane mr-2'></i> */}
 												<h4 style={{ fontSize: '2rem', color: '#565dab' }}>
 													Apply for{' '}
 													{props.data.title

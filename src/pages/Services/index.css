@@ -32,10 +32,6 @@
 	transition: transform 0.2s;
 }
 .services .icon-box:hover {
-	/* -ms-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-	box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2); */
 	background: #565dab;
 	color: #fff !important;
 	transform: scale(1);

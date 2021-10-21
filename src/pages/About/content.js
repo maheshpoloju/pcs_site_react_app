@@ -22,12 +22,6 @@ export const about = {
 		'Connecting Dots Through out the ecosystem by bringing together makers and markets to create amazing products.',
 	desc4:
 		'Engineering Talent We help our clients scale their product and engineering functions rapidly leveraging talent in United States and India. ',
-	// desc1:
-	// 	'We are a team of experienced people who want to help our customers develop products that bring benefits and change for the good of society.',
-	// desc2:
-	// 	'PCS is designed to help product companies by providing a flexible talent pool with very clear business models that help our clients convert these contractors into full time employees by paying a conversion fee if necessary.',
-	// desc3:
-	// 	'PCS has an excellent talent bank in the US and India helping product companies scale their product and development capabilities by leveraging the US and Pune, India',
 }
 
 export const counts = {

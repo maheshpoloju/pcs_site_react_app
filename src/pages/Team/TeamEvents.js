@@ -6,9 +6,7 @@ import team3 from '../../assets/images/portfolio/team3.jpeg'
 import team4 from '../../assets/images/portfolio/team4.jpeg'
 import team5 from '../../assets/images/portfolio/team5.jpeg'
 
-// import { Carousel } from 'react-carousel-minimal'
-
-import { LightBox } from 'react-lightbox-pack' // <--- Importing LightBox Pack
+import { LightBox } from 'react-lightbox-pack'
 import 'react-lightbox-pack/dist/index.css'
 
 import Masonry from '@mui/lab/Masonry'

@@ -36,19 +36,6 @@ const BreadCrumb = (props) => {
 					</div>
 				</div>
 			</div>
-
-			{/* <NavHashLink to='/'>
-				<i className='fas fa-arrow-circle-left'></i>
-			</NavHashLink>
-			<div className='d-flex flex-column justify-content-center align-items-center'>
-				<h2>{props.title}</h2>
-				<Breadcrumb>
-					<Breadcrumb.Item>
-						<NavHashLink to='/'>HOME</NavHashLink>
-					</Breadcrumb.Item>
-					<Breadcrumb.Item active>{props.title}</Breadcrumb.Item>
-				</Breadcrumb>
-			</div> */}
 		</section>
 	)
 }
