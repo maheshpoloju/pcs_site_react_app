@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
+import { NavHashLink as Link } from 'react-router-hash-link'
 import { footer } from './content'
 import './index.css'
 
@@ -73,35 +74,35 @@ function Footer() {
 							<ul className='col-6'>
 								<li className='col-6'>
 									<i className='fas fa-chevron-right'></i>
-									<Link to='about'>{footer.quickLinks[0]}</Link>
+									<Link to='/#about'>{footer.quickLinks[0]}</Link>
 								</li>
 								<li className='col-6'>
 									<i className='fas fa-chevron-right'></i>
-									<Link to='clients'>{footer.quickLinks[1]}</Link>
+									<Link to='/#clients'>{footer.quickLinks[1]}</Link>
 								</li>
 								<li className='col-6'>
 									<i className='fas fa-chevron-right'></i>
-									<Link to='services'>{footer.quickLinks[2]}</Link>
+									<Link to='/#services'>{footer.quickLinks[2]}</Link>
 								</li>
 								<li className='col-6'>
 									<i className='fas fa-chevron-right'></i>
-									<Link to='team'>{footer.quickLinks[3]}</Link>
+									<Link to='/#team'>{footer.quickLinks[3]}</Link>
 								</li>
 								<li className='col-6'>
 									<i className='fas fa-chevron-right'></i>
-									<Link to='bot'>{footer.quickLinks[4]}</Link>
+									<Link to='/bot'>{footer.quickLinks[4]}</Link>
 								</li>
 								<li className='col-6'>
 									<i className='fas fa-chevron-right'></i>
-									<Link to='technologies'>{footer.quickLinks[5]}</Link>
+									<Link to='/#technologies'>{footer.quickLinks[5]}</Link>
 								</li>
 								<li className='col-6'>
 									<i className='fas fa-chevron-right'></i>
-									<Link to='careers'>{footer.quickLinks[6]}</Link>
+									<Link to='/careers'>{footer.quickLinks[6]}</Link>
 								</li>
 								<li className='col-6'>
 									<i className='fas fa-chevron-right'></i>
-									<Link to='contact'>{footer.quickLinks[7]}</Link>
+									<Link to='/contact'>{footer.quickLinks[7]}</Link>
 								</li>
 							</ul>
 						</div>
