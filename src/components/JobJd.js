@@ -8,8 +8,6 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import ApplyForJob from './ApplyForJob'
 
-// import pcsLogo from '../../assets/images/pcs-logo.png'
-
 const NavLink = styled(Link)`
 	padding: 20px;
 	color: #fff;
@@ -32,9 +30,6 @@ const NavLink = styled(Link)`
 const Jobjd = (props) => {
 	const id = props.match.params.id
 	const data = props.data[id]
-
-	// console.log(`${props.match.url}apply`)
-	console.log('job jd props:::', props.match.params.id)
 
 	useEffect(() => {
 		window.scrollTo(0, 0)
