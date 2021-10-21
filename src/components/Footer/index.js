@@ -72,35 +72,35 @@ function Footer() {
 							<h4>{footer.quickLinksHeading}</h4>
 							<ul className='col-6'>
 								<li className='col-6'>
-									<i class='fas fa-chevron-right'></i>
+									<i className='fas fa-chevron-right'></i>
 									<Link to='about'>{footer.quickLinks[0]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-chevron-right'></i>
+									<i className='fas fa-chevron-right'></i>
 									<Link to='clients'>{footer.quickLinks[1]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-chevron-right'></i>
+									<i className='fas fa-chevron-right'></i>
 									<Link to='services'>{footer.quickLinks[2]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-chevron-right'></i>
+									<i className='fas fa-chevron-right'></i>
 									<Link to='team'>{footer.quickLinks[3]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-chevron-right'></i>
+									<i className='fas fa-chevron-right'></i>
 									<Link to='bot'>{footer.quickLinks[4]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-chevron-right'></i>
+									<i className='fas fa-chevron-right'></i>
 									<Link to='technologies'>{footer.quickLinks[5]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-chevron-right'></i>
+									<i className='fas fa-chevron-right'></i>
 									<Link to='careers'>{footer.quickLinks[6]}</Link>
 								</li>
 								<li className='col-6'>
-									<i class='fas fa-chevron-right'></i>
+									<i className='fas fa-chevron-right'></i>
 									<Link to='contact'>{footer.quickLinks[7]}</Link>
 								</li>
 							</ul>

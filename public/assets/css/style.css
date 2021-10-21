@@ -960,7 +960,7 @@ i.mobile-nav-toggle.i-white-color {
 	margin-bottom: 18px;
 }
 .values .box:hover {
-	background: #565dab90;
+	background: #565dab;
 	color: #fff;
 	transform: scale(1);
 	-webkit-box-shadow: 0px 18px 71px -10px rgb(0 0 0 / 75%);

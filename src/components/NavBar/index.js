@@ -57,7 +57,8 @@ function NavBar() {
 					to='hero'
 					spy='true'
 					smooth={true}
-					duration={100}
+					duration={1000}
+					offset={-70}
 					hashspy='true'
 					isdynamic='true'
 					className='logo'>
@@ -78,7 +79,8 @@ function NavBar() {
 								key={index}
 								spy='true'
 								smooth={true}
-								duration={100}
+								duration={5000}
+								delay={5000}
 								hashspy='true'
 								isdynamic='true'
 								offset={100}

@@ -13,7 +13,7 @@ const Features = () => {
 						<h2 className='text-center'>{functions.title}</h2>
 						<span className='text-center'>{functions.title}</span>
 					</div>
-					<p>{functions.desc}</p>
+					<p style={{ fontSize: '1rem' }}>{functions.desc}</p>
 				</header>
 
 				<div className='row'>

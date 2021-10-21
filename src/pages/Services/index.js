@@ -8,18 +8,23 @@ const Services = () => (
 		<div className='container' data-aos='fade-up' data-aos-delay='200'>
 			<div className='row'>
 				<div className='col-xl-12 text-center mb-4'>
-					<div className='service-title'>
-						<h2 className='services-title-heading mt-5'>
-							{services.heading_2}
-						</h2>
-						<p className='services-sub-heading'>{services.heading_1}</p>
-					</div>
-					<p className='services-title-description'>{services.description}</p>
+					<header className='section-header'>
+						<div
+							className='section-title aos-init aos-animate'
+							data-aos='fade-down'>
+							<h2 className='text-center'>{services.heading_2}</h2>
+							<span className='text-center'>{services.heading_2}</span>
+						</div>
+						<p style={{ fontSize: '1rem' }}>{services.description}</p>
+					</header>
 				</div>
 			</div>
 			<div className='row'>
-				{services_info.map((service) => (
-					<div className='col-lg-4 col-md-6 mt-5 mt-lg-3' data-aos='fade-up'>
+				{services_info.map((service, index) => (
+					<div
+						className='col-lg-4 col-md-6 mt-5 mt-lg-3'
+						data-aos='fade-up'
+						key={index}>
 						<div className='icon-box'>
 							<div className='icon'>
 								<img
